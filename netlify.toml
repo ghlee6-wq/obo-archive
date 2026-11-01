@@ -1,0 +1,16 @@
+# Obo Archive: Netlify serves only the public site files.
+# GitHub Actions updates data.json on a schedule; Netlify deploys each Git push.
+[build]
+  command = "mkdir -p public && cp index.html data.json public/"
+  publish = "public"
+
+[[headers]]
+  for = "/data.json"
+  [headers.values]
+    Cache-Control = "public, max-age=60, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
