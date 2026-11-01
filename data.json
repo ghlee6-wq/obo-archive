@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "updated_at": null,
+  "sync_status": "seed",
+  "source_name": "The Guardian corrections RSS",
+  "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
+  "verified": [
+    {
+      "id": "galbraith-2026",
+      "title": "1929년 대공황 책, 100년 전 쓴 게 아니었다",
+      "before": "책 《The Great Crash 1929》를 약 100년 전에 썼다는 인상",
+      "after": "실제 출간연도는 1955년. 저술시점에 관한 표현을 정정했다.",
+      "summary": "경제 기사에서 책의 제목에 등장하는 연도와 실제 출간연도가 혼동됐다.",
+      "category": "경제",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "자발적 정정",
+      "date": "2026-10-26",
+      "originalDate": "2026-10-17",
+      "icon": "📚",
+      "tone": "#e6edfd",
+      "titleOriginal": "Corrections and clarifications — JK Galbraith",
+      "source": "https://www.theguardian.com/news/2026/oct/26/corrections-and-clarifications",
+      "sourceLabel": "공식 정정문",
+      "originalUrl": "https://www.theguardian.com/business/2026/oct/17/imf-warns-scale-subsidies-weather-global-chaos-untenable",
+      "confirmed": "언론사 직접 정정",
+      "reviewStatus": "verified",
+      "events": [
+        {
+          "date": "2026-10-26",
+          "title": "The Guardian 공식 정정 게재",
+          "desc": "실제 출간연도는 1955년. 저술시점에 관한 표현을 정정했다.",
+          "url": "https://www.theguardian.com/news/2026/oct/26/corrections-and-clarifications",
+          "label": "공식 정정문 보기"
+        },
+        {
+          "date": "2026-10-17",
+          "title": "최초 보도",
+          "desc": "책 《The Great Crash 1929》를 약 100년 전에 썼다는 인상",
+          "url": "https://www.theguardian.com/business/2026/oct/17/imf-warns-scale-subsidies-weather-global-chaos-untenable",
+          "label": "최초 기사 보기"
+        }
+      ]
+    },
+    {
+      "id": "jaguar-2026",
+      "title": "자동차 폭 2m는 6피트 5인치? 단위 환산 오류",
+      "before": "재규어 신차 폭 2m를 6피트 5인치로 환산",
+      "after": "2m는 약 6피트 7인치로 정정했다.",
+      "summary": "미터 단위 자체는 맞았지만 피트·인치 환산 과정에서 잘못 표기됐다.",
+      "category": "생활",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "자발적 정정",
+      "date": "2026-10-26",
+      "originalDate": "2026-10-07",
+      "icon": "🚗",
+      "tone": "#f8eadf",
+      "titleOriginal": "Corrections and clarifications — Jaguar Type 01",
+      "source": "https://www.theguardian.com/news/2026/oct/26/corrections-and-clarifications",
+      "sourceLabel": "공식 정정문",
+      "originalUrl": "https://www.theguardian.com/business/2026/oct/07/jaguar-launch-type-01-electric-vehicle",
+      "confirmed": "언론사 직접 정정",
+      "reviewStatus": "verified",
+      "events": [
+        {
+          "date": "2026-10-26",
+          "title": "The Guardian 공식 정정 게재",
+          "desc": "2m는 약 6피트 7인치로 정정했다.",
+          "url": "https://www.theguardian.com/news/2026/oct/26/corrections-and-clarifications",
+          "label": "공식 정정문 보기"
+        },
+        {
+          "date": "2026-10-07",
+          "title": "최초 보도",
+          "desc": "재규어 신차 폭 2m를 6피트 5인치로 환산",
+          "url": "https://www.theguardian.com/business/2026/oct/07/jaguar-launch-type-01-electric-vehicle",
+          "label": "최초 기사 보기"
+        }
+      ]
+    },
+    {
+      "id": "pachinko-2026",
+      "title": "파친코가 한국에 흔하다? 정확히는 일본 이야기",
+      "before": "한국 전역의 파친코 영업장에서 볼 수 있다는 소개",
+      "after": "해당 설명은 일본을 가리킨 것. 한국에서는 상대적으로 드물다고 정정했다.",
+      "summary": "민진 리 작가 인터뷰에 등장한 파친코 영업장의 국가를 바로잡았다.",
+      "category": "문화",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "자발적 정정",
+      "date": "2026-10-09",
+      "originalDate": "2026-10-03",
+      "icon": "🎰",
+      "tone": "#f6e8f4",
+      "titleOriginal": "Corrections and clarifications — Pachinko",
+      "source": "https://www.theguardian.com/news/2026/oct/09/corrections-and-clarifications",
+      "sourceLabel": "공식 정정문",
+      "originalUrl": "https://www.theguardian.com/books/2026/oct/03/i-thought-if-im-going-to-die-im-going-to-write-a-book-first-pachinko-author-min-jin-lee",
+      "confirmed": "언론사 직접 정정",
+      "reviewStatus": "verified",
+      "events": [
+        {
+          "date": "2026-10-09",
+          "title": "The Guardian 공식 정정 게재",
+          "desc": "해당 설명은 일본을 가리킨 것. 한국에서는 상대적으로 드물다고 정정했다.",
+          "url": "https://www.theguardian.com/news/2026/oct/09/corrections-and-clarifications",
+          "label": "공식 정정문 보기"
+        },
+        {
+          "date": "2026-10-03",
+          "title": "최초 보도",
+          "desc": "한국 전역의 파친코 영업장에서 볼 수 있다는 소개",
+          "url": "https://www.theguardian.com/books/2026/oct/03/i-thought-if-im-going-to-die-im-going-to-write-a-book-first-pachinko-author-min-jin-lee",
+          "label": "최초 기사 보기"
+        }
+      ]
+    },
+    {
+      "id": "waterfine-2026",
+      "title": "벌금이 8억 파운드? 실제는 800만 파운드",
+      "before": "하수 유출 관련 벌금이 약 8억 파운드라고 보도",
+      "after": "실제 벌금은 약 800만 파운드. 100배 차이를 바로잡았다.",
+      "summary": "The Guardian이 금액 표기를 정정한 사례로, 원보도에도 수정 이력이 남아 있다.",
+      "category": "경제",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "자발적 정정",
+      "date": "2026-10-06",
+      "originalDate": "2026-10-03",
+      "icon": "💷",
+      "tone": "#def1e8",
+      "titleOriginal": "Corrections and clarifications — South West Water fine",
+      "source": "https://www.theguardian.com/news/2026/oct/06/corrections-and-clarifications",
+      "sourceLabel": "공식 정정문",
+      "originalUrl": "https://www.theguardian.com/environment/2026/oct/03/devon-community-platform-river-hub-dart-sewage-spills-overflows",
+      "confirmed": "언론사 직접 정정",
+      "reviewStatus": "verified",
+      "events": [
+        {
+          "date": "2026-10-06",
+          "title": "The Guardian 공식 정정 게재",
+          "desc": "실제 벌금은 약 800만 파운드. 100배 차이를 바로잡았다.",
+          "url": "https://www.theguardian.com/news/2026/oct/06/corrections-and-clarifications",
+          "label": "공식 정정문 보기"
+        },
+        {
+          "date": "2026-10-03",
+          "title": "최초 보도",
+          "desc": "하수 유출 관련 벌금이 약 8억 파운드라고 보도",
+          "url": "https://www.theguardian.com/environment/2026/oct/03/devon-community-platform-river-hub-dart-sewage-spills-overflows",
+          "label": "최초 기사 보기"
+        }
+      ]
+    },
+    {
+      "id": "biketheft-2026",
+      "title": "자전거 절도가 사상 최대? 통계는 반대였다",
+      "before": "자전거 절도가 역대 최고 수준이라고 소개",
+      "after": "영국 통계청의 조사에서는 2003년 기록 시작 이후 최저 수준이었다.",
+      "summary": "The Guardian이 통계에 관한 오류를 바로잡은 사례다.",
+      "category": "생활",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "자발적 정정",
+      "date": "2026-10-02",
+      "originalDate": "2026-09-05",
+      "icon": "🚲",
+      "tone": "#e5f0e2",
+      "titleOriginal": "Corrections and clarifications — Cycle thefts",
+      "source": "https://www.theguardian.com/news/2026/oct/02/corrections-and-clarifications",
+      "sourceLabel": "공식 정정문",
+      "originalUrl": "https://www.theguardian.com/lifeandstyle/2026/sep/07/bike-theft-university-stolen-lock-insurance",
+      "confirmed": "언론사 직접 정정",
+      "reviewStatus": "verified",
+      "events": [
+        {
+          "date": "2026-10-02",
+          "title": "The Guardian 공식 정정 게재",
+          "desc": "영국 통계청의 조사에서는 2003년 기록 시작 이후 최저 수준이었다.",
+          "url": "https://www.theguardian.com/news/2026/oct/02/corrections-and-clarifications",
+          "label": "공식 정정문 보기"
+        },
+        {
+          "date": "2026-09-05",
+          "title": "최초 보도",
+          "desc": "자전거 절도가 역대 최고 수준이라고 소개",
+          "url": "https://www.theguardian.com/lifeandstyle/2026/sep/07/bike-theft-university-stolen-lock-insurance",
+          "label": "최초 기사 보기"
+        }
+      ]
+    },
+    {
+      "id": "italianfood-2026",
+      "title": "사르데냐 요리라더니, 실제 고향은 마르케였다",
+      "before": "쌀 폴렌타 요리를 이탈리아 사르데냐 출신이라 소개",
+      "after": "실제 기원 지역은 중부 이탈리아 마르케라고 정정했다.",
+      "summary": "이탈리아 조리법 소개에서 지역명을 잘못 기재한 사례다.",
+      "category": "생활",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "자발적 정정",
+      "date": "2026-10-02",
+      "originalDate": "2026-09-26",
+      "icon": "🍝",
+      "tone": "#fbefdd",
+      "titleOriginal": "Corrections and clarifications — Italian recipes",
+      "source": "https://www.theguardian.com/news/2026/oct/02/corrections-and-clarifications",
+      "sourceLabel": "공식 정정문",
+      "originalUrl": null,
+      "confirmed": "언론사 직접 정정",
+      "reviewStatus": "verified",
+      "events": [
+        {
+          "date": "2026-10-02",
+          "title": "The Guardian 공식 정정 게재",
+          "desc": "실제 기원 지역은 중부 이탈리아 마르케라고 정정했다.",
+          "url": "https://www.theguardian.com/news/2026/oct/02/corrections-and-clarifications",
+          "label": "공식 정정문 보기"
+        },
+        {
+          "date": "2026-09-26",
+          "title": "최초 보도",
+          "desc": "쌀 폴렌타 요리를 이탈리아 사르데냐 출신이라 소개",
+          "url": "https://www.theguardian.com/news/2026/oct/02/corrections-and-clarifications",
+          "label": "정정 공지에서 관련 기사 확인"
+        }
+      ]
+    }
+  ],
+  "feed_items": []
+}
