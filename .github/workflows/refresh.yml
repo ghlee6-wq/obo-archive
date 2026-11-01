@@ -1,0 +1,58 @@
+name: Auto collect corrections and publish website
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    # UTC 00:17, 06:17, 12:17, 18:17 (four times daily)
+    - cron: '17 0,6,12,18 * * *'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  collect-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read latest correction RSS metadata
+        id: update
+        continue-on-error: true
+        run: python scripts/update_feed.py
+      - name: Save updated feed for future runs
+        if: steps.update.outcome == 'success'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update corrections RSS metadata'
+            git push
+          fi
+      - name: Prepare site files
+        run: |
+          mkdir -p _site
+          cp index.html data.json _site/
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
