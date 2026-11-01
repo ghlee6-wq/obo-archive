@@ -1,33 +1,26 @@
-name: Auto collect corrections and publish website
+name: Refresh corrections feed for Netlify
 
 on:
   workflow_dispatch:
   push:
     branches: [main]
   schedule:
-    # UTC 00:17, 06:17, 12:17, 18:17 (four times daily)
+    # UTC 00:17/06:17/12:17/18:17 = KST 09:17/15:17/21:17/03:17
     - cron: '17 0,6,12,18 * * *'
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: corrections-feed
   cancel-in-progress: false
 
 jobs:
-  collect-and-deploy:
+  collect-and-update:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - name: Sync latest main before collecting
+      - name: Start from latest main
         run: |
           git fetch origin main
           git checkout main
@@ -35,11 +28,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Read latest correction RSS metadata
+      - name: Collect official corrections RSS
         id: update
         continue-on-error: true
         run: python scripts/update_feed.py
-      - name: Save updated feed for future runs
+      - name: Save corrections data to main
         if: steps.update.outcome == 'success'
         run: |
           git config user.name 'github-actions[bot]'
@@ -47,17 +40,7 @@ jobs:
           git add data.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update corrections RSS metadata'
-            git push
+            git push origin main
+          else
+            echo "Feed unchanged. No deploy required."
           fi
-      - name: Prepare site files
-        run: |
-          mkdir -p _site
-          cp index.html data.json _site/
-          touch _site/.nojekyll
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: _site
-      - name: Publish to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
