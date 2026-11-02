@@ -6,6 +6,277 @@
   "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
   "verified": [
     {
+      "id": "kr-chosun-space-shield-2026",
+      "title": "우주 인터넷 ‘스타쉴드’ 표기, 정확히는 ‘스타실드’",
+      "before": "우크라이나 관련 기사에 ‘스타쉴드’로 표기",
+      "after": "‘스타실드’로 정정",
+      "summary": "외래어 서비스 명칭을 잘못 표기한 오류를 바로잡았다.",
+      "category": "국제",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-10-31",
+      "originalDate": "2026-10-17",
+      "icon": "🛰️",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 우주 인터넷 ‘스타쉴드’ 표기, 정확히는 ‘스타실드’",
+      "source": "https://www.chosun.com/international/international_general/2026/10/31/ZSBT2X3VYRF6JOJHRVYTNIDHDM/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "명칭 오기",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-10-31",
+          "title": "공식 정정 게재",
+          "desc": "‘스타실드’로 정정",
+          "url": "https://www.chosun.com/international/international_general/2026/10/31/ZSBT2X3VYRF6JOJHRVYTNIDHDM/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-10-17",
+          "title": "원보도 게재",
+          "desc": "우크라이나 관련 기사에 ‘스타쉴드’로 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-longines-2026",
+      "title": "승마 대회 후원 브랜드 ‘롱진’? ‘론진’으로 정정",
+      "before": "승마 세계대회 사진 설명에서 ‘롱진 글로벌 챔피언스 투어’ 표기",
+      "after": "‘론진 글로벌 챔피언스 투어’로 정정",
+      "summary": "승마대회 명칭 중 후원 브랜드 표기를 수정했다.",
+      "category": "문화",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-10-31",
+      "originalDate": "2026-10-24",
+      "icon": "🐎",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 승마 대회 후원 브랜드 ‘롱진’? ‘론진’으로 정정",
+      "source": "https://www.chosun.com/international/international_general/2026/10/31/ZSBT2X3VYRF6JOJHRVYTNIDHDM/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "명칭 오기",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-10-31",
+          "title": "공식 정정 게재",
+          "desc": "‘론진 글로벌 챔피언스 투어’로 정정",
+          "url": "https://www.chosun.com/international/international_general/2026/10/31/ZSBT2X3VYRF6JOJHRVYTNIDHDM/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-10-24",
+          "title": "원보도 게재",
+          "desc": "승마 세계대회 사진 설명에서 ‘롱진 글로벌 챔피언스 투어’ 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-trombone-2026",
+      "title": "악기 ‘트럼본’이라고 썼지만 올바른 표기는 ‘트롬본’",
+      "before": "부산 지역 칼럼에서 악기 이름을 ‘트럼본’으로 적음",
+      "after": "‘트롬본’으로 정정",
+      "summary": "악기 이름의 표기 오류를 바로잡은 사례다.",
+      "category": "문화",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-10-29",
+      "originalDate": "2026-10-22",
+      "icon": "🎺",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 악기 ‘트럼본’이라고 썼지만 올바른 표기는 ‘트롬본’",
+      "source": "https://www.chosun.com/opinion/2026/10/29/LFZXZ472W5GKRNLR3DVVEXA7W4/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "용어 오기",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-10-29",
+          "title": "공식 정정 게재",
+          "desc": "‘트롬본’으로 정정",
+          "url": "https://www.chosun.com/opinion/2026/10/29/LFZXZ472W5GKRNLR3DVVEXA7W4/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-10-22",
+          "title": "원보도 게재",
+          "desc": "부산 지역 칼럼에서 악기 이름을 ‘트럼본’으로 적음",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-bojagi-name-2026",
+      "title": "보자기 기사 사진 설명, 대표 이름 한 글자가 달랐다",
+      "before": "한국 보자기 관련 기사에서 ‘강민경 대표’로 표기",
+      "after": "‘강민정 대표’로 정정",
+      "summary": "보자기 관련 기사 사진 설명의 인명 표기를 바로잡았다.",
+      "category": "문화",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-10-29",
+      "originalDate": "2026-10-24",
+      "icon": "🪡",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 보자기 기사 사진 설명, 대표 이름 한 글자가 달랐다",
+      "source": "https://www.chosun.com/opinion/2026/10/29/LFZXZ472W5GKRNLR3DVVEXA7W4/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "인명 오기",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-10-29",
+          "title": "공식 정정 게재",
+          "desc": "‘강민정 대표’로 정정",
+          "url": "https://www.chosun.com/opinion/2026/10/29/LFZXZ472W5GKRNLR3DVVEXA7W4/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-10-24",
+          "title": "원보도 게재",
+          "desc": "한국 보자기 관련 기사에서 ‘강민경 대표’로 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-daejeon-term-2026",
+      "title": "행정사무감사 당일 ‘사퇴’? 알고 보니 예정된 임기 만료",
+      "before": "세종도시교통공사 전 상임이사가 행정사무감사가 열린 10월 15일 갑자기 사퇴한 것으로 보도",
+      "after": "대전인터넷신문은 10월 15일이 사전에 정해진 정상 임기 만료일이었다고 공식 정정하고 사과했다.",
+      "summary": "감사일과 퇴임일이 같았지만 사유는 중도사퇴가 아니었다. 언론사가 인사자료와 공사 관계자 확인을 거쳐 바로잡았다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "대전인터넷신문",
+      "type": "자발적 정정",
+      "date": "2026-10-28",
+      "originalDate": "확인 전",
+      "icon": "📆",
+      "tone": "#e9f0f6",
+      "titleOriginal": "[정정보도] 세종도시교통공사 성낙문 전 이사, 행감 당일 사퇴 아닌 임기 만료",
+      "source": "https://daejeonpress.co.kr/news/view.php?idx=71117&key_idx=97945",
+      "originalUrl": null,
+      "confirmed": "언론사 공식 정정보도 및 사과",
+      "events": [
+        {
+          "date": "2026-10-28",
+          "title": "임기 만료 사실을 확인해 정정",
+          "desc": "사전에 확정된 임기 종료일과 행정감사일이 우연히 겹쳤음을 명시",
+          "url": "https://daejeonpress.co.kr/news/view.php?idx=71117&key_idx=97945",
+          "label": "언론사 정정보도"
+        },
+        {
+          "date": "2026-10-15",
+          "title": "행정사무감사 당일 퇴임 관련 최초 보도",
+          "desc": "언론사는 과거 '사퇴' 표현을 바로잡았으나 원보도 URL과 게시 날짜는 아직 별도 확인되지 않음",
+          "url": null,
+          "label": ""
+        }
+      ],
+      "reviewStatus": "verified",
+      "sourceLabel": "공식 정정문"
+    },
+    {
+      "id": "kr-chosun-semiconductor-2026",
+      "title": "반도체를 ‘직접회로’라 썼다… 정확히는 집적회로",
+      "before": "반도체 관련 그래픽에서 ‘직접회로’라고 표기",
+      "after": "‘집적회로’로 정정",
+      "summary": "집적회로(IC)의 한글 명칭을 잘못 적어 바로잡은 사례다.",
+      "category": "경제",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-10-27",
+      "originalDate": "2026-10-22",
+      "icon": "💾",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 반도체를 ‘직접회로’라 썼다… 정확히는 집적회로",
+      "source": "https://www.chosun.com/economy/economy_general/2026/10/27/ZW4LFO2MSND5XJMAALAB4BM5ZY/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "용어 오기",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-10-27",
+          "title": "공식 정정 게재",
+          "desc": "‘집적회로’로 정정",
+          "url": "https://www.chosun.com/economy/economy_general/2026/10/27/ZW4LFO2MSND5XJMAALAB4BM5ZY/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-10-22",
+          "title": "원보도 게재",
+          "desc": "반도체 관련 그래픽에서 ‘직접회로’라고 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-kotra-2026",
+      "title": "코트라 기관명, ‘대한투자무역공사’가 아니었다",
+      "before": "정부·기업 투자 관련 기사에서 ‘대한투자무역공사’로 표기",
+      "after": "‘대한무역투자진흥공사’로 정정",
+      "summary": "국가 기관의 공식 명칭을 바로잡은 사례다.",
+      "category": "경제",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-10-27",
+      "originalDate": "2026-10-20",
+      "icon": "🏢",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 코트라 기관명, ‘대한투자무역공사’가 아니었다",
+      "source": "https://www.chosun.com/economy/economy_general/2026/10/27/ZW4LFO2MSND5XJMAALAB4BM5ZY/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "기관명 오기",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-10-27",
+          "title": "공식 정정 게재",
+          "desc": "‘대한무역투자진흥공사’로 정정",
+          "url": "https://www.chosun.com/economy/economy_general/2026/10/27/ZW4LFO2MSND5XJMAALAB4BM5ZY/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-10-20",
+          "title": "원보도 게재",
+          "desc": "정부·기업 투자 관련 기사에서 ‘대한투자무역공사’로 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
       "id": "galbraith-2026",
       "title": "1929년 대공황 책, 100년 전 쓴 게 아니었다",
       "before": "책 《The Great Crash 1929》를 약 100년 전에 썼다는 인상",
@@ -76,6 +347,162 @@
           "desc": "재규어 신차 폭 2m를 6피트 5인치로 환산",
           "url": "https://www.theguardian.com/business/2026/oct/07/jaguar-launch-type-01-electric-vehicle",
           "label": "최초 기사 보기"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-consen-2026",
+      "title": "실적 전망이 76억9650억? 정확한 숫자는 76조9650억",
+      "before": "3분기 영업이익 컨센서스 그래픽에서 ‘76억9650억’ 표기",
+      "after": "‘76조9650억’으로 단위 오류를 정정",
+      "summary": "기업 영업이익 그래픽의 숫자 단위에서 ‘억’과 ‘조’가 잘못 표기된 사례다.",
+      "category": "경제",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-10-23",
+      "originalDate": "2026-10-16",
+      "icon": "📊",
+      "tone": "#e7f0e4",
+      "titleOriginal": "조선일보 공식 정정: 실적 전망이 76억9650억? 정확한 숫자는 76조9650억",
+      "source": "https://www.chosun.com/economy/industry-company/2026/10/23/IY47MBZZ6FG3DJPYRRAEKAMPGM/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "숫자·단위 오류",
+      "impact": "주요 정정",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "title": "공식 정정 게재",
+          "desc": "‘76조9650억’으로 단위 오류를 정정",
+          "url": "https://www.chosun.com/economy/industry-company/2026/10/23/IY47MBZZ6FG3DJPYRRAEKAMPGM/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-10-16",
+          "title": "원보도 게재",
+          "desc": "3분기 영업이익 컨센서스 그래픽에서 ‘76억9650억’ 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-fine-2026",
+      "title": "기업에 ‘과태료 폭탄’? 정확히는 과징금이었다",
+      "before": "산업안전법 관련 기사 제목에 ‘과태료 공포’라고 사용",
+      "after": "법적 제재의 종류를 ‘과징금’으로 정정",
+      "summary": "과태료와 과징금은 법률상 다른 제재다. 제목의 용어를 정정했다.",
+      "category": "경제",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-10-23",
+      "originalDate": "2026-10-03",
+      "icon": "🧾",
+      "tone": "#e7f0e4",
+      "titleOriginal": "조선일보 공식 정정: 기업에 ‘과태료 폭탄’? 정확히는 과징금이었다",
+      "source": "https://www.chosun.com/economy/industry-company/2026/10/23/IY47MBZZ6FG3DJPYRRAEKAMPGM/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "법률 용어 오류",
+      "impact": "주요 정정",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "title": "공식 정정 게재",
+          "desc": "법적 제재의 종류를 ‘과징금’으로 정정",
+          "url": "https://www.chosun.com/economy/industry-company/2026/10/23/IY47MBZZ6FG3DJPYRRAEKAMPGM/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-10-03",
+          "title": "원보도 게재",
+          "desc": "산업안전법 관련 기사 제목에 ‘과태료 공포’라고 사용",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-history-2026",
+      "title": "계유정난이 1953년? 500년이나 차이 났다",
+      "before": "역사 설명에서 계유정난 연도를 ‘1953년’으로 표기",
+      "after": "‘1453년’으로 정정",
+      "summary": "신문 속 실용한자 코너의 계유정난 연도를 500년 다르게 적었던 오류를 바로잡았다.",
+      "category": "문화",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-10-12",
+      "originalDate": "2026-10-02",
+      "icon": "📜",
+      "tone": "#e7f0e4",
+      "titleOriginal": "조선일보 공식 정정: 계유정난이 1953년? 500년이나 차이 났다",
+      "source": "https://www.chosun.com/special/announcement/2026/10/12/RDTF5B4PRZHO7INNXGB6D4KHR4/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "역사 연도 오류",
+      "impact": "주요 정정",
+      "events": [
+        {
+          "date": "2026-10-12",
+          "title": "공식 정정 게재",
+          "desc": "‘1453년’으로 정정",
+          "url": "https://www.chosun.com/special/announcement/2026/10/12/RDTF5B4PRZHO7INNXGB6D4KHR4/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-10-02",
+          "title": "원보도 게재",
+          "desc": "역사 설명에서 계유정난 연도를 ‘1953년’으로 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-position-2026",
+      "title": "정책위원장? ‘정책위의장’으로 바로잡은 사진 설명",
+      "before": "국회 관련 사진에서 인물 직책을 ‘정책위원장’으로 소개",
+      "after": "‘정책위의장’으로 정정",
+      "summary": "사진 설명에 적힌 정당 직책을 바로잡은 사례다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-10-12",
+      "originalDate": "2026-09-28",
+      "icon": "📷",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 정책위원장? ‘정책위의장’으로 바로잡은 사진 설명",
+      "source": "https://www.chosun.com/special/announcement/2026/10/12/RDTF5B4PRZHO7INNXGB6D4KHR4/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "직책 오기",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-10-12",
+          "title": "공식 정정 게재",
+          "desc": "‘정책위의장’으로 정정",
+          "url": "https://www.chosun.com/special/announcement/2026/10/12/RDTF5B4PRZHO7INNXGB6D4KHR4/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-09-28",
+          "title": "원보도 게재",
+          "desc": "국회 관련 사진에서 인물 직책을 ‘정책위원장’으로 소개",
+          "url": null,
+          "label": "원보도 URL 미확보"
         }
       ]
     },
@@ -228,41 +655,424 @@
       ]
     },
     {
-      "id": "kr-mk-kakao-2026",
-      "title": "‘기사 내려주세요’라고 했다? 실제 요청 문구는 달랐다",
-      "before": "카카오지회가 기사 삭제를 요구하며 “기사 내려주세요”라고 말했다는 보도",
-      "after": "카카오지회가 실제로 요청한 것은 기사 중 영업이익 10% 관련 부분의 삭제·정정이었다고 바로잡음",
-      "summary": "매일경제가 카카오지회의 발언을 잘못 인용했다고 정정했다. 언론중재위원회 조정에 따른 정정보도다.",
+      "id": "kr-joongang-insurance-2026",
+      "title": "보험설계사 소송 ‘수당 환수 불가’ 판결? 소송 종류부터 달랐다",
+      "before": "보험회사가 퇴직 설계사에 제기한 환수 소송에서 패소하고 수당 환수가 불가능해졌다고 설명",
+      "after": "설계사가 제기한 강제집행 불허 소송의 무변론 판결로, 일반적인 환수 불가 법리 판단이 아니었다고 정정",
+      "summary": "소송의 당사자 구조와 판결의 의미를 달리 소개한 기사를 언론중재위 조정에 따라 정정했다.",
       "category": "경제",
       "country": "대한민국",
-      "publisher": "매일경제",
+      "publisher": "중앙이코노미뉴스",
       "type": "언중위 조정 정정",
-      "date": "2026-08-28",
-      "originalDate": "2026-06-08",
-      "icon": "💬",
-      "tone": "#e8eafa",
-      "titleOriginal": "[정정보도]「네이버의 환희와 카카오의 눈물」보도 관련",
-      "source": "https://www.mk.co.kr/news/all/12139226",
-      "originalUrl": "https://www.mk.co.kr/news/journalist/12068613",
-      "confirmed": "언론중재위원회 조정에 따른 정정보도",
+      "date": "2026-10-01",
+      "originalDate": "2026-09-01",
+      "icon": "📑",
+      "tone": "#e7f0e4",
+      "titleOriginal": "중앙이코노미뉴스 공식 정정: 보험설계사 소송 ‘수당 환수 불가’ 판결? 소송 종류부터 달랐다",
+      "source": "https://www.joongangenews.com/news/articleView.html?idxno=551851",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "중앙이코노미뉴스 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "중대한 사실 정정",
+      "impact": "주요 정정",
       "events": [
         {
-          "date": "2026-08-28",
-          "title": "매일경제가 정정보도 게재",
-          "desc": "카카오지회가 요청한 실제 발언을 밝히고 기존 인용을 바로잡음",
-          "url": "https://www.mk.co.kr/news/all/12139226",
-          "label": "공식 정정보도"
+          "date": "2026-10-01",
+          "title": "공식 정정 게재",
+          "desc": "설계사가 제기한 강제집행 불허 소송의 무변론 판결로, 일반적인 환수 불가 법리 판단이 아니었다고 정정",
+          "url": "https://www.joongangenews.com/news/articleView.html?idxno=551851",
+          "label": "정정문 확인"
         },
         {
-          "date": "2026-06-08",
-          "title": "최초 칼럼 게재",
-          "desc": "카카오지회가 기사 삭제를 요구했다고 인용한 칼럼",
-          "url": "https://www.mk.co.kr/news/journalist/12068613",
-          "label": "원보도 확인"
+          "date": "2026-09-01",
+          "title": "원보도 게재",
+          "desc": "보험회사가 퇴직 설계사에 제기한 환수 소송에서 패소하고 수당 환수가 불가능해졌다고 설명",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-damage-2026",
+      "title": "‘재판 피해’ 배상? 실제로는 ‘재산 피해’였다",
+      "before": "남북연락사무소 손해배상 기사에서 ‘재판 피해’로 표기",
+      "after": "‘재산 피해’로 정정",
+      "summary": "법원 손해배상 관련 기사에서 피해 유형을 잘못 적었다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-09-29",
+      "originalDate": "2026-09-17",
+      "icon": "⚖️",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: ‘재판 피해’ 배상? 실제로는 ‘재산 피해’였다",
+      "source": "https://www.chosun.com/national/national_general/2026/09/29/Y4HXURKTFJBE5PE54LLTISWHFI/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "단어 오기",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-09-29",
+          "title": "공식 정정 게재",
+          "desc": "‘재산 피해’로 정정",
+          "url": "https://www.chosun.com/national/national_general/2026/09/29/Y4HXURKTFJBE5PE54LLTISWHFI/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-09-17",
+          "title": "원보도 게재",
+          "desc": "남북연락사무소 손해배상 기사에서 ‘재판 피해’로 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-smr-2026",
+      "title": "소형모듈전원? 사실은 ‘소형모듈원전’",
+      "before": "에너지 전환 기사 그래픽에 ‘소형모듈전원’ 표기",
+      "after": "‘소형모듈원전’으로 정정",
+      "summary": "소형모듈원전(SMR)의 명칭에서 한 글자를 잘못 적었다.",
+      "category": "경제",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-09-29",
+      "originalDate": "2026-09-18",
+      "icon": "⚛️",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 소형모듈전원? 사실은 ‘소형모듈원전’",
+      "source": "https://www.chosun.com/national/national_general/2026/09/29/Y4HXURKTFJBE5PE54LLTISWHFI/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "용어 오기",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-09-29",
+          "title": "공식 정정 게재",
+          "desc": "‘소형모듈원전’으로 정정",
+          "url": "https://www.chosun.com/national/national_general/2026/09/29/Y4HXURKTFJBE5PE54LLTISWHFI/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-09-18",
+          "title": "원보도 게재",
+          "desc": "에너지 전환 기사 그래픽에 ‘소형모듈전원’ 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-aquarium-author-2026",
+      "title": "소설 《수족관》 저자, 조정래가 아니라 유래혁",
+      "before": "서점가 기사 표에서 《수족관》 저자를 ‘조정래’로 표기",
+      "after": "‘유래혁’으로 정정",
+      "summary": "도서 정보를 담은 표의 저자 이름을 다른 작가로 잘못 적었다.",
+      "category": "문화",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-09-29",
+      "originalDate": "2026-09-19",
+      "icon": "📚",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 소설 《수족관》 저자, 조정래가 아니라 유래혁",
+      "source": "https://www.chosun.com/national/national_general/2026/09/29/Y4HXURKTFJBE5PE54LLTISWHFI/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "저자 정보 오류",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-09-29",
+          "title": "공식 정정 게재",
+          "desc": "‘유래혁’으로 정정",
+          "url": "https://www.chosun.com/national/national_general/2026/09/29/Y4HXURKTFJBE5PE54LLTISWHFI/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-09-19",
+          "title": "원보도 게재",
+          "desc": "서점가 기사 표에서 《수족관》 저자를 ‘조정래’로 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-senior-center-2026",
+      "title": "경로당 설치 기준, 100가구가 아니라 150가구",
+      "before": "경로당 관련 보도에서 공동주택 기준을 ‘100가구 이상’이라고 적음",
+      "after": "‘150가구 이상’으로 정정",
+      "summary": "공동주택 경로당 관련 수치 오류를 바로잡았다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-09-23",
+      "originalDate": "2026-09-11",
+      "icon": "🏘️",
+      "tone": "#e7f0e4",
+      "titleOriginal": "조선일보 공식 정정: 경로당 설치 기준, 100가구가 아니라 150가구",
+      "source": "https://www.chosun.com/KIS5CRC46BGS3L23FYS7Y2YETA/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "숫자 오류",
+      "impact": "주요 정정",
+      "events": [
+        {
+          "date": "2026-09-23",
+          "title": "공식 정정 게재",
+          "desc": "‘150가구 이상’으로 정정",
+          "url": "https://www.chosun.com/KIS5CRC46BGS3L23FYS7Y2YETA/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-09-11",
+          "title": "원보도 게재",
+          "desc": "경로당 관련 보도에서 공동주택 기준을 ‘100가구 이상’이라고 적음",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-gift-2026",
+      "title": "추석 선물세트가 ‘3만~5원대’라고? 단위 오기",
+      "before": "추석 선물세트 가격을 ‘3만~5원대’로 표기",
+      "after": "‘3만~5만원대’로 정정",
+      "summary": "선물세트 가격 구간 표기에서 만원 단위를 잘못 적은 사례다.",
+      "category": "생활",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-09-23",
+      "originalDate": "2026-09-14",
+      "icon": "🎁",
+      "tone": "#e7f0e4",
+      "titleOriginal": "조선일보 공식 정정: 추석 선물세트가 ‘3만~5원대’라고? 단위 오기",
+      "source": "https://www.chosun.com/KIS5CRC46BGS3L23FYS7Y2YETA/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "가격 오기",
+      "impact": "주요 정정",
+      "events": [
+        {
+          "date": "2026-09-23",
+          "title": "공식 정정 게재",
+          "desc": "‘3만~5만원대’로 정정",
+          "url": "https://www.chosun.com/KIS5CRC46BGS3L23FYS7Y2YETA/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-09-14",
+          "title": "원보도 게재",
+          "desc": "추석 선물세트 가격을 ‘3만~5원대’로 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-tofukuji-2026",
+      "title": "도호쿠지? 교토의 사찰 이름은 ‘도후쿠지’",
+      "before": "문화유산 기사 사진설명에서 사찰 이름을 ‘도호쿠지’로 표기",
+      "after": "‘도후쿠지’로 정정",
+      "summary": "문화유산 사진 설명에서 일본 사찰 이름을 잘못 적었다.",
+      "category": "문화",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-09-23",
+      "originalDate": "2026-09-15",
+      "icon": "⛩️",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 도호쿠지? 교토의 사찰 이름은 ‘도후쿠지’",
+      "source": "https://www.chosun.com/KIS5CRC46BGS3L23FYS7Y2YETA/",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "지명 오기",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-09-23",
+          "title": "공식 정정 게재",
+          "desc": "‘도후쿠지’로 정정",
+          "url": "https://www.chosun.com/KIS5CRC46BGS3L23FYS7Y2YETA/",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-09-15",
+          "title": "원보도 게재",
+          "desc": "문화유산 기사 사진설명에서 사찰 이름을 ‘도호쿠지’로 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-movie-title-2026",
+      "title": "영화 제목, ‘래틀크리트’가 아니라 ‘래틀크리크’",
+      "before": "제천영화제 관련 기사에 ‘래틀크리트의 무법자들’ 표기",
+      "after": "‘래틀크리크의 무법자들’로 정정",
+      "summary": "영화제 소개 기사에서 영화 작품명을 잘못 적어 바로잡았다.",
+      "category": "문화",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-09-12",
+      "originalDate": "2026-09-05",
+      "icon": "🎬",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 영화 제목, ‘래틀크리트’가 아니라 ‘래틀크리크’",
+      "source": "https://archive.chosun.com/pdf/i_service/pdf_ReadBody.jsp?ID=2026091201002JH202",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "작품명 오기",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-09-12",
+          "title": "공식 정정 게재",
+          "desc": "‘래틀크리크의 무법자들’로 정정",
+          "url": "https://archive.chosun.com/pdf/i_service/pdf_ReadBody.jsp?ID=2026091201002JH202",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-09-05",
+          "title": "원보도 게재",
+          "desc": "제천영화제 관련 기사에 ‘래틀크리트의 무법자들’ 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-chosun-name-congress-2026",
+      "title": "국회의원 이름을 ‘윤 의원’이라고만 표기… 뒤늦게 실명 정정",
+      "before": "청문회 관련 기사에서 ‘국민의힘 윤 의원’이라고 표기",
+      "after": "‘국민의힘 윤상현 의원’으로 정정",
+      "summary": "청문회 관련 기사에서 축약된 인물 명칭을 풀어 쓰도록 정정했다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-09-12",
+      "originalDate": "2026-09-10",
+      "icon": "🏛️",
+      "tone": "#eff0e9",
+      "titleOriginal": "조선일보 공식 정정: 국회의원 이름을 ‘윤 의원’이라고만 표기… 뒤늦게 실명 정정",
+      "source": "https://archive.chosun.com/pdf/i_service/pdf_ReadBody.jsp?ID=2026091201002JH202",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "조선일보 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "인물 표기 오류",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-09-12",
+          "title": "공식 정정 게재",
+          "desc": "‘국민의힘 윤상현 의원’으로 정정",
+          "url": "https://archive.chosun.com/pdf/i_service/pdf_ReadBody.jsp?ID=2026091201002JH202",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-09-10",
+          "title": "원보도 게재",
+          "desc": "청문회 관련 기사에서 ‘국민의힘 윤 의원’이라고 표기",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-mk-photo-2026",
+      "title": "관중석 사진을 ‘보정’했는데… 실제 없던 관객까지 만들어졌다",
+      "before": "행사장 관중석 사진의 빛 번짐을 처리하면서 실제와 다르게 관객이 앉아 있는 모습으로 보정된 사진이 보도됐다.",
+      "after": "매일경제는 실제 모습과 다르게 수정한 사진을 보도한 잘못을 공식 인정하고 사과했다.",
+      "summary": "세계지식포럼 사진에서 강한 조명 문제를 처리하는 과정에 실제와 다르게 관중석이 보정됐다고 언론사가 스스로 밝혔다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "매일경제",
+      "type": "자발적 정정",
+      "date": "2026-09-10",
+      "originalDate": "2026-09-10",
+      "icon": "📸",
+      "tone": "#f6e8ec",
+      "titleOriginal": "[정정합니다] 세계지식포럼 오픈 세션 사진 관련",
+      "source": "https://www.mk.co.kr/news/photo/12149720",
+      "originalUrl": null,
+      "confirmed": "매일경제 공식 사진 정정 및 사과",
+      "events": [
+        {
+          "date": "2026-09-10",
+          "title": "사진 보정 오류를 공개하고 사과",
+          "desc": "관객이 앉은 모습으로 보정해 원래 장면과 다르게 보도했다고 인정",
+          "url": "https://www.mk.co.kr/news/photo/12149720",
+          "label": "공식 정정문"
+        },
+        {
+          "date": "2026-09-10",
+          "title": "‘장충아레나 달군 도킨스 열풍’ 사진 보도",
+          "desc": "최초 사진 게재 사실은 정정문에서 확인되지만 원보도 URL은 별도로 확인되지 않음",
+          "url": null,
+          "label": ""
         }
       ],
       "reviewStatus": "verified",
-      "sourceLabel": "공식 정정보도"
+      "sourceLabel": "공식 정정문"
+    },
+    {
+      "id": "kr-nocut-church-affiliation-2026",
+      "title": "교회 대표목사와 소속 목사라고 보도했지만… 직책·소속 정정",
+      "before": "보도에서 전광훈 목사를 사랑제일교회 대표 목사로, 다른 목사를 해당 교회 소속으로 소개",
+      "after": "전광훈 목사는 은퇴한 원로 목사이며 다른 목사는 교회 소속이 아니라고 정정",
+      "summary": "언론사가 목사들의 현재 직책과 소속을 바로잡은 정정보도다. 최초 보도의 다른 주장까지 잘못됐다고 분류하지 않는다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "노컷뉴스",
+      "type": "언중위 조정 정정",
+      "date": "2026-09-04",
+      "originalDate": "확인 전",
+      "icon": "🏛️",
+      "tone": "#eff0e9",
+      "titleOriginal": "노컷뉴스 공식 정정: 교회 대표목사와 소속 목사라고 보도했지만… 직책·소속 정정",
+      "source": "https://www.nocutnews.co.kr/news/6573169",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "노컷뉴스 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "소속·직책 오류",
+      "impact": "경미한 정정",
+      "events": [
+        {
+          "date": "2026-09-04",
+          "title": "공식 정정 게재",
+          "desc": "전광훈 목사는 은퇴한 원로 목사이며 다른 목사는 교회 소속이 아니라고 정정",
+          "url": "https://www.nocutnews.co.kr/news/6573169",
+          "label": "정정문 확인"
+        }
+      ]
     },
     {
       "id": "kr-chosun-gdi-2026",
@@ -339,6 +1149,199 @@
       "sourceLabel": "공식 정정보도"
     },
     {
+      "id": "kr-heraldcorp-overtime-2026",
+      "title": "초과수당 부정수령 의혹 보도… 경찰 불송치 뒤 정정보도",
+      "before": "IT기업 대표가 전 직장 재직 당시 부정하게 초과수당을 받았다는 취지로 보도",
+      "after": "경찰이 업무 특성과 근로시간 규정 적용 제외 등을 확인하고 혐의없음으로 불송치했다는 사실을 정정",
+      "summary": "언론중재위원회 조정에 따른 정정보도. 같은 사안에 대한 타 매체의 정정 기록도 존재한다.",
+      "category": "경제",
+      "country": "대한민국",
+      "publisher": "헤럴드경제",
+      "type": "언중위 조정 정정",
+      "date": "2026-09-01",
+      "originalDate": "2026-02-10",
+      "icon": "💼",
+      "tone": "#e7f0e4",
+      "titleOriginal": "헤럴드경제 공식 정정: 초과수당 부정수령 의혹 보도… 경찰 불송치 뒤 정정보도",
+      "source": "https://biz.heraldcorp.com/article/10858510",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "헤럴드경제 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "중대한 사실 정정",
+      "impact": "주요 정정",
+      "events": [
+        {
+          "date": "2026-09-01",
+          "title": "공식 정정 게재",
+          "desc": "경찰이 업무 특성과 근로시간 규정 적용 제외 등을 확인하고 혐의없음으로 불송치했다는 사실을 정정",
+          "url": "https://biz.heraldcorp.com/article/10858510",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-02-10",
+          "title": "원보도 게재",
+          "desc": "IT기업 대표가 전 직장 재직 당시 부정하게 초과수당을 받았다는 취지로 보도",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-mk-kakao-2026",
+      "title": "‘기사 내려주세요’라고 했다? 실제 요청 문구는 달랐다",
+      "before": "카카오지회가 기사 삭제를 요구하며 “기사 내려주세요”라고 말했다는 보도",
+      "after": "카카오지회가 실제로 요청한 것은 기사 중 영업이익 10% 관련 부분의 삭제·정정이었다고 바로잡음",
+      "summary": "매일경제가 카카오지회의 발언을 잘못 인용했다고 정정했다. 언론중재위원회 조정에 따른 정정보도다.",
+      "category": "경제",
+      "country": "대한민국",
+      "publisher": "매일경제",
+      "type": "언중위 조정 정정",
+      "date": "2026-08-28",
+      "originalDate": "2026-06-08",
+      "icon": "💬",
+      "tone": "#e8eafa",
+      "titleOriginal": "[정정보도]「네이버의 환희와 카카오의 눈물」보도 관련",
+      "source": "https://www.mk.co.kr/news/all/12139226",
+      "originalUrl": "https://www.mk.co.kr/news/journalist/12068613",
+      "confirmed": "언론중재위원회 조정에 따른 정정보도",
+      "events": [
+        {
+          "date": "2026-08-28",
+          "title": "매일경제가 정정보도 게재",
+          "desc": "카카오지회가 요청한 실제 발언을 밝히고 기존 인용을 바로잡음",
+          "url": "https://www.mk.co.kr/news/all/12139226",
+          "label": "공식 정정보도"
+        },
+        {
+          "date": "2026-06-08",
+          "title": "최초 칼럼 게재",
+          "desc": "카카오지회가 기사 삭제를 요구했다고 인용한 칼럼",
+          "url": "https://www.mk.co.kr/news/journalist/12068613",
+          "label": "원보도 확인"
+        }
+      ],
+      "reviewStatus": "verified",
+      "sourceLabel": "공식 정정보도"
+    },
+    {
+      "id": "kr-kukinews-university-2026",
+      "title": "총장 불신임안 ‘부결’ 보도… 실제로는 가결됐다",
+      "before": "총장 불신임안이 부결됐다고 보도",
+      "after": "투표 참여 341명 중 231명이 불신임에 찬성해 가결됐음을 정정",
+      "summary": "투표 결과가 정반대로 바뀐 정정보도. 언론중재위원회의 조정에 따라 정정됐으며 89% 투표율, 찬성 68%라고 밝혔다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "쿠키뉴스",
+      "type": "언중위 조정 정정",
+      "date": "2026-08-18",
+      "originalDate": "2026-06-23",
+      "icon": "🎓",
+      "tone": "#e7f0e4",
+      "titleOriginal": "쿠키뉴스 공식 정정: 총장 불신임안 ‘부결’ 보도… 실제로는 가결됐다",
+      "source": "https://www.kukinews.com/article/view/kuk202608180055",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "쿠키뉴스 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "중대한 사실 정정",
+      "impact": "주요 정정",
+      "events": [
+        {
+          "date": "2026-08-18",
+          "title": "공식 정정 게재",
+          "desc": "투표 참여 341명 중 231명이 불신임에 찬성해 가결됐음을 정정",
+          "url": "https://www.kukinews.com/article/view/kuk202608180055",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-06-23",
+          "title": "원보도 게재",
+          "desc": "총장 불신임안이 부결됐다고 보도",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-khan-prosecutor-2026",
+      "title": "감찰받다 퇴직한 검사? ‘정상 절차에 따른 명예퇴직’으로 정정",
+      "before": "감정관 의견을 묵살하고 감찰을 받던 중 퇴직했다고 보도",
+      "after": "정정문에서 감정서 작성 권한 관계와 정상적인 명예퇴직 절차를 확인",
+      "summary": "정정보도에서 문서감정 절차상 권한 구조와 퇴직 경위를 바로잡았다. 언론중재위원회 조정에 따른 것이다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "경향신문",
+      "type": "언중위 조정 정정",
+      "date": "2026-07-03",
+      "originalDate": "2026-02-04",
+      "icon": "⚖️",
+      "tone": "#e7f0e4",
+      "titleOriginal": "경향신문 공식 정정: 감찰받다 퇴직한 검사? ‘정상 절차에 따른 명예퇴직’으로 정정",
+      "source": "https://www.khan.co.kr/article/202607031700001",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "경향신문 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "중대한 사실 정정",
+      "impact": "주요 정정",
+      "events": [
+        {
+          "date": "2026-07-03",
+          "title": "공식 정정 게재",
+          "desc": "정정문에서 감정서 작성 권한 관계와 정상적인 명예퇴직 절차를 확인",
+          "url": "https://www.khan.co.kr/article/202607031700001",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-02-04",
+          "title": "원보도 게재",
+          "desc": "감정관 의견을 묵살하고 감찰을 받던 중 퇴직했다고 보도",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
+      "id": "kr-knnews-bathhouse-photo-2026",
+      "title": "문 닫는 동네 목욕탕 기사에 나온 사진… 그 목욕탕은 정상 영업 중",
+      "before": "경영난·폐업 관련 기사에 특정 목욕탕 외관 사진을 게재",
+      "after": "사진 속 무량온천은 폐업 예정 업소나 경영난 사례가 아니며 정상 영업 중임을 정정",
+      "summary": "업소 외관 사진의 잘못된 맥락 배치에 관해 바로잡은 사례. 2026년 6월 15일 최종 수정된 정정보도 원문을 확인했다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "경남신문",
+      "type": "언중위 조정 정정",
+      "date": "2026-06-01",
+      "originalDate": "2026-04-08",
+      "icon": "♨️",
+      "tone": "#e7f0e4",
+      "titleOriginal": "경남신문 공식 정정: 문 닫는 동네 목욕탕 기사에 나온 사진… 그 목욕탕은 정상 영업 중",
+      "source": "https://www.knnews.co.kr/news/articleView.php?idxno=1542925",
+      "sourceLabel": "공식 정정 보도",
+      "originalUrl": null,
+      "confirmed": "경남신문 공식 정정 공지",
+      "reviewStatus": "verified",
+      "correctionKind": "중대한 사실 정정",
+      "impact": "주요 정정",
+      "events": [
+        {
+          "date": "2026-06-01",
+          "title": "공식 정정 게재",
+          "desc": "사진 속 무량온천은 폐업 예정 업소나 경영난 사례가 아니며 정상 영업 중임을 정정",
+          "url": "https://www.knnews.co.kr/news/articleView.php?idxno=1542925",
+          "label": "정정문 확인"
+        },
+        {
+          "date": "2026-04-08",
+          "title": "원보도 게재",
+          "desc": "경영난·폐업 관련 기사에 특정 목욕탕 외관 사진을 게재",
+          "url": null,
+          "label": "원보도 URL 미확보"
+        }
+      ]
+    },
+    {
       "id": "kr-donga-plan-2026",
       "title": "정부가 만든 ‘종합계획안’이라고 보도했는데… 작성 사실 없었다",
       "before": "중수청 개청 준비 종합계획안의 내용에 근거해 인력 선발 계획을 보도",
@@ -413,41 +1416,41 @@
       "sourceLabel": "공식 정정보도"
     },
     {
-      "id": "kr-kmib-budget-2026",
-      "title": "국방예산 집행에 구멍? 정정문에는 ‘전액 집행 완료’",
-      "before": "방위사업청 예산 집행에서 공백이 발생할 수 있다는 취지의 기사 게재",
-      "after": "2025년 미지급액을 포함해 2026년 1월 집행 대상 예산을 전액 집행했다고 확인해 정정",
-      "summary": "국민일보가 언론중재위원회 조정에 따라 방위사업청 예산 집행 관련 사실관계를 바로잡았다.",
-      "category": "경제",
+      "id": "kr-wizy-chart-2026",
+      "title": "유기견 안락사 여론조사 그래프에 오류… 독자 지적으로 수정",
+      "before": "유기견 안락사 찬반 여론조사 기사에 일부 표시가 잘못된 그래프가 포함됨",
+      "after": "위즈경제가 독자 제보를 확인하고 그래프의 표시 오류를 인정해 수정했다.",
+      "summary": "표본이나 수치 전체가 틀렸다고 단정할 수는 없다. 언론사가 공식적으로 인정한 범위는 기사에 실린 그래프의 일부 표시 오류다.",
+      "category": "사회",
       "country": "대한민국",
-      "publisher": "국민일보",
-      "type": "언중위 조정 정정",
-      "date": "2026-03-12",
-      "originalDate": "2026-02-01",
-      "icon": "💰",
-      "tone": "#e9f4e8",
-      "titleOriginal": "[정정보도] <방사청 곳간 5400억 ‘구멍’ 국방예산 집행 공백 우려> 관련",
-      "source": "https://www.kmib.co.kr/article/view.asp?arcid=0029517581",
-      "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=1769926122",
-      "confirmed": "언론중재위원회 조정에 따른 정정보도",
+      "publisher": "위즈경제",
+      "type": "자발적 정정",
+      "date": "2026-04-20",
+      "originalDate": "2025-04-01",
+      "icon": "📊",
+      "tone": "#edf1e3",
+      "titleOriginal": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
+      "source": "https://www.wikyung.com/news/article?news=5871",
+      "originalUrl": null,
+      "confirmed": "언론사 직접 오류 인정 및 정정보도",
       "events": [
         {
-          "date": "2026-03-12",
-          "title": "국민일보가 공식 정정보도",
-          "desc": "예산이 전액 집행 완료된 사실을 명시",
-          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0029517581",
+          "date": "2026-04-20",
+          "title": "독자 지적을 받아 그래프 오류 정정",
+          "desc": "위즈경제가 일부 표시 오류가 있었음을 확인하고 바로잡음",
+          "url": "https://www.wikyung.com/news/article?news=5871",
           "label": "공식 정정보도"
         },
         {
-          "date": "2026-02-01",
-          "title": "예산 공백 우려 원보도",
-          "desc": "‘방사청 곳간 5400억 구멍’ 제목의 기사",
-          "url": "https://www.kmib.co.kr/article/view.asp?arcid=1769926122",
-          "label": "최초 보도 확인"
+          "date": "2025-04-01",
+          "title": "유기견 안락사 여론조사 최초 보도",
+          "desc": "‘[위포트] 유기견 안락사 문제 두고 절반 이상 반대...찬성은 42%’ 기사로, 별도 원문 URL은 확인되지 않음",
+          "url": null,
+          "label": ""
         }
       ],
       "reviewStatus": "verified",
-      "sourceLabel": "공식 정정보도"
+      "sourceLabel": "공식 정정문"
     },
     {
       "id": "kr-newsis-geoje-2026",
@@ -481,6 +1484,43 @@
           "desc": "동일한 기사 URL에서 초기 본문과 정정문을 함께 확인할 수 있음",
           "url": "https://mobile.newsis.com/view/NISX20260216_0003516685",
           "label": "기사 원문"
+        }
+      ],
+      "reviewStatus": "verified",
+      "sourceLabel": "공식 정정보도"
+    },
+    {
+      "id": "kr-kmib-budget-2026",
+      "title": "국방예산 집행에 구멍? 정정문에는 ‘전액 집행 완료’",
+      "before": "방위사업청 예산 집행에서 공백이 발생할 수 있다는 취지의 기사 게재",
+      "after": "2025년 미지급액을 포함해 2026년 1월 집행 대상 예산을 전액 집행했다고 확인해 정정",
+      "summary": "국민일보가 언론중재위원회 조정에 따라 방위사업청 예산 집행 관련 사실관계를 바로잡았다.",
+      "category": "경제",
+      "country": "대한민국",
+      "publisher": "국민일보",
+      "type": "언중위 조정 정정",
+      "date": "2026-03-12",
+      "originalDate": "2026-02-01",
+      "icon": "💰",
+      "tone": "#e9f4e8",
+      "titleOriginal": "[정정보도] <방사청 곳간 5400억 ‘구멍’ 국방예산 집행 공백 우려> 관련",
+      "source": "https://www.kmib.co.kr/article/view.asp?arcid=0029517581",
+      "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=1769926122",
+      "confirmed": "언론중재위원회 조정에 따른 정정보도",
+      "events": [
+        {
+          "date": "2026-03-12",
+          "title": "국민일보가 공식 정정보도",
+          "desc": "예산이 전액 집행 완료된 사실을 명시",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0029517581",
+          "label": "공식 정정보도"
+        },
+        {
+          "date": "2026-02-01",
+          "title": "예산 공백 우려 원보도",
+          "desc": "‘방사청 곳간 5400억 구멍’ 제목의 기사",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=1769926122",
+          "label": "최초 보도 확인"
         }
       ],
       "reviewStatus": "verified",
@@ -522,117 +1562,6 @@
       ],
       "reviewStatus": "verified",
       "sourceLabel": "공식 정정보도"
-    },
-    {
-      "id": "kr-mk-photo-2026",
-      "title": "관중석 사진을 ‘보정’했는데… 실제 없던 관객까지 만들어졌다",
-      "before": "행사장 관중석 사진의 빛 번짐을 처리하면서 실제와 다르게 관객이 앉아 있는 모습으로 보정된 사진이 보도됐다.",
-      "after": "매일경제는 실제 모습과 다르게 수정한 사진을 보도한 잘못을 공식 인정하고 사과했다.",
-      "summary": "세계지식포럼 사진에서 강한 조명 문제를 처리하는 과정에 실제와 다르게 관중석이 보정됐다고 언론사가 스스로 밝혔다.",
-      "category": "사회",
-      "country": "대한민국",
-      "publisher": "매일경제",
-      "type": "자발적 정정",
-      "date": "2026-09-10",
-      "originalDate": "2026-09-10",
-      "icon": "📸",
-      "tone": "#f6e8ec",
-      "titleOriginal": "[정정합니다] 세계지식포럼 오픈 세션 사진 관련",
-      "source": "https://www.mk.co.kr/news/photo/12149720",
-      "originalUrl": null,
-      "confirmed": "매일경제 공식 사진 정정 및 사과",
-      "events": [
-        {
-          "date": "2026-09-10",
-          "title": "사진 보정 오류를 공개하고 사과",
-          "desc": "관객이 앉은 모습으로 보정해 원래 장면과 다르게 보도했다고 인정",
-          "url": "https://www.mk.co.kr/news/photo/12149720",
-          "label": "공식 정정문"
-        },
-        {
-          "date": "2026-09-10",
-          "title": "‘장충아레나 달군 도킨스 열풍’ 사진 보도",
-          "desc": "최초 사진 게재 사실은 정정문에서 확인되지만 원보도 URL은 별도로 확인되지 않음",
-          "url": null,
-          "label": ""
-        }
-      ],
-      "reviewStatus": "verified",
-      "sourceLabel": "공식 정정문"
-    },
-    {
-      "id": "kr-daejeon-term-2026",
-      "title": "행정사무감사 당일 ‘사퇴’? 알고 보니 예정된 임기 만료",
-      "before": "세종도시교통공사 전 상임이사가 행정사무감사가 열린 10월 15일 갑자기 사퇴한 것으로 보도",
-      "after": "대전인터넷신문은 10월 15일이 사전에 정해진 정상 임기 만료일이었다고 공식 정정하고 사과했다.",
-      "summary": "감사일과 퇴임일이 같았지만 사유는 중도사퇴가 아니었다. 언론사가 인사자료와 공사 관계자 확인을 거쳐 바로잡았다.",
-      "category": "사회",
-      "country": "대한민국",
-      "publisher": "대전인터넷신문",
-      "type": "자발적 정정",
-      "date": "2026-10-28",
-      "originalDate": "확인 전",
-      "icon": "📆",
-      "tone": "#e9f0f6",
-      "titleOriginal": "[정정보도] 세종도시교통공사 성낙문 전 이사, 행감 당일 사퇴 아닌 임기 만료",
-      "source": "https://daejeonpress.co.kr/news/view.php?idx=71117&key_idx=97945",
-      "originalUrl": null,
-      "confirmed": "언론사 공식 정정보도 및 사과",
-      "events": [
-        {
-          "date": "2026-10-28",
-          "title": "임기 만료 사실을 확인해 정정",
-          "desc": "사전에 확정된 임기 종료일과 행정감사일이 우연히 겹쳤음을 명시",
-          "url": "https://daejeonpress.co.kr/news/view.php?idx=71117&key_idx=97945",
-          "label": "언론사 정정보도"
-        },
-        {
-          "date": "2026-10-15",
-          "title": "행정사무감사 당일 퇴임 관련 최초 보도",
-          "desc": "언론사는 과거 '사퇴' 표현을 바로잡았으나 원보도 URL과 게시 날짜는 아직 별도 확인되지 않음",
-          "url": null,
-          "label": ""
-        }
-      ],
-      "reviewStatus": "verified",
-      "sourceLabel": "공식 정정문"
-    },
-    {
-      "id": "kr-wizy-chart-2026",
-      "title": "유기견 안락사 여론조사 그래프에 오류… 독자 지적으로 수정",
-      "before": "유기견 안락사 찬반 여론조사 기사에 일부 표시가 잘못된 그래프가 포함됨",
-      "after": "위즈경제가 독자 제보를 확인하고 그래프의 표시 오류를 인정해 수정했다.",
-      "summary": "표본이나 수치 전체가 틀렸다고 단정할 수는 없다. 언론사가 공식적으로 인정한 범위는 기사에 실린 그래프의 일부 표시 오류다.",
-      "category": "사회",
-      "country": "대한민국",
-      "publisher": "위즈경제",
-      "type": "자발적 정정",
-      "date": "2026-04-20",
-      "originalDate": "2025-04-01",
-      "icon": "📊",
-      "tone": "#edf1e3",
-      "titleOriginal": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
-      "source": "https://www.wikyung.com/news/article?news=5871",
-      "originalUrl": null,
-      "confirmed": "언론사 직접 오류 인정 및 정정보도",
-      "events": [
-        {
-          "date": "2026-04-20",
-          "title": "독자 지적을 받아 그래프 오류 정정",
-          "desc": "위즈경제가 일부 표시 오류가 있었음을 확인하고 바로잡음",
-          "url": "https://www.wikyung.com/news/article?news=5871",
-          "label": "공식 정정보도"
-        },
-        {
-          "date": "2025-04-01",
-          "title": "유기견 안락사 여론조사 최초 보도",
-          "desc": "‘[위포트] 유기견 안락사 문제 두고 절반 이상 반대...찬성은 42%’ 기사로, 별도 원문 URL은 확인되지 않음",
-          "url": null,
-          "label": ""
-        }
-      ],
-      "reviewStatus": "verified",
-      "sourceLabel": "공식 정정문"
     }
   ],
   "feed_items": [
