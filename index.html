@@ -272,9 +272,112 @@ drawSpot=function(){
  $('spotlight').onclick=()=>openCase(c.id);
 };
 
+
+// v7: featured correction from a rolling seven-day window and date-descending live feed.
+const todayKST=()=>new Date(Date.now()+9*60*60*1000).toISOString().slice(0,10);
+const dayMinus=(date,n)=>new Date(Date.parse(date+'T00:00:00Z')-n*86400000).toISOString().slice(0,10);
+const safeDate=d=>/^\d{4}-\d{2}-\d{2}$/.test(d||'')?labelDate(d):'날짜 미확인';
+const isOfficial=c=>c.reviewStatus==='verified';
+const normalizedTitle=s=>String(s||'').replace(/^\s*[\[【(]?\s*(정정보도|바로잡습니다|정정합니다)\s*[\]】)]?\s*[:\-]?\s*/i,'').replace(/\s+/g,' ').trim().toLowerCase();
+const publisherKey=s=>String(s||'').replace(/[\s:]/g,'').toLowerCase();
+function fullChronology(){
+  const confirmed=cases.filter(isOfficial);
+  const sourceLinks=new Set(confirmed.map(c=>c.source));
+  const titleKeys=new Set(confirmed.map(c=>publisherKey(c.publisher)+'|'+normalizedTitle(c.titleOriginal||c.title)));
+  const found=liveFeed.filter(c=>!sourceLinks.has(c.source)&&
+    !titleKeys.has(publisherKey(c.publisher)+'|'+normalizedTitle(c.titleOriginal||c.title)));
+  return confirmed.concat(found).filter(c=>/^\d{4}-\d{2}-\d{2}$/.test(c.date||'')).sort((a,b)=>{
+    const time=b.date.localeCompare(a.date);if(time)return time;
+    if(isOfficial(a)!==isOfficial(b))return isOfficial(a)?-1:1;
+    if((a.country==='대한민국')!==(b.country==='대한민국'))return a.country==='대한민국'?-1:1;
+    return String(a.id||'').localeCompare(String(b.id||''));
+  });
+}
+function sevenDayRecords(list){
+  const now=todayKST(),from=dayMinus(now,6);
+  return list.filter(c=>c.date>=from&&c.date<=now);
+}
+function interestRank(c){
+  const t=[c.title,c.titleOriginal,c.summary].join(' ');
+  const good=/사퇴|임기 만료|가결|부결|조작|없는 관객|전투식량|위조|법원|판결|혐의없음|경광등|전액|투표|그래프|관객|객석|수당|허위|불신임|논란|억|조원|정상 진행|사과|보도 오류/i.test(t);
+  const tiny=/오기|오타|표기|사진 설명|한 글자|맞춤법|직접회로|트롬본|스타실드|론진/i.test(t);
+  return (c.country==='대한민국'?24:0)+(isOfficial(c)?60:0)+(substantial(c)?70:0)+
+    (c.importance==='주요 정정'||c.impact==='주요 정정'?40:0)+(good?80:0)-(tiny?85:0);
+}
+function renderWeekHero(){
+ const all=fullChronology();
+ const weekly=sevenDayRecords(all).sort((a,b)=>interestRank(b)-interestRank(a)||b.date.localeCompare(a.date));
+ const featured=weekly[0],chosen=featured||all.find(isOfficial)||all[0];
+ if(!chosen){
+  $('heroEyebrow').textContent='THIS WEEK · 최근 7일';
+  $('heroHeadline').textContent='이번 주의 정정 뉴스를 모으는 중';
+  $('heroDesc').textContent='공식 정정 공지를 수집하고 있습니다.';
+  $('randomHero').textContent='최신 정정 살펴보기 ↗';
+  $('randomHero').onclick=()=>$('recent').scrollIntoView({behavior:'smooth'});
+  return;
+ }
+ const recent=!!featured,official=isOfficial(chosen);
+ $('heroEyebrow').textContent=(recent?'최근 7일 · ':'최근 7일 새 정정 확인 중 · ')+
+   (official?'공식 정정 확인':'원문 검토 전')+' · '+safeDate(chosen.date);
+ $('heroHeadline').textContent=chosen.title;
+ $('heroDesc').textContent=official?chosen.summary:'최근 정정 공지로 보이는 기사를 발견했습니다. 정정 내용과 원보도는 아직 검토 전입니다.';
+ $('randomHero').textContent=official?'정정 내용 확인하기 ↗':'정정 공지 열기 ↗';
+ $('randomHero').onclick=()=>official?openCase(chosen.id):window.open(chosen.source,'_blank','noopener,noreferrer');
+ const second=weekly.find(c=>c.id!==chosen.id)||all.find(c=>c.id!==chosen.id);
+ if(!second)return;
+ $('spotLabel').textContent=weekly.some(c=>c.id===second.id)?'✦ 이번 주의 또 다른 정정':'✦ 이어서 볼 만한 정정';
+ $('spotDate').textContent=safeDate(second.date);
+ $('spotTopic').textContent=(isOfficial(second)?'공식 정정 확인':'원문 검토 전')+' · '+second.publisher;
+ $('spotTitle').textContent=second.title;
+ $('spotDesc').textContent=isOfficial(second)?second.summary:'공식 정정 여부와 구체적인 내용은 검토 전입니다.';
+ $('spotlight').onclick=()=>isOfficial(second)?openCase(second.id):window.open(second.source,'_blank','noopener,noreferrer');
+}
+function recentEntryElement(c){
+ const official=isOfficial(c);
+ const card=document.createElement(official?'button':'a');
+ card.className='recent-item';
+ if(official){card.type='button';card.onclick=()=>openCase(c.id)}
+ else{card.href=c.source;card.target='_blank';card.rel='noopener noreferrer'}
+ const top=document.createElement('div');top.className='recent-top';
+ const date=document.createElement('span');date.className='recent-date';date.textContent=safeDate(c.date);
+ const region=document.createElement('span');region.textContent=c.country==='대한민국'?'🇰🇷 국내':'🌍 해외';
+ const flag=document.createElement('span');flag.className='recent-status'+(official?'':' candidate');flag.textContent=official?'정정 내용 확인':'검토 전';
+ top.append(date,region,flag);
+ const title=document.createElement('div');title.className='recent-title';title.textContent=official?c.title:(c.titleOriginal||c.title);
+ const description=document.createElement('div');description.className='recent-detail';
+ description.textContent=official?'정정: '+c.after:'제목과 링크만 수집했습니다. 원문과 최초 보도 대조 전입니다.';
+ const foot=document.createElement('div');foot.className='recent-footer';
+ const publisher=document.createElement('span');publisher.textContent=c.publisher;
+ const action=document.createElement('span');action.textContent=official?'거꾸로 읽는 타임라인 ↗':'원문 확인 ↗';
+ foot.append(publisher,action);
+ card.append(top,title,description,foot);
+ return card;
+}
+function renderRecent(){
+ const container=$('recentList');if(!container)return;
+ drawRegion('recentRegionTabs',state.recentRegion,v=>{state.recentRegion=v;state.recentLimit=16;renderRecent()});
+ const all=fullChronology().filter(c=>state.recentRegion==='전체'||(state.recentRegion==='해외'?c.country!=='대한민국':c.country==='대한민국'))
+  .filter(c=>!state.query||[c.title,c.titleOriginal,c.summary,c.publisher,c.country].join(' ').toLowerCase().includes(state.query.toLowerCase()));
+ const visible=all.slice(0,state.recentLimit),week=sevenDayRecords(all);
+ $('recentWeekLabel').textContent='최근 7일 '+week.length+'건';
+ $('recentCount').textContent='전체 '+all.length+'건 · '+visible.length+'건 표시 · 최신 정정일순 · 내용 확인 '+all.filter(isOfficial).length+'건 / 미검토 '+all.filter(c=>!isOfficial(c)).length+'건';
+ container.textContent='';
+ if(!visible.length){
+  const empty=document.createElement('div');empty.className='empty';empty.textContent='선택한 조건에 맞는 정정 기록이 없습니다. 지역 또는 검색어를 바꿔 보세요.';
+  container.appendChild(empty);
+ }else visible.forEach(c=>container.appendChild(recentEntryElement(c)));
+ $('moreRecent').style.display=visible.length<all.length?'block':'none';
+ $('moreRecent').textContent='더 보기 ('+visible.length+'/'+all.length+') ↓';
+ renderWeekHero();
+}
+const beforeRecentCards=renderCards;
+renderCards=function(){beforeRecentCards();renderRecent()};
+
 // Show verified Korean stories before unreviewed notices.
 $('latest').before($('browse'));
 init();
+$('browseBtn').onclick=()=>$('recent').scrollIntoView({behavior:'smooth'});
+$('moreRecent').onclick=()=>{state.recentLimit+=16;renderRecent()};
 $('moreFeed').onclick=()=>{state.feedLimit+=24;renderLatest()};
 setClearDefaults();
 $('moreVerified').onclick=()=>{state.verifiedLimit+=18;renderCards()};
