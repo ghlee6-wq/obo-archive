@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-11-01T23:50:24+00:00",
   "sync_status": "ok",
-  "source_name": "The Guardian corrections RSS",
+  "source_name": "The Guardian corrections RSS + 국내 언론사 정정보도 수집",
   "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
   "verified": [
     {
@@ -226,6 +226,302 @@
           "label": "정정 공지에서 관련 기사 확인"
         }
       ]
+    },
+    {
+      "id": "kr-mk-kakao-2026",
+      "title": "‘기사 내려주세요’라고 했다? 실제 요청 문구는 달랐다",
+      "before": "카카오지회가 기사 삭제를 요구하며 “기사 내려주세요”라고 말했다는 보도",
+      "after": "카카오지회가 실제로 요청한 것은 기사 중 영업이익 10% 관련 부분의 삭제·정정이었다고 바로잡음",
+      "summary": "매일경제가 카카오지회의 발언을 잘못 인용했다고 정정했다. 언론중재위원회 조정에 따른 정정보도다.",
+      "category": "경제",
+      "country": "대한민국",
+      "publisher": "매일경제",
+      "type": "언중위 조정 정정",
+      "date": "2026-08-28",
+      "originalDate": "2026-06-08",
+      "icon": "💬",
+      "tone": "#e8eafa",
+      "titleOriginal": "[정정보도]「네이버의 환희와 카카오의 눈물」보도 관련",
+      "source": "https://www.mk.co.kr/news/all/12139226",
+      "originalUrl": "https://www.mk.co.kr/news/journalist/12068613",
+      "confirmed": "언론중재위원회 조정에 따른 정정보도",
+      "events": [
+        {
+          "date": "2026-08-28",
+          "title": "매일경제가 정정보도 게재",
+          "desc": "카카오지회가 요청한 실제 발언을 밝히고 기존 인용을 바로잡음",
+          "url": "https://www.mk.co.kr/news/all/12139226",
+          "label": "공식 정정보도"
+        },
+        {
+          "date": "2026-06-08",
+          "title": "최초 칼럼 게재",
+          "desc": "카카오지회가 기사 삭제를 요구했다고 인용한 칼럼",
+          "url": "https://www.mk.co.kr/news/journalist/12068613",
+          "label": "원보도 확인"
+        }
+      ],
+      "reviewStatus": "verified",
+      "sourceLabel": "공식 정정보도"
+    },
+    {
+      "id": "kr-chosun-gdi-2026",
+      "title": "GDP도 아니고 GDI 수치도 달랐다? 15.8% → 15.6%",
+      "before": "경제 기사 그래픽에 2분기 GDI 증가율을 15.8%로 표시",
+      "after": "조선일보가 GDI 증가율을 15.6%로 고치고, ‘국민총소득(GDI)’ 명칭도 ‘국내총소득’으로 정정",
+      "summary": "경제 지표의 수치와 용어가 함께 잘못 표기된 사례다. 같은 정정문에서 다른 기사 명칭 오류도 별도로 수정했다.",
+      "category": "경제",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-09-03",
+      "originalDate": "2026-08-26",
+      "icon": "📉",
+      "tone": "#e6eef8",
+      "titleOriginal": "[바로잡습니다] 8월 26일 자 B1면 ‘기준금리 연속 인상할까’ 기사 중 외",
+      "source": "https://cbiz.chosun.com/svc/bulletin/bulletin_art.html?contid=2026090300267",
+      "originalUrl": null,
+      "confirmed": "언론사 ‘바로잡습니다’ 공지",
+      "events": [
+        {
+          "date": "2026-09-03",
+          "title": "수치·용어 정정 게재",
+          "desc": "GDI 증가율 15.8%를 15.6%로, GDI 용어를 국내총소득으로 수정",
+          "url": "https://cbiz.chosun.com/svc/bulletin/bulletin_art.html?contid=2026090300267",
+          "label": "정정 공지 확인"
+        },
+        {
+          "date": "2026-08-26",
+          "title": "최초 지면 기사",
+          "desc": "‘기준금리 연속 인상할까’의 수치·그래픽에서 오류 발생. 별도 원문 URL은 확인되지 않음",
+          "url": null,
+          "label": ""
+        }
+      ],
+      "reviewStatus": "verified",
+      "sourceLabel": "공식 정정보도"
+    },
+    {
+      "id": "kr-chosun-organization-2026",
+      "title": "중국 ‘청년당’이 아니라 ‘청년단’이었다",
+      "before": "중국 정치조직을 ‘중국공산주의청년당’으로 표기",
+      "after": "조선일보가 올바른 명칭인 ‘중국공산주의청년단’으로 정정",
+      "summary": "조직 명칭 한 글자가 잘못된 사례다. 같은 날짜에 게시된 ‘바로잡습니다’ 공지에서 확인할 수 있다.",
+      "category": "국제",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "자발적 정정",
+      "date": "2026-09-03",
+      "originalDate": "2026-08-25",
+      "icon": "🌏",
+      "tone": "#f0e9f8",
+      "titleOriginal": "[바로잡습니다] 8월 26일 자 B1면 ‘기준금리 연속 인상할까’ 기사 중 외",
+      "source": "https://cbiz.chosun.com/svc/bulletin/bulletin_art.html?contid=2026090300267",
+      "originalUrl": null,
+      "confirmed": "언론사 ‘바로잡습니다’ 공지",
+      "events": [
+        {
+          "date": "2026-09-03",
+          "title": "조직 명칭 정정",
+          "desc": "‘중국공산주의청년당’을 ‘중국공산주의청년단’으로 바로잡음",
+          "url": "https://cbiz.chosun.com/svc/bulletin/bulletin_art.html?contid=2026090300267",
+          "label": "정정 공지 확인"
+        },
+        {
+          "date": "2026-08-25",
+          "title": "최초 지면 기사",
+          "desc": "‘中, 차세대 이끌 치링허우 전진 배치’ 기사에서 명칭 오류",
+          "url": null,
+          "label": ""
+        }
+      ],
+      "reviewStatus": "verified",
+      "sourceLabel": "공식 정정보도"
+    },
+    {
+      "id": "kr-donga-plan-2026",
+      "title": "정부가 만든 ‘종합계획안’이라고 보도했는데… 작성 사실 없었다",
+      "before": "중수청 개청 준비 종합계획안의 내용에 근거해 인력 선발 계획을 보도",
+      "after": "행정안전부가 해당 계획안을 작성하지 않았고 문서 내용도 사실이 아니라고 밝힌 뒤 동아일보가 정정",
+      "summary": "정부 문서의 작성·존재 여부가 쟁점이 된 정정보도다. 언론사가 자사 공식 ‘바로잡습니다’에 내용을 게재했다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "동아일보",
+      "type": "자발적 정정",
+      "date": "2026-05-28",
+      "originalDate": "2026-05-27",
+      "icon": "📄",
+      "tone": "#f2ece3",
+      "titleOriginal": "바로잡습니다",
+      "source": "https://www.donga.com/news/article/all/20260528/134005945/2",
+      "originalUrl": null,
+      "confirmed": "언론사 ‘바로잡습니다’ 공지",
+      "events": [
+        {
+          "date": "2026-05-28",
+          "title": "동아일보가 내용 정정",
+          "desc": "행정안전부의 계획안 작성 사실이 없음을 밝히고 관련 보도를 바로잡음",
+          "url": "https://www.donga.com/news/article/all/20260528/134005945/2",
+          "label": "공식 정정문"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "원보도 지면 게재",
+          "desc": "‘중수청준비단, 검사-수사관 300명 선발대로 투입 검토’ 기사",
+          "url": null,
+          "label": ""
+        }
+      ],
+      "reviewStatus": "verified",
+      "sourceLabel": "공식 정정보도"
+    },
+    {
+      "id": "kr-lawtalk-appeal-2026",
+      "title": "교사 직위해제 정당 판결? 이미 항소심에서 뒤집혔다",
+      "before": "1심 판결에 근거해 무죄 판결을 받은 교사의 직위해제 처분이 정당하다고 보도",
+      "after": "항소심에서 직위해제 처분 취소 판결이 있었고, 해당 판결이 이미 확정됐음을 확인해 정정",
+      "summary": "로톡뉴스는 1심 판결만 확인하고 보도한 뒤, 나중에 항소심의 취소 확정 사실을 알게 됐다고 설명했다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "로톡뉴스",
+      "type": "자발적 정정",
+      "date": "2026-04-22",
+      "originalDate": "2025-10-13",
+      "icon": "⚖️",
+      "tone": "#e8edfb",
+      "titleOriginal": "정정보도",
+      "source": "https://lawtalknews.co.kr/article/XKL8558YFY3P",
+      "originalUrl": null,
+      "confirmed": "언론사 직접 정정보도 및 기존 기사 삭제 공지",
+      "events": [
+        {
+          "date": "2026-04-22",
+          "title": "항소심 취소 확정 사실 정정",
+          "desc": "대구고등법원 2024누12895 판결이 2025년 9월 23일 확정됐음을 밝혔음",
+          "url": "https://lawtalknews.co.kr/article/XKL8558YFY3P",
+          "label": "공식 정정보도"
+        },
+        {
+          "date": "2025-10-13",
+          "title": "1심에 근거한 최초 보도",
+          "desc": "언론사는 해당 원보도를 삭제했다고 공지함",
+          "url": null,
+          "label": ""
+        }
+      ],
+      "reviewStatus": "verified",
+      "sourceLabel": "공식 정정보도"
+    },
+    {
+      "id": "kr-kmib-budget-2026",
+      "title": "국방예산 집행에 구멍? 정정문에는 ‘전액 집행 완료’",
+      "before": "방위사업청 예산 집행에서 공백이 발생할 수 있다는 취지의 기사 게재",
+      "after": "2025년 미지급액을 포함해 2026년 1월 집행 대상 예산을 전액 집행했다고 확인해 정정",
+      "summary": "국민일보가 언론중재위원회 조정에 따라 방위사업청 예산 집행 관련 사실관계를 바로잡았다.",
+      "category": "경제",
+      "country": "대한민국",
+      "publisher": "국민일보",
+      "type": "언중위 조정 정정",
+      "date": "2026-03-12",
+      "originalDate": "2026-02-01",
+      "icon": "💰",
+      "tone": "#e9f4e8",
+      "titleOriginal": "[정정보도] <방사청 곳간 5400억 ‘구멍’ 국방예산 집행 공백 우려> 관련",
+      "source": "https://www.kmib.co.kr/article/view.asp?arcid=0029517581",
+      "originalUrl": "https://www.kmib.co.kr/article/view.asp?arcid=1769926122",
+      "confirmed": "언론중재위원회 조정에 따른 정정보도",
+      "events": [
+        {
+          "date": "2026-03-12",
+          "title": "국민일보가 공식 정정보도",
+          "desc": "예산이 전액 집행 완료된 사실을 명시",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0029517581",
+          "label": "공식 정정보도"
+        },
+        {
+          "date": "2026-02-01",
+          "title": "예산 공백 우려 원보도",
+          "desc": "‘방사청 곳간 5400억 구멍’ 제목의 기사",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=1769926122",
+          "label": "최초 보도 확인"
+        }
+      ],
+      "reviewStatus": "verified",
+      "sourceLabel": "공식 정정보도"
+    },
+    {
+      "id": "kr-newsis-geoje-2026",
+      "title": "거제 관광객이 중국인 단체? 사실은 한국인 수련생 7명",
+      "before": "거제 매미성을 중국인 관광객들이 점거하고 소음·통행 방해를 일으켰다고 보도",
+      "after": "뉴시스가 한국인 수련생 7명의 평화로운 활동이었고 소음·통행 방해도 없었다고 정정",
+      "summary": "해당 기사의 하단에 ‘바로잡습니다’가 추가됐다. 최초 기사와 정정문을 같은 URL에서 확인할 수 있다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "뉴시스",
+      "type": "자발적 정정",
+      "date": "2026-03-31",
+      "originalDate": "2026-02-16",
+      "icon": "📍",
+      "tone": "#e4f4ee",
+      "titleOriginal": "“여기가 중국인가”…거제 관광지 점거한 ‘노란 옷’ 정체",
+      "source": "https://mobile.newsis.com/view/NISX20260216_0003516685",
+      "originalUrl": "https://mobile.newsis.com/view/NISX20260216_0003516685",
+      "confirmed": "기존 원보도 하단에 공식 ‘바로잡습니다’ 게재",
+      "events": [
+        {
+          "date": "2026-03-31",
+          "title": "뉴시스 기사에 정정문 반영",
+          "desc": "국적·행동·통행방해에 관한 사실관계를 정정",
+          "url": "https://mobile.newsis.com/view/NISX20260216_0003516685",
+          "label": "기사 하단 정정문"
+        },
+        {
+          "date": "2026-02-16",
+          "title": "최초 보도 게재",
+          "desc": "동일한 기사 URL에서 초기 본문과 정정문을 함께 확인할 수 있음",
+          "url": "https://mobile.newsis.com/view/NISX20260216_0003516685",
+          "label": "기사 원문"
+        }
+      ],
+      "reviewStatus": "verified",
+      "sourceLabel": "공식 정정보도"
+    },
+    {
+      "id": "kr-pressian-school-2026",
+      "title": "서명을 위조해 사업을 땄다? 필수 동의서 자체가 없었다",
+      "before": "교직원 동의서명을 위조해 국가 공모사업을 따냈다는 취지의 보도",
+      "after": "프레시안이 동의서는 필수 제출서류가 아니었고 실제 제출되지 않았음을 확인하고 해당 내용을 정정",
+      "summary": "원래 기사에서 단정적으로 표현된 일부 사안과 확인되지 않은 의혹을 바로잡은 사례다. 정정보도는 다음 뉴스에 게재된 프레시안 기사로 확인했다.",
+      "category": "사회",
+      "country": "대한민국",
+      "publisher": "프레시안",
+      "type": "자발적 정정",
+      "date": "2026-02-25",
+      "originalDate": "2026-02-09",
+      "icon": "🏫",
+      "tone": "#f2ece5",
+      "titleOriginal": "[정정보도] <‘4억 국가사업 서명 위조’ 광주 특성화고…> 관련",
+      "source": "https://v.daum.net/v/20260225160923819",
+      "originalUrl": "https://www.pressian.com/pages/articles/2026020913390366358",
+      "confirmed": "언론사 정정보도(포털 게재) 및 경찰 불송치 사실 설명",
+      "events": [
+        {
+          "date": "2026-02-25",
+          "title": "프레시안 정정보도 게재",
+          "desc": "교직원 동의서·범죄 확정 여부에 관한 내용을 정정. 다른 의혹 및 절차는 별도로 진행 중이라고 명시",
+          "url": "https://v.daum.net/v/20260225160923819",
+          "label": "정정보도 확인"
+        },
+        {
+          "date": "2026-02-09",
+          "title": "광주 특성화고 관련 최초 기사",
+          "desc": "‘4억 국가사업 서명 위조’ 관련 보도",
+          "url": "https://www.pressian.com/pages/articles/2026020913390366358",
+          "label": "최초 기사"
+        }
+      ],
+      "reviewStatus": "verified",
+      "sourceLabel": "공식 정정보도"
     }
   ],
   "feed_items": [
@@ -768,6 +1064,18 @@
           "label": "공식 공지 보기"
         }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "The Guardian corrections",
+      "country": "영국",
+      "kind": "rss"
+    },
+    {
+      "name": "국내 정정보도 발견",
+      "country": "대한민국",
+      "kind": "discovery"
     }
   ]
 }
