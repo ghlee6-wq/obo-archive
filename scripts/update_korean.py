@@ -230,7 +230,7 @@ def discover(fetch=get_url, sources=None, searches=None):
 def normalize_dedupe_text(value):
     """Treat typographic quote variants as the same headline."""
     value = unicodedata.normalize("NFKC", html.unescape(str(value or "")).casefold())
-    return re.sub(r"[^\\w]+", "", value)
+    return re.sub(r"[^\w]+", "", value)
 
 def dedupe_candidates(entries):
     """Prefer publisher URLs; de-duplicate syndicated or re-indexed RSS notices."""
