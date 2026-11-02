@@ -133,10 +133,27 @@ function init(){renderShelves();renderCards();const spot=cases.find(c=>c.id==='w
 
 async function loadData(){
   try{
-    const resp=await fetch('data.json?t='+Date.now(),{cache:'no-store'});
-    if(!resp.ok)throw new Error('HTTP '+resp.status);
-    const d=await resp.json();
-    if(!Array.isArray(d.verified)||!Array.isArray(d.feed_items))throw new Error('잘못된 데이터 형식');
+    // Prefer live data from the public source repository.
+    // Netlify's packaged copy is an offline/deployment fallback only.
+    // This makes RSS updates visible without requiring a new Netlify deploy every time.
+    const timestamp=Date.now();
+    const sources=[
+      'https://raw.githubusercontent.com/ghlee6-wq/obo-archive/main/data.json?t='+timestamp,
+      'data.json?t='+timestamp
+    ];
+    let d=null, fetchError=null;
+    for(const url of sources){
+      try{
+        const response=await fetch(url,{cache:'no-store',mode:'cors',credentials:'omit'});
+        if(!response.ok)throw new Error('HTTP '+response.status);
+        const parsed=await response.json();
+        if(!Array.isArray(parsed.verified)||!Array.isArray(parsed.feed_items))
+          throw new Error('잘못된 데이터 형식');
+        d=parsed;
+        break;
+      }catch(e){fetchError=e;}
+    }
+    if(!d)throw fetchError||new Error('공개 데이터 연결 실패');
     lastData=d;
     const verified=d.verified.filter(x=>x.reviewStatus==='verified');
     const unreviewed=d.feed_items.filter(x=>x.reviewStatus==='unreviewed');
