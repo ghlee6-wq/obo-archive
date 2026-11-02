@@ -73,6 +73,9 @@ def refresh(xml_bytes=None):
     records = [r for r in records if r["source"] not in verified_urls]
     existing = {r["id"]: r for r in data.get("feed_items", [])
                 if r.get("id") and r.get("reviewStatus") == "unreviewed"}
+    # Prevent no-op commits and unnecessary Netlify builds every six hours.
+    if not any(r["id"] not in existing for r in records):
+        return {"verified": len(data["verified"]), "discovered": len(existing), "unchanged": True}
     existing.update({r["id"]: r for r in records})
     data["feed_items"] = sorted(existing.values(), key=lambda r: (r.get("date", ""), r["id"]), reverse=True)[:300]
     data["updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
