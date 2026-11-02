@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T00:23:38+00:00",
+  "updated_at": "2026-11-02T19:09:36+00:00",
   "sync_status": "ok",
   "source_name": "The Guardian corrections RSS + 국내 언론사 정정보도 수집",
   "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
@@ -1842,6 +1842,99 @@
   ],
   "feed_items": [
     {
+      "id": "kr-feed-f8d5854be9d903c5ae45",
+      "title": "[바로잡습니다] 10월 21일 자 A16면 ’137년 英 전통 문예지가 주목한 ‘K문학’… “소프트파워 근원 찾으러 왔다”' 기사에서 외",
+      "titleOriginal": "[바로잡습니다] 10월 21일 자 A16면 ’137년 英 전통 문예지가 주목한 ‘K문학’… “소프트파워 근원 찾으러 왔다”' 기사에서 외",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-11-02",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://www.chosun.com/culture-life/culture_general/2026/11/03/LUKFBFFZKFFYPOSA2ES2ONUI4E/",
+      "sourceLabel": "언론사 원문",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "국내 언론사 RSS",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://www.chosun.com/culture-life/culture_general/2026/11/03/LUKFBFFZKFFYPOSA2ES2ONUI4E/",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
+      "id": "kr-feed-40663be7b5b2a9941d82",
+      "title": "[바로잡습니다] 10월 21일 자 A16면 '137년 英 전통 문예지가 주목한 'K문학'… \"소프트파워 근원 찾으러 왔다\"' 기사에서 외",
+      "titleOriginal": "[바로잡습니다] 10월 21일 자 A16면 '137년 英 전통 문예지가 주목한 'K문학'… \"소프트파워 근원 찾으러 왔다\"' 기사에서 외",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-11-02",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOXkxUDZJcmoyNmRBTnZsbnlqLXRFVmhpZ29meFBRRkdpU0R5Z2xtc0Q1S2dQajAxMHk0cl94VXA0Qm15WWlBMl9CdlZCcjMyWFdWU0JjRk9STDhJMTQzakRjQmJEYXhGdHk1TDBMM3hrVDhWeGRrVm9xRzVZeFBzQVlnMll1ZDA1WEF4ajFJbmxCWTl0?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOXkxUDZJcmoyNmRBTnZsbnlqLXRFVmhpZ29meFBRRkdpU0R5Z2xtc0Q1S2dQajAxMHk0cl94VXA0Qm15WWlBMl9CdlZCcjMyWFdWU0JjRk9STDhJMTQzakRjQmJEYXhGdHk1TDBMM3hrVDhWeGRrVm9xRzVZeFBzQVlnMll1ZDA1WEF4ajFJbmxCWTl0?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
+      "id": "kr-feed-1f73a8a833ee55ba3daf",
+      "title": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
+      "titleOriginal": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": ":: 위즈경제 ::",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-10-30",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-10-30",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
       "id": "kr-feed-8b99af7b8eadae5ae2a0",
       "title": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
       "titleOriginal": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
@@ -1868,6 +1961,37 @@
           "title": "정정 보도로 보이는 제목 발견",
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
+      "id": "kr-feed-790f53953e762c993216",
+      "title": "[바로잡습니다] 10월 22일 자 A29면 ‘[부산에 가면] 바다와 도서관, 그리고 작은 질문’ 외",
+      "titleOriginal": "[바로잡습니다] 10월 22일 자 A29면 ‘[부산에 가면] 바다와 도서관, 그리고 작은 질문’ 외",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "조선일보",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-10-29",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ocV9SY19sSXdrY1FMeGRoNlNhakZmd1ZvdWtWQWs0T2hXVjEwemJtMi1fRWxWZk12LTVTQnczMTRpSnI3QWFITmNINnBqZ0pSNXlkLWJYYTNQbmJfMnVKcUlKUnZFMllMMEJjR01HbnZFT0EtUXBFcg?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-10-29",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ocV9SY19sSXdrY1FMeGRoNlNhakZmd1ZvdWtWQWs0T2hXVjEwemJtMi1fRWxWZk12LTVTQnczMTRpSnI3QWFITmNINnBqZ0pSNXlkLWJYYTNQbmJfMnVKcUlKUnZFMllMMEJjR01HbnZFT0EtUXBFcg?oc=5",
           "label": "원문으로 이동"
         }
       ]
@@ -3516,6 +3640,37 @@
       ]
     },
     {
+      "id": "kr-feed-8bedd91c992b34914b3a",
+      "title": "정정보도 소송에 연수구 예산 쓴 이재호 청장 고발…경찰 수사 착수",
+      "titleOriginal": "정정보도 소송에 연수구 예산 쓴 이재호 청장 고발…경찰 수사 착수",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "경인일보",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2025-08-28",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TdVZTS1FZSzdOS3NXeXEwYVUxYjViMmYzaG96N3FULTJubHZST1FMQ3B1NmcxVHlqMnp4VU4yamRERjZ2cS03S1plZTNaUTYxOXc?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2025-08-28",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TdVZTS1FZSzdOS3NXeXEwYVUxYjViMmYzaG96N3FULTJubHZST1FMQ3B1NmcxVHlqMnp4VU4yamRERjZ2cS03S1plZTNaUTYxOXc?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
       "id": "kr-feed-5040115daaf87bbe8b8c",
       "title": "[정정보도] '읽걷쓰' 과잉 홍보에 교육 파탄…인천시교육감, “학생·교원 외면” 비판 / 7월 8일 외 3건 관련",
       "titleOriginal": "[정정보도] '읽걷쓰' 과잉 홍보에 교육 파탄…인천시교육감, “학생·교원 외면” 비판 / 7월 8일 외 3건 관련",
@@ -4596,11 +4751,11 @@
     }
   ],
   "korean_sync": {
-    "checked_at": "2026-11-02T00:23:38+00:00",
+    "checked_at": "2026-11-02T19:09:36+00:00",
     "feeds_checked": 24,
     "feeds_reachable": 24,
-    "discovered_new": 88,
-    "total_korean_unreviewed": 71,
+    "discovered_new": 48,
+    "total_korean_unreviewed": 76,
     "errors": []
   },
   "korean_backfill_completed_at": "2026-11-02T00:18:27+00:00",
