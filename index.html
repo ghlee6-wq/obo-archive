@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="theme-color" content="#f6f6f2"/>
-<title>오보 아카이브 | 자동 갱신 뉴스 정정 아카이브</title>
+<title>오보 아카이브 | 한국과 세계의 뉴스 정정 이야기</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap');
 :root{--bg:#f6f6f2;--paper:#fff;--ink:#22241f;--muted:#747a73;--line:#e3e7de;--green:#235c4a;--bright:#dff3e8;--accent:#d6f585;--shadow:0 12px 32px rgba(24,42,29,.045)}
@@ -23,6 +23,17 @@
 .auto-news{padding-top:35px}.auto-news .section-head{align-items:center}
 @media(max-width:700px){.latest-list{grid-template-columns:1fr}.auto-news .section-head{align-items:flex-start;gap:12px;flex-wrap:wrap}.latest-link{padding:15px}}
 .region-switch{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 18px}.region-switch button{background:#fff;border:1px solid #dbe5d9;border-radius:999px;padding:10px 15px;color:#586b5a;font-size:12px;font-weight:800;cursor:pointer}.region-switch button.active{background:#244c38;color:#fff;border-color:#244c38}.feed-info{margin:0 0 14px;color:#7a887d;font-size:12px}.more-feed{margin:22px auto 0;border-radius:12px;background:#fff;border:1px solid #aecbb7;padding:13px 26px;font-size:13px;font-weight:800;color:#245c42;cursor:pointer}.more-feed:hover{background:#eaf4ea}@media(max-width:900px){.shelves{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:640px){.shelves{grid-template-columns:repeat(2,minmax(0,1fr))}.more-feed{width:100%}}
+
+.picks-section{margin-top:38px}.picks-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:18px}
+.pick-card{border:1px solid var(--line);background:#fff;min-height:206px;border-radius:18px;text-align:left;padding:20px;display:flex;flex-direction:column;align-items:flex-start;transition:transform .17s,box-shadow .17s}
+.pick-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.pick-kicker{font-size:11px;font-weight:850;color:#287047;margin-bottom:12px}
+.pick-title{font-size:17px;font-weight:850;line-height:1.5;letter-spacing:-.7px;word-break:keep-all;flex:1}
+.pick-sub{font-size:11px;color:#7b897c;margin-top:16px}
+.pick-card:nth-child(4n+1){background:#e8f3e8}.pick-card:nth-child(4n+2){background:#f3ecda}.pick-card:nth-child(4n+3){background:#e8edf6}.pick-card:nth-child(4n+4){background:#f1e9ed}
+.importance-tabs{margin-top:6px;margin-bottom:13px}.importance-tabs button.active{background:#1f5f47}
+@media(max-width:1000px){.picks-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.picks-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.pick-card{min-height:174px;padding:15px}.pick-title{font-size:14px}.picks-section{margin-top:29px}}
 </style>
 </head>
 <body>
@@ -31,21 +42,22 @@
 <section id="home">
 <div class="mobile-search"><label class="navsearch"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="searchMobile" type="search" placeholder="사건, 언론사, 키워드 검색" autocomplete="off"/></label></div>
 <div class="hero"><div class="hero-main"><div class="eyebrow">KOREA FIRST · GLOBAL CORRECTIONS</div><h1>그 뉴스,<br/>그다음엔<br/>어떻게 됐을까?</h1><p class="hero-desc">어제의 속보가 오늘의 정정이 되기도 하니까.<br/>국내 정정보도를 먼저 보여드려요. 세계의 정정 기록도 함께 모아요.</p><div class="hero-actions"><button class="btn btn-primary" id="randomHero">🎲 아무거나 하나 보기 <span>↗</span></button><button class="btn btn-light" id="browseBtn">기록 둘러보기 ↓</button></div></div><button class="spotlight" id="spotlight" aria-label="오늘의 발견 보기"><div class="spot-top"><span class="spot-label">✦ 오늘의 발견</span><span class="spot-date" id="spotDate"></span></div><div class="spot-body"><span class="spot-topic" id="spotTopic"></span><h2 id="spotTitle"></h2><div class="spot-desc" id="spotDesc"></div></div><div class="spot-footer"><span>공식 정정문으로 확인한 이야기</span><span class="spot-arrow">↗</span></div></button></div>
+<section class="section picks-section" id="picks"><div class="section-head"><div><div class="eyebrow">EDITOR'S PICKS</div><h2>한 번쯤 읽어볼 반전 뉴스</h2><div class="section-sub">작은 오기보다 내용이 어떻게 달라졌는지 흥미로운 공식 정정부터 골랐어요.</div></div><button type="button" class="link-plain" id="randomPick">랜덤 추천 ↗</button></div><div class="picks-grid" id="picksGrid"><div class="empty">추천 사례를 불러오는 중…</div></div></section>
 <section class="section" id="topics"><div class="section-head"><div><div class="eyebrow">PICK YOUR CURIOSITY</div><h2>어떤 이야기가 끌리세요?</h2><div class="section-sub">검색할 필요 없어요. 관심 가는 주제부터 눌러보세요.</div></div></div><div class="shelves" id="shelves"></div></section>
 <div class="live-controls" id="liveControls">
-  <div class="live-left"><span class="live-dot"></span><div><strong>실제 정정 데이터 연결</strong><div id="syncStatus" class="live-muted" aria-live="polite">공식 근거를 확인한 사례 6건이 표시됩니다. 자동 수집 데이터 확인 중…</div></div></div>
+  <div class="live-left"><span class="live-dot"></span><div><strong>실제 정정 데이터 연결</strong><div id="syncStatus" class="live-muted" aria-live="polite">국내외 정정 사례를 불러오는 중…</div></div></div>
   <span class="auto-tag">자동 업데이트</span>
 </div>
 <section class="section auto-news" id="latest">
   <div class="section-head"><div><div class="eyebrow">JUST CORRECTED</div><h2>새로 발견된 정정 공지</h2><div class="section-sub">공식 정정란에서 자동 발견합니다. 세부 오류·최초 보도는 아직 검증되지 않은 원문 링크입니다.</div></div><span class="auto-tag">자동 수집 · 검토 전</span></div>
   <div id="feedCountry" class="region-switch"></div><div class="feed-info" id="feedInfo"></div><div id="latestList" class="latest-list"><div class="empty">연결된 최신 정정 데이터 확인 중…</div></div><button type="button" id="moreFeed" class="more-feed" style="display:none">더 보기 ↓</button>
 </section>
-<section class="section" id="browse"><div class="section-head"><div><div class="eyebrow">EXPLORE STORIES</div><h2 id="browseTitle">한 번쯤 볼 만한 정정 이야기</h2><div class="section-sub" id="browseSub">공식적으로 정정되거나 판정된 기록만 담았습니다.</div></div><button class="link-plain" id="randomSmall">랜덤으로 보기 ↗</button></div><div id="verifiedCountry" class="region-switch"></div><div class="filters" id="filters"></div><div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin:16px 0 16px"><span class="meta" id="resultCount"></span><button class="link-plain" id="clearFilters" style="font-size:12px">전체 보기 ↺</button></div><div class="cards" id="cards"></div><p class="notice">* 기사 원문을 복제하지 않고 공식 정정·판정 기록으로 연결합니다. 일부 최초 보도는 별도 원문 링크가 확인되지 않아 공식 정정문에서 확인할 수 있습니다.</p></section>
+<section class="section" id="browse"><div class="section-head"><div><div class="eyebrow">EXPLORE STORIES</div><h2 id="browseTitle">한 번쯤 볼 만한 정정 이야기</h2><div class="section-sub" id="browseSub">공식적으로 정정되거나 판정된 기록만 담았습니다.</div></div><button class="link-plain" id="randomSmall">랜덤으로 보기 ↗</button></div><div id="verifiedCountry" class="region-switch"></div><div id="importanceTabs" class="region-switch importance-tabs" aria-label="정정 유형 선택"></div><div class="filters" id="filters"></div><div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin:16px 0 16px"><span class="meta" id="resultCount"></span><button class="link-plain" id="clearFilters" style="font-size:12px">전체 보기 ↺</button></div><div class="cards" id="cards"></div><button id="moreVerified" type="button" class="more-feed" style="display:none">정정 사례 더 보기 ↓</button><p class="notice">* 기사 원문을 복제하지 않고 공식 정정·판정 기록으로 연결합니다. 일부 최초 보도는 별도 원문 링크가 확인되지 않아 공식 정정문에서 확인할 수 있습니다.</p></section>
 <div class="bottom-banner"><div><h3>정정됐다는 사실도 뉴스가 되어야 하지 않을까요?</h3><p>이 아카이브는 누군가를 평가하거나 순위를 매기기보다, 공식적으로 남은 정정 기록을 찾아보기 쉽게 연결합니다.</p></div><button class="btn btn-primary" id="randomBottom">다른 이야기 발견하기 ↗</button></div>
 </section>
 <section class="detail-page" id="detail"><button class="back" id="backBtn">← 모든 이야기로 돌아가기</button><article class="detail-shell"><div class="detail-hero"><div class="detail-kicker" id="detailKicker"></div><h1 id="detailTitle"></h1><p class="detail-lead" id="detailLead"></p><div class="compare"><div class="comparison before"><div class="lab">처음에는 이렇게 알려졌어요</div><p id="beforeText"></p></div><div class="comparison after"><div class="lab">하지만 공식 정정·판정에서는</div><p id="afterText"></p></div></div><div class="detail-buttons"><button class="minibtn" id="shareBtn">↗ 링크 복사</button><button class="minibtn" id="anotherBtn">🎲 다른 이야기 보기</button></div></div><div class="detail-inner"><div><h2>거꾸로 읽는 뉴스 타임라인</h2><p class="timeline-note">결론에서 출발해 최초 보도까지. 오래된 기록부터가 아니라 정정된 사실을 먼저 읽습니다.</p><div class="timeline" id="timeline"></div></div><aside><div class="sidecard" id="sidecard"></div><div class="side-note">원문과 정정문에 해석 차이가 있다면 공식 출처를 우선하세요. 이 사이트는 독자적인 사실 판정을 수행하지 않습니다.</div></aside></div></article></section>
 </main>
-<footer class="footer"><div class="wrap footer-inner"><div><strong>오보 아카이브</strong> · NEWS CORRECTIONS ARCHIVE<br/>뉴스의 그다음 이야기를 기록합니다.</div><div>v5 · 국내 우선 · 국내외 정정 RSS 수집 · 검증 기록과 미검토 공지 분리</div></div></footer>
+<footer class="footer"><div class="wrap footer-inner"><div><strong>오보 아카이브</strong> · NEWS CORRECTIONS ARCHIVE<br/>뉴스의 그다음 이야기를 기록합니다.</div><div>v6 · 국내 우선 · 공식 확인 기록과 자동 발견 후보 구분 · 출처 링크</div></div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script>
 'use strict';
@@ -55,7 +67,7 @@ let lastData = FALLBACK_DATA;
 let liveFeed = [];
 
 const $=id=>document.getElementById(id);
-const state={category:'전체',query:'',type:'전체',region:'대한민국',feedRegion:'대한민국',feedLimit:16,view:'home',id:null};
+const state={category:'전체',query:'',type:'전체',region:'대한민국',feedRegion:'대한민국',feedLimit:16,verifiedLimit:18,importance:'major',view:'home',id:null};
 const categories=[{name:'사회',icon:'🏛️',sub:'법원·사건·생활 뉴스'},{name:'국제',icon:'🌍',sub:'나라와 세계의 소식'},{name:'경제',icon:'📊',sub:'숫자와 돈의 이야기'},{name:'문화',icon:'🎨',sub:'영화·예술·역사'},{name:'생활',icon:'☕',sub:'일상 속 뜻밖의 사실'}];
 const htmlEscape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const labelDate=d=>d.replaceAll('-','.');
@@ -150,14 +162,105 @@ renderLatest=function(){
 const oldOnSearch=onSearch;
 onSearch=function(query){oldOnSearch(query);renderLatest()};
 function setClearDefaults(){
-  $('clearFilters').onclick=()=>{state.category='전체';state.type='전체';state.query='';state.region='대한민국';syncInputs();renderCards()};
+  $('clearFilters').onclick=()=>{state.category='전체';state.type='전체';state.query='';state.region='대한민국';state.importance='major';state.verifiedLimit=18;syncInputs();renderCards()};
 }
+
+
+const editorialIds=[
+  'kr-kukinews-university-2026','kr-mk-military-rations-court-2026',
+  'kr-knnews-bathhouse-photo-2026','kr-mk-patrolcars-2025',
+  'kr-joongang-insurance-2026','kr-kmib-budget-2026',
+  'kr-chosun-consen-2026','kr-newsis-geoje-2026',
+  'kr-lawtalk-appeal-2026','kr-donga-plan-2026',
+  'kr-khan-prosecutor-2026','kr-herald-taskforce-2025'
+];
+function substantial(c){
+  return c.importance==='주요 정정'||c.impact==='주요 정정'||
+    ['법원 판결 정정','언중위 조정 정정','공식 판단'].includes(c.type)||
+    editorialIds.includes(c.id);
+}
+const originalFiltered=getFiltered;
+getFiltered=function(){
+  return originalFiltered().filter(c=>state.importance==='all'||(state.importance==='major'?substantial(c):!substantial(c)));
+};
+function renderImportance(){
+  const root=$('importanceTabs');if(!root)return;
+  root.textContent='';
+  [['major','⭐ 주요 정정'],['all','📚 전체 기록'],['minor','✏️ 짧은 정정']].forEach(pair=>{
+    const button=document.createElement('button');
+    button.type='button';button.className=pair[0]===state.importance?'active':'';
+    button.textContent=pair[1];
+    button.onclick=()=>{state.importance=pair[0];state.verifiedLimit=18;renderCards();};
+    root.appendChild(button);
+  });
+}
+function renderPicks(){
+ const target=$('picksGrid');if(!target)return;
+ target.textContent='';
+ const list=editorialIds.map(id=>cases.find(c=>c.id===id)).filter(Boolean);
+ if(!list.length){target.textContent='추천 사례를 불러오는 중…';return}
+ list.forEach((c,i)=>{
+  const button=document.createElement('button');button.type='button';button.className='pick-card';
+  const top=document.createElement('span');top.className='pick-kicker';top.textContent=String(i+1).padStart(2,'0')+' · '+c.publisher+' · '+c.date;
+  const title=document.createElement('span');title.className='pick-title';title.textContent=c.title;
+  const sub=document.createElement('span');sub.className='pick-sub';sub.textContent=c.type+' · 공식 출처 보기 ↗';
+  button.append(top,title,sub);
+  button.onclick=()=>openCase(c.id);
+  target.appendChild(button);
+ });
+}
+const normalRenderCards=renderCards;
+renderCards=function(){
+ normalRenderCards();
+ renderImportance();
+ const all=getFiltered();
+ const nodes=Array.from($('cards').querySelectorAll('.story-card'));
+ nodes.forEach((node,i)=>{node.hidden=i>=state.verifiedLimit;node.style.display=i>=state.verifiedLimit?'none':''});
+ const shown=Math.min(nodes.length,state.verifiedLimit);
+ const more=$('moreVerified');
+ more.style.display=nodes.length>shown?'block':'none';
+ more.textContent='더 보기 ('+shown+'/'+nodes.length+') ↓';
+ $('resultCount').textContent='국내 공식 정정 '+cases.filter(c=>c.country==='대한민국').length+'건 · 전체 '+cases.length+'건 중 '+shown+'건 표시 · 국내 미검토 후보 '+liveFeed.filter(c=>c.country==='대한민국').length+'건';
+ renderPicks();
+};
+const baseRandomCase=randomCase;
+randomCase=function(){
+ const high=getFiltered().filter(substantial);
+ const options=high.length?high:(getFiltered().length?getFiltered():cases);
+ if(options.length)openCase(options[Math.floor(Math.random()*options.length)].id);
+};
+const initialOpenCase=openCase;
+openCase=function(id){
+ initialOpenCase(id);
+ const c=cases.find(x=>x.id===id);if(!c)return;
+ const related=cases.filter(x=>x.id!==id&&x.country===c.country&&(x.category===c.category||x.publisher===c.publisher)).slice(0,4);
+ if(!related.length)return;
+ const box=document.createElement('div');box.style.cssText='margin-top:22px;padding-top:16px;border-top:1px solid #e1e7df';
+ const title=document.createElement('h3');title.textContent='이어서 볼 만한 정정';box.appendChild(title);
+ related.forEach(item=>{
+  const button=document.createElement('button');button.type='button';
+  button.style.cssText='display:block;text-align:left;width:100%;background:#f3f6f1;border:0;border-radius:9px;padding:11px;margin-top:9px;color:#243e2e;font-weight:750;font-size:12px;cursor:pointer;line-height:1.5';
+  button.textContent=item.title+' ↗';button.onclick=()=>openCase(item.id);box.appendChild(button);
+ });
+ $('sidecard').appendChild(box);
+};
+drawSpot=function(){
+ const picks=editorialIds.map(id=>cases.find(c=>c.id===id)).filter(Boolean);
+ const c=picks.length?picks[Math.floor(Date.now()/86400000)%picks.length]:(cases.find(c=>c.country==='대한민국')||cases[0]);
+ if(!c)return;
+ $('spotDate').textContent=labelDate(c.date);
+ $('spotTopic').textContent=c.icon+' '+c.country+' · '+c.category;
+ $('spotTitle').textContent=c.title;$('spotDesc').textContent=c.summary;
+ $('spotlight').onclick=()=>openCase(c.id);
+};
 
 // Show verified Korean stories before unreviewed notices.
 $('latest').before($('browse'));
 init();
 $('moreFeed').onclick=()=>{state.feedLimit+=24;renderLatest()};
 setClearDefaults();
+$('moreVerified').onclick=()=>{state.verifiedLimit+=18;renderCards()};
+$('randomPick').onclick=randomCase;
 renderLatest();
 loadData();
 // A visitor sees newly deployed JSON without any manual button.
