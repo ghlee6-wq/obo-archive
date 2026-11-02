@@ -48,3 +48,6 @@ jobs:
           else
             echo "Feed unchanged. No deploy required."
           fi
+      - name: Audit public Netlify and live GitHub data (diagnostic only)
+        continue-on-error: true
+        run: python scripts/check_site.py
