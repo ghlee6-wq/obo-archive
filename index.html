@@ -34,6 +34,19 @@
 .importance-tabs{margin-top:6px;margin-bottom:13px}.importance-tabs button.active{background:#1f5f47}
 @media(max-width:1000px){.picks-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.picks-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.pick-card{min-height:174px;padding:15px}.pick-title{font-size:14px}.picks-section{margin-top:29px}}
+
+.hero-news-headline{font-size:clamp(32px,3.55vw,52px)!important;line-height:1.23!important;letter-spacing:-2.4px!important;word-break:keep-all;overflow-wrap:break-word;max-width:560px}
+.hero-main .eyebrow{letter-spacing:.4px}.hero-desc{line-height:1.8}.spotlight .spot-topic{word-break:keep-all}
+.recent-section{margin-top:42px}.recent-section .section-head{align-items:center;gap:15px}.recent-meta{color:#718071;font-size:12px;margin:0 0 15px}
+.recent-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.recent-item{display:flex;flex-direction:column;min-height:184px;gap:11px;background:#fff;border:1px solid var(--line);border-radius:17px;padding:20px;text-decoration:none;color:var(--ink);text-align:left;transition:border .15s,transform .15s;cursor:pointer}
+.recent-item:hover{border-color:#7dab89;transform:translateY(-2px)}
+.recent-top{display:flex;align-items:center;gap:7px;flex-wrap:wrap;font-size:11px;font-weight:800;color:#65816f}
+.recent-date{color:#215f46;font-weight:900;letter-spacing:.1px}
+.recent-status{border-radius:5px;padding:4px 7px;background:#e4f5e8;color:#216848}.recent-status.candidate{background:#f4efe2;color:#80633a}
+.recent-title{font-size:17px;line-height:1.52;font-weight:850;letter-spacing:-.5px;word-break:keep-all;flex:1}
+.recent-detail{font-size:12px;line-height:1.7;color:#6a756b}.recent-footer{display:flex;align-items:center;justify-content:space-between;font-size:11px;color:#7a857b;margin-top:auto;padding-top:9px;border-top:1px solid #edf0eb}
+@media(max-width:700px){.recent-grid{grid-template-columns:1fr}.recent-item{min-height:155px;padding:17px}.recent-title{font-size:15px}.recent-section .section-head{align-items:flex-start;flex-wrap:wrap}.hero-news-headline{font-size:clamp(31px,8.5vw,43px)!important;line-height:1.26!important;letter-spacing:-1.6px!important}}
 </style>
 </head>
 <body>
@@ -41,7 +54,12 @@
 <main class="wrap main">
 <section id="home">
 <div class="mobile-search"><label class="navsearch"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="searchMobile" type="search" placeholder="사건, 언론사, 키워드 검색" autocomplete="off"/></label></div>
-<div class="hero"><div class="hero-main"><div class="eyebrow">KOREA FIRST · GLOBAL CORRECTIONS</div><h1>그 뉴스,<br/>그다음엔<br/>어떻게 됐을까?</h1><p class="hero-desc">어제의 속보가 오늘의 정정이 되기도 하니까.<br/>국내 정정보도를 먼저 보여드려요. 세계의 정정 기록도 함께 모아요.</p><div class="hero-actions"><button class="btn btn-primary" id="randomHero">🎲 아무거나 하나 보기 <span>↗</span></button><button class="btn btn-light" id="browseBtn">기록 둘러보기 ↓</button></div></div><button class="spotlight" id="spotlight" aria-label="오늘의 발견 보기"><div class="spot-top"><span class="spot-label">✦ 오늘의 발견</span><span class="spot-date" id="spotDate"></span></div><div class="spot-body"><span class="spot-topic" id="spotTopic"></span><h2 id="spotTitle"></h2><div class="spot-desc" id="spotDesc"></div></div><div class="spot-footer"><span>공식 정정문으로 확인한 이야기</span><span class="spot-arrow">↗</span></div></button></div>
+<div class="hero"><div class="hero-main"><div class="eyebrow" id="heroEyebrow">THIS WEEK · 최근 7일</div><h1 class="hero-news-headline" id="heroHeadline">이번 주<br/>어떤 뉴스가<br/>바로잡혔을까?</h1><p class="hero-desc" id="heroDesc">최근 일주일 안에 공개된 정정 중 흥미로운 사건을 먼저 보여드립니다.</p><div class="hero-actions"><button class="btn btn-primary" id="randomHero">이번 주 사건 보기 <span>↗</span></button><button class="btn btn-light" id="browseBtn">최신 정정보도 ↓</button></div></div><button class="spotlight" id="spotlight" aria-label="오늘의 발견 보기"><div class="spot-top"><span class="spot-label" id="spotLabel">✦ 함께 볼 만한 정정</span><span class="spot-date" id="spotDate"></span></div><div class="spot-body"><span class="spot-topic" id="spotTopic"></span><h2 id="spotTitle"></h2><div class="spot-desc" id="spotDesc"></div></div><div class="spot-footer"><span>공식 정정문으로 확인한 이야기</span><span class="spot-arrow">↗</span></div></button></div>
+<section class="section recent-section" id="recent">
+<div class="section-head"><div><div class="eyebrow">LATEST FIRST · 최신 정정순</div><h2>방금 바로잡힌 뉴스부터</h2><div class="section-sub">공개 날짜 역순으로 보여드립니다. 정정 내용을 확인한 사건과 검토 전인 공지는 분명하게 구분합니다.</div></div><span id="recentWeekLabel" class="auto-tag">최근 7일 확인 중</span></div>
+<div id="recentRegionTabs" class="region-switch" aria-label="최신 정정 지역 선택"></div><div id="recentCount" class="recent-meta">최신 기록을 불러오는 중…</div>
+<div id="recentList" class="recent-grid"><div class="empty">최신 정정보도 목록 준비 중…</div></div><button id="moreRecent" class="more-feed" type="button" style="display:none">최신 정정 더 보기 ↓</button>
+</section>
 <section class="section picks-section" id="picks"><div class="section-head"><div><div class="eyebrow">EDITOR'S PICKS</div><h2>한 번쯤 읽어볼 반전 뉴스</h2><div class="section-sub">작은 오기보다 내용이 어떻게 달라졌는지 흥미로운 공식 정정부터 골랐어요.</div></div><button type="button" class="link-plain" id="randomPick">랜덤 추천 ↗</button></div><div class="picks-grid" id="picksGrid"><div class="empty">추천 사례를 불러오는 중…</div></div></section>
 <section class="section" id="topics"><div class="section-head"><div><div class="eyebrow">PICK YOUR CURIOSITY</div><h2>어떤 이야기가 끌리세요?</h2><div class="section-sub">검색할 필요 없어요. 관심 가는 주제부터 눌러보세요.</div></div></div><div class="shelves" id="shelves"></div></section>
 <div class="live-controls" id="liveControls">
@@ -57,7 +75,7 @@
 </section>
 <section class="detail-page" id="detail"><button class="back" id="backBtn">← 모든 이야기로 돌아가기</button><article class="detail-shell"><div class="detail-hero"><div class="detail-kicker" id="detailKicker"></div><h1 id="detailTitle"></h1><p class="detail-lead" id="detailLead"></p><div class="compare"><div class="comparison before"><div class="lab">처음에는 이렇게 알려졌어요</div><p id="beforeText"></p></div><div class="comparison after"><div class="lab">하지만 공식 정정·판정에서는</div><p id="afterText"></p></div></div><div class="detail-buttons"><button class="minibtn" id="shareBtn">↗ 링크 복사</button><button class="minibtn" id="anotherBtn">🎲 다른 이야기 보기</button></div></div><div class="detail-inner"><div><h2>거꾸로 읽는 뉴스 타임라인</h2><p class="timeline-note">결론에서 출발해 최초 보도까지. 오래된 기록부터가 아니라 정정된 사실을 먼저 읽습니다.</p><div class="timeline" id="timeline"></div></div><aside><div class="sidecard" id="sidecard"></div><div class="side-note">원문과 정정문에 해석 차이가 있다면 공식 출처를 우선하세요. 이 사이트는 독자적인 사실 판정을 수행하지 않습니다.</div></aside></div></article></section>
 </main>
-<footer class="footer"><div class="wrap footer-inner"><div><strong>오보 아카이브</strong> · NEWS CORRECTIONS ARCHIVE<br/>뉴스의 그다음 이야기를 기록합니다.</div><div>v6 · 국내 우선 · 공식 확인 기록과 자동 발견 후보 구분 · 출처 링크</div></div></footer>
+<footer class="footer"><div class="wrap footer-inner"><div><strong>오보 아카이브</strong> · NEWS CORRECTIONS ARCHIVE<br/>뉴스의 그다음 이야기를 기록합니다.</div><div>v7 · 최근 7일 메인 · 정정일 최신순 · 국내 우선 · 검증 여부 표시</div></div></footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script>
 'use strict';
@@ -67,7 +85,7 @@ let lastData = FALLBACK_DATA;
 let liveFeed = [];
 
 const $=id=>document.getElementById(id);
-const state={category:'전체',query:'',type:'전체',region:'대한민국',feedRegion:'대한민국',feedLimit:16,verifiedLimit:18,importance:'major',view:'home',id:null};
+const state={category:'전체',query:'',type:'전체',region:'대한민국',feedRegion:'대한민국',feedLimit:16,verifiedLimit:18,importance:'major',recentRegion:'대한민국',recentLimit:16,view:'home',id:null};
 const categories=[{name:'사회',icon:'🏛️',sub:'법원·사건·생활 뉴스'},{name:'국제',icon:'🌍',sub:'나라와 세계의 소식'},{name:'경제',icon:'📊',sub:'숫자와 돈의 이야기'},{name:'문화',icon:'🎨',sub:'영화·예술·역사'},{name:'생활',icon:'☕',sub:'일상 속 뜻밖의 사실'}];
 const htmlEscape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const labelDate=d=>d.replaceAll('-','.');
