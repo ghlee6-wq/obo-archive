@@ -55,13 +55,19 @@ SEARCHES = [
     '"바로잡습니다" "동아일보" when:2y',
     '"정정보도" "노컷뉴스" when:2y',
 ]
+# Historical correction notices are indexed once, not fetched on each 6-hour sync.
+BACKFILL_QUERIES = [
+    f"intitle:{word} after:{year}-01-01 before:{year+1}-01-01"
+    for year in (2022, 2023, 2024, 2025)
+    for word in ("바로잡습니다", "정정보도", "정정합니다")
+]
 TITLE_START = re.compile(
     r"^\s*(?:[\[【(]\s*)?"
     r"(?:바로잡습니다|정정보도|정정\s*및\s*반론보도|정정합니다|정정보도문|기사\s*정정)"
     r"(?:[\]】)\s:\-｜]|$)",
     re.I,
 )
-MIN_DATE = dt.date(2023, 1, 1)
+MIN_DATE = dt.date(2022, 1, 1)
 
 def get_url(url):
     if not url.startswith("https://"):
@@ -216,6 +222,15 @@ def discover(fetch=get_url, sources=None, searches=None):
 def refresh(fetch=get_url, sources=None, searches=None):
     data = json.loads(DATA.read_text(encoding="utf-8"))
     new_items, stats = discover(fetch, sources, searches)
+    if sources is None and searches is None and not data.get("korean_backfill_completed_at"):
+        backfill_items, backfill_stats = discover(fetch, [], BACKFILL_QUERIES)
+        if backfill_stats["success"]:
+            new_items.extend(backfill_items)
+            data["korean_backfill_completed_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+        stats["archive_queries_checked"] = backfill_stats["checked"]
+        stats["archive_queries_reachable"] = backfill_stats["success"]
+        stats["archive_candidates"] = len(backfill_items)
+        stats["errors"].extend(backfill_stats["errors"][:10])
     if stats["success"] == 0:
         raise ValueError("All Korea feeds failed; preserve previous data")
     old = data.get("feed_items", [])
