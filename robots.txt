@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oboarchive.netlify.app/sitemap.xml
