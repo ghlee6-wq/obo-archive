@@ -72,7 +72,7 @@ const categories=[{name:'사회',icon:'🏛️',sub:'법원·사건·생활 뉴�
 const htmlEscape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const labelDate=d=>d.replaceAll('-','.');
 function renderShelves(){ $('shelves').innerHTML=categories.map(c=>`<button class="shelf" data-category="${c.name}"><span class="shelf-icon">${c.icon}</span><span class="shelf-bottom"><span><b>${c.name}</b><small>${c.sub}</small></span><span class="arrow">↗</span></span></button>`).join('');document.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>{state.category=b.dataset.category;state.importance='all';state.verifiedLimit=18;state.query='';syncInputs();renderCards();$('browse').scrollIntoView({behavior:'smooth'});}));}
-function renderFilters(){const opts=['전체','사회','국제','경제','문화','생활','공식 판단','자발적 정정','언중위 조정 정정'];$('filters').innerHTML=opts.map(x=>`<button class="chip ${((categories.some(c=>c.name===x)?state.category===x:(x==='전체'?state.category==='전체'&&state.type==='전체':state.type===x)))?'active':''}" data-filter="${x}">${x}</button>`).join('');document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{const x=b.dataset.filter;if(x==='전체'){state.category='전체';state.type='전체'}else if(categories.some(c=>c.name===x)){state.category=x;state.type='전체';state.importance='all';state.verifiedLimit=18}else{state.type=state.type===x?'전체':x}renderCards()}));}
+function renderFilters(){const opts=['전체','사회','국제','경제','문화','생활','공식 판단','자발적 정정','언중위 조정 정정'];$('filters').innerHTML=opts.map(x=>`<button class="chip ${((categories.some(c=>c.name===x)?state.category===x:(x==='전체'?state.category==='전체'&&state.type==='전체':state.type===x)))?'active':''}" data-filter="${x}">${x}</button>`).join('');document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{const x=b.dataset.filter;if(x==='전체'){state.category='전체';state.type='전체'}else if(categories.some(c=>c.name===x)){state.category=x;state.type='전체';state.importance='all';state.verifiedLimit=18}else{state.type=state.type===x?'전체':x;state.importance='all';state.verifiedLimit=18}renderCards()}));}
 function getFiltered(){return cases.filter(c=>(state.category==='전체'||c.category===state.category)&&(state.type==='전체'||c.type===state.type)&&(!state.query||[c.title,c.before,c.after,c.summary,c.publisher,c.country,c.category,c.titleOriginal].join(' ').toLowerCase().includes(state.query.toLowerCase()))).sort((a,b)=>b.date.localeCompare(a.date));}
 function renderCards(){renderFilters();let list=getFiltered();$('resultCount').textContent=`검증 완료 ${cases.filter(c=>c.reviewStatus==='verified').length}건 · 미검토 공지 ${liveFeed.length}건 · 최신순`;$('browseTitle').textContent=state.query?'검색한 이야기':state.category==='전체'?'한 번쯤 볼 만한 정정 이야기':`${state.category}에서 발견한 정정 이야기`;$('browseSub').textContent=state.query?`‘${state.query}’ 검색 결과`:'최초 기사와 공식 정정 자료를 연결한, 직접 검증된 사례입니다.';$('cards').innerHTML=list.length?list.map(c=>`<button class="story-card" data-id="${c.id}" aria-label="${htmlEscape(c.title)} 보기"><div class="card-top" style="background:${c.tone}"><span class="card-topic">${c.icon} ${c.category} · ${c.type}</span><div class="card-headline">${htmlEscape(c.title)}</div><span class="mini-art" aria-hidden="true">${c.icon}</span></div><div class="card-bottom"><div class="switchline">처음에는 이렇게 알려졌는데…</div><div class="card-before">${htmlEscape(c.before)}</div><div class="card-footer"><span class="meta">${labelDate(c.date)} · ${c.publisher}</span><span class="card-more">${c.reviewStatus==='unreviewed'?'원문 확인 ↗':'살펴보기 ↗'}</span></div></div></button>`).join(''):'<div class="empty"><strong>아직 여기에 기록이 없어요.</strong>다른 주제나 검색어로 둘러보세요.</div>';document.querySelectorAll('.story-card').forEach(b=>b.addEventListener('click',()=>openCase(b.dataset.id)));}
 function randomCase(){const pool=getFiltered();const choices=pool.length?pool:cases;openCase(choices[Math.floor(Math.random()*choices.length)].id)}
@@ -136,7 +136,7 @@ function drawSpot(){
 }
 renderCards=function(){
   oldCards();
-  drawRegion('verifiedCountry',state.region,v=>{state.region=v;renderCards()});
+  drawRegion('verifiedCountry',state.region,v=>{state.region=v;state.importance=v==='대한민국'?'major':'all';state.verifiedLimit=18;renderCards()});
   const kr=cases.filter(x=>x.country==='대한민국').length;
   const koreanFeed=liveFeed.filter(x=>x.country==='대한민국').length;
   $('browseTitle').textContent=state.query?'검색한 정정 이야기':state.region==='대한민국'?'🇰🇷 국내에서 바로잡힌 뉴스':state.region==='해외'?'🌍 해외 정정 이야기':'한국부터 보는 전 세계 정정 기록';
@@ -160,9 +160,9 @@ renderLatest=function(){
   $('moreFeed').textContent=`더 보기 (${visible.length}/${all.length}) ↓`;
 };
 const oldOnSearch=onSearch;
-onSearch=function(query){oldOnSearch(query);renderLatest()};
+onSearch=function(query){if(query.trim()){state.importance='all';state.verifiedLimit=18}oldOnSearch(query);renderLatest()};
 function setClearDefaults(){
-  $('clearFilters').onclick=()=>{state.category='전체';state.type='전체';state.query='';state.region='대한민국';state.importance='major';state.verifiedLimit=18;syncInputs();renderCards()};
+  $('clearFilters').onclick=()=>{state.category='전체';state.type='전체';state.query='';state.region='대한민국';state.importance='all';state.verifiedLimit=18;syncInputs();renderCards()};
 }
 
 
