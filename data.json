@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T00:22:09+00:00",
+  "updated_at": "2026-11-02T00:23:38+00:00",
   "sync_status": "ok",
   "source_name": "The Guardian corrections RSS + 국내 언론사 정정보도 수집",
   "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
@@ -730,6 +730,37 @@
       ]
     },
     {
+      "id": "kr-feed-d7390b795d3b87eae55a",
+      "title": "[정정보도] 수원 ‘아보하 페스티벌’ 정상 진행…어쿠야 탐방기 ‘텅 빈 객석’ 보도 바로잡습니다",
+      "titleOriginal": "[정정보도] 수원 ‘아보하 페스티벌’ 정상 진행…어쿠야 탐방기 ‘텅 빈 객석’ 보도 바로잡습니다",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "얼리어답터뉴스",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-10-25",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UT0V3M09aQndRTWUtN1BjeTZiRXhhdnFWWVJ3bXdjdE9mNTVSRElZYmFkc3F2X1k3WVprYlBWQlhBdC1jY2tDZ3RR?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-10-25",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UT0V3M09aQndRTWUtN1BjeTZiRXhhdnFWWVJ3bXdjdE9mNTVSRElZYmFkc3F2X1k3WVprYlBWQlhBdC1jY2tDZ3RR?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
       "id": "kr-feed-02b22322252fd27854fa",
       "title": "[바로잡습니다] 10월 16일 자 B1면 ‘환율의 습격… 車·조선 등 제조업 ‘어닝 쇼크’ 공포’ 기사의 외",
       "titleOriginal": "[바로잡습니다] 10월 16일 자 B1면 ‘환율의 습격… 車·조선 등 제조업 ‘어닝 쇼크’ 공포’ 기사의 외",
@@ -1164,6 +1195,37 @@
       ]
     },
     {
+      "id": "kr-feed-d94fb0814582fefa3903",
+      "title": "[정정 및 반론보도] '용혜인 성평등가족부 장관 후보 두고 청와대-민주당 이견' 관련",
+      "titleOriginal": "[정정 및 반론보도] '용혜인 성평등가족부 장관 후보 두고 청와대-민주당 이견' 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "월간조선",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-09-29",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lWFNGNVFyWWJ5eHNJN3V3X1lDUHUxRjJkaXQ1RV9wZGFNSWRxRkphRGszamhBQnNmRkc4VVN4aGxhYTVTTUJfallKaUItS3g5OFB0OVZSU19Jc3dPRldTR2ZiVnhlSXF5UGhrcQ?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-09-29",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lWFNGNVFyWWJ5eHNJN3V3X1lDUHUxRjJkaXQ1RV9wZGFNSWRxRkphRGszamhBQnNmRkc4VVN4aGxhYTVTTUJfallKaUItS3g5OFB0OVZSU19Jc3dPRldTR2ZiVnhlSXF5UGhrcQ?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
       "id": "kr-feed-2cfae5aa4f379656653a",
       "title": "[바로잡습니다] 9월 17일자 A10면 '법원 \"남북연락사무소 폭파한 북한, 446억원 배상해야\" 기사에서 외",
       "titleOriginal": "[바로잡습니다] 9월 17일자 A10면 '법원 \"남북연락사무소 폭파한 북한, 446억원 배상해야\" 기사에서 외",
@@ -1190,6 +1252,37 @@
           "title": "정정 보도로 보이는 제목 발견",
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZFdLaUlRamtKclFFYXhzN0MzbF81cTBjUXlMMFJiSGJKdTdReWJ0NUJ1ZE1LNnRXNjBfOVYwbWRiR2paVXV3bnN5WEJvUDlILWxlcG9PR0FUcjljM1dHUERrR0tjN2VqNXV0ZVRDWWNuNHlDTVpzMUlBLUFoZFVrSDFVdnR5YjZJNGVZS2N0Q0k?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
+      "id": "kr-feed-0e39a22cba1b051a8a05",
+      "title": "[정정 및 반론보도] 「[추적] 군인 자녀 위한 한민고 없어지나」 관련",
+      "titleOriginal": "[정정 및 반론보도] 「[추적] 군인 자녀 위한 한민고 없어지나」 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "월간조선",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-09-28",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52WlR4czFqMFZaNHNRZ0labnpkV3Q2VzMxV0lFY2VNV0pvS2h4ZVozOVRHWDdVbjlmSDVBdHpESjdISlBvWTdPc09zM2JYZVFiSWFFWWlLbEZsYUZldWdFd2kzVHFhU3A0RVFYSw?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-09-28",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52WlR4czFqMFZaNHNRZ0labnpkV3Q2VzMxV0lFY2VNV0pvS2h4ZVozOVRHWDdVbjlmSDVBdHpESjdISlBvWTdPc09zM2JYZVFiSWFFWWlLbEZsYUZldWdFd2kzVHFhU3A0RVFYSw?oc=5",
           "label": "원문으로 이동"
         }
       ]
@@ -1412,6 +1505,37 @@
       ]
     },
     {
+      "id": "kr-feed-fa10a686d121363ae9a1",
+      "title": "[정정보도] ‘김동현 웹젠크레빅스 대표’ 관련",
+      "titleOriginal": "[정정보도] ‘김동현 웹젠크레빅스 대표’ 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "메디컬투데이",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-08-31",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOUXZQTVYySEF1eFdPamxmU0g4NW1jcUQ5SlVCdFExYmtfd3h0ckN1M21RQzRxdmY4SXhZbW5vOE4yRVNxM0pweWUwOUM2WDFSUHpJSzJaZmJKYjlwUjkxVnNYdkJ4YXVYdm9ueQ?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-08-31",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOUXZQTVYySEF1eFdPamxmU0g4NW1jcUQ5SlVCdFExYmtfd3h0ckN1M21RQzRxdmY4SXhZbW5vOE4yRVNxM0pweWUwOUM2WDFSUHpJSzJaZmJKYjlwUjkxVnNYdkJ4YXVYdm9ueQ?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
       "id": "kr-feed-961753085f5ad89709fa",
       "title": "[바로잡습니다] 월 10일 자 A16면 ' '행복한 화가' 평가에 가려진 천재… 구상회화 거장 이대원의 70년 예술' 기사 사진 설명 중 외",
       "titleOriginal": "[바로잡습니다] 월 10일 자 A16면 ' '행복한 화가' 평가에 가려진 천재… 구상회화 거장 이대원의 70년 예술' 기사 사진 설명 중 외",
@@ -1500,6 +1624,99 @@
           "title": "정정 보도로 보이는 제목 발견",
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON1QzWWF5d0l3UUxOMWNKcnNiRDRxTW16THMyR1NET3pfOEtxOXJfN09vNF9oSnMtbnFIemwyckpYVnNfMXlCYXI1WTc0bWFPaldZUEFFZFN2VGVkRU1SazlfMF8wQWZaOGF2TUJTd24wbXYwRlVvdjhSblJ3LW9ZSTFvbkxvRGFXZERPMTd3Rnc?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
+      "id": "kr-feed-85c3bdefdd484da93f2a",
+      "title": "[정정 및 반론보도] ‘ 군인공제회 갑질 논란 강남 웨딩홀 스캔들’ 등 관련",
+      "titleOriginal": "[정정 및 반론보도] ‘ 군인공제회 갑질 논란 강남 웨딩홀 스캔들’ 등 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "일요시사",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-07-06",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sRXE0aWVQMzRsRWkyQmVPbFBnOThMRHZwVTBvZUVtWTBfMjVseGxBelNxMTdUWVctcWZObTNRNWZQd0NVSXZCbTZOWmFrZTRmZUNOSjdfc2paNTlnRXFnOFhQdWg?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-07-06",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sRXE0aWVQMzRsRWkyQmVPbFBnOThMRHZwVTBvZUVtWTBfMjVseGxBelNxMTdUWVctcWZObTNRNWZQd0NVSXZCbTZOWmFrZTRmZUNOSjdfc2paNTlnRXFnOFhQdWg?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
+      "id": "kr-feed-6ef583e17683564c6d84",
+      "title": "[정정 및 반론보도] ‘ 군인공제회 VIP 전용 ‘솔라룸’의 비밀‘ 관련",
+      "titleOriginal": "[정정 및 반론보도] ‘ 군인공제회 VIP 전용 ‘솔라룸’의 비밀‘ 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "일요시사",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-07-06",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xdll0OFFITEgwNHdwUERjS2E0S01ZSUdpUjNpblFMdVg5eTVZaXUxZjNhcWt0YXRXVExOZUk3X29YZGRPOS1lOGk0S1ZuT0VsQVpHZTV0emF1NWFkT21KVldjUkw?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-07-06",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xdll0OFFITEgwNHdwUERjS2E0S01ZSUdpUjNpblFMdVg5eTVZaXUxZjNhcWt0YXRXVExOZUk3X29YZGRPOS1lOGk0S1ZuT0VsQVpHZTV0emF1NWFkT21KVldjUkw?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
+      "id": "kr-feed-90679fd69800574cb17a",
+      "title": "[정정 및 반론보도] 관련",
+      "titleOriginal": "[정정 및 반론보도] 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "한국일보",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-07-03",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85VUtuNnFGNzQ4eUhtY1BqcDlnV29LbS1sc2NTQVBRc0FVMFVjSnVCZmJDQ0l3c0FYdUFXT19uazduYVI4NnJzZnp5SUFfR3pqdElkUFVsLVV6UVNqODYzUWZOVEVwMkVzSWZvOGNR?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-07-03",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85VUtuNnFGNzQ4eUhtY1BqcDlnV29LbS1sc2NTQVBRc0FVMFVjSnVCZmJDQ0l3c0FYdUFXT19uazduYVI4NnJzZnp5SUFfR3pqdElkUFVsLVV6UVNqODYzUWZOVEVwMkVzSWZvOGNR?oc=5",
           "label": "원문으로 이동"
         }
       ]
@@ -1784,6 +2001,37 @@
       ]
     },
     {
+      "id": "kr-feed-7c841bed318d6ff3f34d",
+      "title": "[정정보도문] ‘경찰, 백현 인천관광공사 사장 내사 중’ 보도 관련",
+      "titleOriginal": "[정정보도문] ‘경찰, 백현 인천관광공사 사장 내사 중’ 보도 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "인천투데이",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-04-14",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJZVNqVnd3YnoxblVlMktsb3FZVC1pWXF6WUcxWWlnMUw3NWRUOFAwZDIyS0x3VERTRVN5d0huZXY5RUkzZF9JMWRfVldXOUJzUzVpMm1oakE4dnJOWHZWeVhtVE9KYnhjdldjZENyTHE?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-04-14",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJZVNqVnd3YnoxblVlMktsb3FZVC1pWXF6WUcxWWlnMUw3NWRUOFAwZDIyS0x3VERTRVN5d0huZXY5RUkzZF9JMWRfVldXOUJzUzVpMm1oakE4dnJOWHZWeVhtVE9KYnhjdldjZENyTHE?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
       "id": "kr-feed-f605af3bd99d6fefcb7c",
       "title": "[정정 및 반론보도] 뉴스헌터스 「[사건X파일] 탈의실 천장서 휴대폰 '빼꼼'... 불법 촬영 '무혐의' 왜」 등 관련",
       "titleOriginal": "[정정 및 반론보도] 뉴스헌터스 「[사건X파일] 탈의실 천장서 휴대폰 '빼꼼'... 불법 촬영 '무혐의' 왜」 등 관련",
@@ -1903,6 +2151,37 @@
           "title": "정정 보도로 보이는 제목 발견",
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4yeFVBZHRlVV9SVlI3WEFtSndkQkw4LWpIYmhMa2VBN3J4Y1BvYUZPNUI2d01CZjR5VWNiUXU2c21Fa3IxTmxOR2xmanVMY3BGT1Q5RXI4VXpxMG1UamfSAWNBVV95cUxORUU4M2ZVX3dRMHJMT1REamlLc29CdjFQZ3JvSGtXa3lRNi1TdE55SEJaTzdpU2MwcHZ5R2dSTzJWNTRhQVhKRk4zWTNYRXF2WnBxNHh1dlpqZ0VKTmRPeE1HZ0E?oc=5",
+          "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
+      "id": "kr-feed-b4a5687300e17624e21f",
+      "title": "[정정보도] 작년 전 차종·차급 걸쳐 트럭 판매량 ‘침울’",
+      "titleOriginal": "[정정보도] 작년 전 차종·차급 걸쳐 트럭 판매량 ‘침울’",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "상용차매거진",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-02-05",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlLTY2S1NpTV9jZnA2MWs5Y1lLZGZTd0Y1ZC1zdk8yRnBlSHQyb0VoNElKWF9LLWdQMDhzaDg0YllaTFNzSDFmeGlZeEtpam8tNGxIVWY2ZGdya0tzWmZXRnNQVGdvcUE?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-02-05",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlLTY2S1NpTV9jZnA2MWs5Y1lLZGZTd0Y1ZC1zdk8yRnBlSHQyb0VoNElKWF9LLWdQMDhzaDg0YllaTFNzSDFmeGlZeEtpam8tNGxIVWY2ZGdya0tzWmZXRnNQVGdvcUE?oc=5",
           "label": "원문으로 이동"
         }
       ]
@@ -3112,12 +3391,13 @@
     }
   ],
   "korean_sync": {
-    "checked_at": "2026-11-02T00:22:09+00:00",
+    "checked_at": "2026-11-02T00:23:38+00:00",
     "feeds_checked": 24,
     "feeds_reachable": 24,
-    "discovered_new": 37,
-    "total_korean_unreviewed": 62,
+    "discovered_new": 88,
+    "total_korean_unreviewed": 71,
     "errors": []
   },
-  "korean_backfill_completed_at": "2026-11-02T00:18:27+00:00"
+  "korean_backfill_completed_at": "2026-11-02T00:18:27+00:00",
+  "korean_2026_monthly_backfill": "2026-11-02T00:23:38+00:00"
 }
