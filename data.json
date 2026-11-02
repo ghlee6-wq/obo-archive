@@ -1303,6 +1303,44 @@
       ]
     },
     {
+      "id": "kr-newdaily-union-2026",
+      "title": "언론노조와 한 정당이 유착했다고 보도… 공식 정정 게재",
+      "before": "인터뷰를 통해 언론노조가 특정 정당과 유착해 공영방송을 장악했다고 보도",
+      "after": "언론노조가 여러 정당과 정책협약을 맺는 등 해당 정당과 유착한 적이 없는 것으로 확인됐다고 언론사가 정정",
+      "summary": "2026년 6월 뉴데일리가 언론중재위원회 조정에 따라 게재한 정정보도다. 유착 여부에 대한 사이트 자체 판정이 아니다.",
+      "category": "사회",
+      "publisher": "뉴데일리",
+      "type": "언중위 조정 정정",
+      "date": "2026-06-29",
+      "originalDate": "2026-05-21",
+      "icon": "🎙️",
+      "correctionKind": "유착 주장 정정",
+      "importance": "주요 정정",
+      "source": "https://www.newdaily.co.kr/site/data/html/2026/06/29/2026062900036.html",
+      "country": "대한민국",
+      "tone": "#e2efe8",
+      "reviewStatus": "verified",
+      "titleOriginal": "언론노조와 한 정당이 유착했다고 보도… 공식 정정 게재",
+      "sourceLabel": "공식 정정보도",
+      "confirmed": "언론사가 공개한 공식 정정보도",
+      "events": [
+        {
+          "date": "2026-06-29",
+          "title": "언론사 공식 정정보도 게재",
+          "desc": "언론노조가 여러 정당과 정책협약을 맺는 등 해당 정당과 유착한 적이 없는 것으로 확인됐다고 언론사가 정정",
+          "url": "https://www.newdaily.co.kr/site/data/html/2026/06/29/2026062900036.html",
+          "label": "공식 정정보도"
+        },
+        {
+          "date": "2026-05-21",
+          "title": "최초 보도 게재",
+          "desc": "인터뷰를 통해 언론노조가 특정 정당과 유착해 공영방송을 장악했다고 보도",
+          "url": null,
+          "label": ""
+        }
+      ]
+    },
+    {
       "id": "kr-knnews-bathhouse-photo-2026",
       "title": "문 닫는 동네 목욕탕 기사에 나온 사진… 그 목욕탕은 정상 영업 중",
       "before": "경영난·폐업 관련 기사에 특정 목욕탕 외관 사진을 게재",
@@ -1527,6 +1565,51 @@
       "sourceLabel": "공식 정정보도"
     },
     {
+      "id": "kr-mk-military-rations-court-2026",
+      "title": "전투식량 130만 개 유통기한 지난 채 남았다? 판결로 정정보도",
+      "before": "전투식량 130만 개가 군에 남아 있고 원료 유통기한 조작과 공문서 위조가 있었다는 취지의 보도",
+      "after": "해당 제품은 보도 당시 이미 취식 완료됐으며 업체가 원료 유통기한을 조작하거나 공문서를 위조하지 않았다고 정정",
+      "summary": "2023년·2024년 매일경제 기사 두 건에 대한 법원 판결에 따른 정정보도. 같은 쟁점을 다룬 두 정정문을 하나의 사건으로 묶었다.",
+      "category": "사회",
+      "publisher": "매일경제",
+      "type": "법원 판결 정정",
+      "date": "2026-03-12",
+      "originalDate": "2023-10-09",
+      "icon": "🍱",
+      "correctionKind": "법원 판결에 따른 정정",
+      "importance": "주요 정정",
+      "source": "https://www.mk.co.kr/news/society/11986696",
+      "events": [
+        {
+          "date": "2026-03-12",
+          "title": "법원 판결에 따른 정정보도",
+          "desc": "2023년 기사에서 보도한 잔여 전투식량과 원료 유통기한·공문서 관련 내용 정정",
+          "url": "https://www.mk.co.kr/news/society/11986696",
+          "label": "2023년 보도 정정문"
+        },
+        {
+          "date": "2026-03-12",
+          "title": "다른 2024년 기사도 정정",
+          "desc": "조달청 수의계약 관련 기사에서도 같은 업체의 유통기한 조작·문서 위조 주장을 정정",
+          "url": "https://www.mk.co.kr/news/society/11986698",
+          "label": "2024년 보도 정정문"
+        },
+        {
+          "date": "2023-10-09",
+          "title": "최초 관련 기사",
+          "desc": "불량 전투식량 수사 착수를 보도했던 기사. 원보도 URL 미확보",
+          "url": null,
+          "label": ""
+        }
+      ],
+      "country": "대한민국",
+      "tone": "#e2efe8",
+      "reviewStatus": "verified",
+      "titleOriginal": "전투식량 130만 개 유통기한 지난 채 남았다? 판결로 정정보도",
+      "sourceLabel": "공식 정정보도",
+      "confirmed": "법원 판결에 따른 정정보도"
+    },
+    {
       "id": "kr-pressian-school-2026",
       "title": "서명을 위조해 사업을 땄다? 필수 동의서 자체가 없었다",
       "before": "교직원 동의서명을 위조해 국가 공모사업을 따냈다는 취지의 보도",
@@ -1562,6 +1645,199 @@
       ],
       "reviewStatus": "verified",
       "sourceLabel": "공식 정정보도"
+    },
+    {
+      "id": "kr-sportsdonga-police-2025",
+      "title": "사건번호 없이 불법 조사? 실제론 정상 접수된 사건이었다",
+      "before": "경찰서가 정상 사건번호 없이 시민에게 출석을 요구한 불법수사 의혹을 보도",
+      "after": "정정보도에서 실제로 사건은 정상 접수돼 번호가 부여됐으며, 경찰 관련 일부 의혹 주장도 사실과 다르다고 바로잡음",
+      "summary": "스포츠동아는 기존 기사 하단에 언론중재위원회 조정에 따른 정정보도를 게재했다.",
+      "category": "사회",
+      "publisher": "스포츠동아",
+      "type": "언중위 조정 정정",
+      "date": "2025-12-01",
+      "originalDate": "2025-11-08",
+      "icon": "📋",
+      "correctionKind": "수사 절차 관련 정정",
+      "importance": "주요 정정",
+      "source": "https://sports.donga.com/region/article/all/20251108/132728836/1",
+      "originalUrl": "https://sports.donga.com/region/article/all/20251108/132728836/1",
+      "events": [
+        {
+          "date": "2025-12-01",
+          "title": "원보도 기사 내 정정보도 반영",
+          "desc": "정상 사건번호 부여 및 관련 사실관계 정정",
+          "url": "https://sports.donga.com/region/article/all/20251108/132728836/1",
+          "label": "원문 하단 정정 확인"
+        },
+        {
+          "date": "2025-11-08",
+          "title": "경찰 조사 절차 의혹 최초 보도",
+          "desc": "정정이 추가된 동일 URL의 기사",
+          "url": "https://sports.donga.com/region/article/all/20251108/132728836/1",
+          "label": "최초 기사"
+        }
+      ],
+      "country": "대한민국",
+      "tone": "#e2efe8",
+      "reviewStatus": "verified",
+      "titleOriginal": "사건번호 없이 불법 조사? 실제론 정상 접수된 사건이었다",
+      "sourceLabel": "공식 정정보도",
+      "confirmed": "언론사가 공개한 공식 정정보도"
+    },
+    {
+      "id": "kr-mk-patrolcars-2025",
+      "title": "491억 원 순찰차, 경광등도 안 켜진다? 공식 정정은 달랐다",
+      "before": "신형 경찰 순찰차가 기본 장비를 작동시키지 못하고 구조변경 승인도 받지 못했다는 취지로 보도",
+      "after": "언론사가 전수검사로 경광등 작동을 확인한 뒤 정상 출고됐으며 구조변경 승인이 등록됐다는 사실을 정정",
+      "summary": "정정보도는 차량 장비와 구조변경 승인에 관한 일부 주장을 바로잡았다. 태블릿 이전 설치 방식에 관한 설명도 포함됐다.",
+      "category": "사회",
+      "publisher": "매일경제",
+      "type": "언중위 조정 정정",
+      "date": "2025-08-27",
+      "originalDate": "2025-06-16",
+      "icon": "🚔",
+      "correctionKind": "장비·검사 사실 정정",
+      "importance": "주요 정정",
+      "source": "https://www.mk.co.kr/news/society/11343402",
+      "originalUrl": "https://www.mk.co.kr/news/society/11343402",
+      "events": [
+        {
+          "date": "2025-08-27",
+          "title": "정정보도 기사에 추가",
+          "desc": "경광등 전수검사 및 구조변경 승인 관련 내용을 정정하고 태블릿 이전 설치 방식도 설명",
+          "url": "https://www.mk.co.kr/news/society/11343402",
+          "label": "원보도 하단 공식 정정"
+        },
+        {
+          "date": "2025-06-16",
+          "title": "신형 순찰차 배치 관련 보도",
+          "desc": "동일한 기사 URL에서 원보도와 정정을 볼 수 있음",
+          "url": "https://www.mk.co.kr/news/society/11343402",
+          "label": "원보도 확인"
+        }
+      ],
+      "country": "대한민국",
+      "tone": "#e2efe8",
+      "reviewStatus": "verified",
+      "titleOriginal": "491억 원 순찰차, 경광등도 안 켜진다? 공식 정정은 달랐다",
+      "sourceLabel": "공식 정정보도",
+      "confirmed": "언론사가 공개한 공식 정정보도"
+    },
+    {
+      "id": "kr-newsis-childfacility-2025",
+      "title": "아동시설 통고제도 남용? 확인 후 바로잡힌 사실관계",
+      "before": "아동양육시설이 통고제도를 객관적 기준 없이 남용하고 일부 진단율을 근거로 인권침해 논란을 제기",
+      "after": "정정보도에서 통고 조치가 매뉴얼을 따른 것이며 제시한 아동 진단 통계만으로 인권침해를 판단하기 어렵다고 설명",
+      "summary": "뉴시스가 언론중재위원회 조정에 따라 시설의 통고절차와 진단 통계 해석에 관한 내용을 정정했다. 아동 관련 민감한 정보는 수록하지 않았다.",
+      "category": "사회",
+      "publisher": "뉴시스",
+      "type": "언중위 조정 정정",
+      "date": "2025-06-11",
+      "originalDate": "2025-01-19",
+      "icon": "🏫",
+      "correctionKind": "절차·통계 해석 정정",
+      "importance": "주요 정정",
+      "source": "https://www.newsis.com/view/NISX20250611_0003208755",
+      "originalUrl": "https://www.newsis.com/view/NISX20250119_0003037557",
+      "events": [
+        {
+          "date": "2025-06-11",
+          "title": "언중위 조정에 따른 공식 정정보도",
+          "desc": "시설의 통고제도 운용과 진단통계 해석을 바로잡음",
+          "url": "https://www.newsis.com/view/NISX20250611_0003208755",
+          "label": "정정보도"
+        },
+        {
+          "date": "2025-01-19",
+          "title": "시설 운영 관련 최초 기사",
+          "desc": "이후 동일한 원문 기사에도 정정 내용이 추가됨",
+          "url": "https://www.newsis.com/view/NISX20250119_0003037557",
+          "label": "최초 기사"
+        }
+      ],
+      "country": "대한민국",
+      "tone": "#e2efe8",
+      "reviewStatus": "verified",
+      "titleOriginal": "아동시설 통고제도 남용? 확인 후 바로잡힌 사실관계",
+      "sourceLabel": "공식 정정보도",
+      "confirmed": "언론사가 공개한 공식 정정보도"
+    },
+    {
+      "id": "kr-donga-union-2025",
+      "title": "상급단체가 민주노총? 노조 조직관계부터 달랐다",
+      "before": "조선업 노조연대가 민주노총을 상급단체로 두고 이를 거치지 않은 것처럼 보도",
+      "after": "조선노연은 금속노조 산하조직이 아니므로 민주노총도 상급단체가 아니라고 정정",
+      "summary": "동아일보는 정정과 반론을 함께 보도했다. 노조의 조직 관계는 정정 사항이며, 간담회 목적에 관한 설명은 당사자 견해로 별도 구분한다.",
+      "category": "사회",
+      "publisher": "동아일보",
+      "type": "언중위 조정 정정",
+      "date": "2025-04-12",
+      "originalDate": "2025-03-12",
+      "icon": "🏗️",
+      "correctionKind": "조직 관계 정정",
+      "importance": "주요 정정",
+      "source": "https://www.donga.com/news/Society/article/all/20250411/131370668/1",
+      "country": "대한민국",
+      "tone": "#e2efe8",
+      "reviewStatus": "verified",
+      "titleOriginal": "상급단체가 민주노총? 노조 조직관계부터 달랐다",
+      "sourceLabel": "공식 정정보도",
+      "confirmed": "언론사가 공개한 공식 정정보도",
+      "events": [
+        {
+          "date": "2025-04-12",
+          "title": "언론사 공식 정정보도 게재",
+          "desc": "조선노연은 금속노조 산하조직이 아니므로 민주노총도 상급단체가 아니라고 정정",
+          "url": "https://www.donga.com/news/Society/article/all/20250411/131370668/1",
+          "label": "공식 정정보도"
+        },
+        {
+          "date": "2025-03-12",
+          "title": "최초 보도 게재",
+          "desc": "조선업 노조연대가 민주노총을 상급단체로 두고 이를 거치지 않은 것처럼 보도",
+          "url": null,
+          "label": ""
+        }
+      ]
+    },
+    {
+      "id": "kr-herald-taskforce-2025",
+      "title": "맞불 집회 TF 만든다더니… ‘그런 TF도 계획도 없었다’ 정정",
+      "before": "정당이 상대 당의 장외집회에 대응하는 TF를 신설하고 맞불 장외투쟁을 계획 중이라고 보도",
+      "after": "언론사가 해당 정당은 그런 태스크포스를 신설하거나 장외투쟁을 계획하지 않았다고 정정",
+      "summary": "헤럴드경제가 2024년 10월 31일자 단독 기사에 관해 언론중재위원회 조정으로 정정문을 게시했다.",
+      "category": "사회",
+      "publisher": "헤럴드경제",
+      "type": "언중위 조정 정정",
+      "date": "2025-01-09",
+      "originalDate": "2024-10-31",
+      "icon": "📰",
+      "correctionKind": "계획 수립 사실 정정",
+      "importance": "주요 정정",
+      "source": "https://biz.heraldcorp.com/article/10386777",
+      "country": "대한민국",
+      "tone": "#e2efe8",
+      "reviewStatus": "verified",
+      "titleOriginal": "맞불 집회 TF 만든다더니… ‘그런 TF도 계획도 없었다’ 정정",
+      "sourceLabel": "공식 정정보도",
+      "confirmed": "언론사가 공개한 공식 정정보도",
+      "events": [
+        {
+          "date": "2025-01-09",
+          "title": "언론사 공식 정정보도 게재",
+          "desc": "언론사가 해당 정당은 그런 태스크포스를 신설하거나 장외투쟁을 계획하지 않았다고 정정",
+          "url": "https://biz.heraldcorp.com/article/10386777",
+          "label": "공식 정정보도"
+        },
+        {
+          "date": "2024-10-31",
+          "title": "최초 보도 게재",
+          "desc": "정당이 상대 당의 장외집회에 대응하는 TF를 신설하고 맞불 장외투쟁을 계획 중이라고 보도",
+          "url": null,
+          "label": ""
+        }
+      ]
     }
   ],
   "feed_items": [
