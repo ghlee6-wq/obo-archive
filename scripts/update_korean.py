@@ -61,6 +61,12 @@ BACKFILL_QUERIES = [
     for year in (2022, 2023, 2024, 2025)
     for word in ("바로잡습니다", "정정보도", "정정합니다")
 ]
+# Split the current year's correction results by month to avoid RSS's 100-item search cap.
+CURRENT_YEAR_MONTHLY = [
+    f"intitle:{word} after:2026-{month:02d}-01 before:{2027 if month==12 else 2026}-{1 if month==12 else month+1:02d}-01"
+    for month in range(1, 12)
+    for word in ("바로잡습니다", "정정보도", "정정합니다")
+]
 TITLE_START = re.compile(
     r"^\s*(?:[\[【(]\s*)?"
     r"(?:바로잡습니다|정정보도|정정\s*및\s*반론보도|정정합니다|정정보도문|기사\s*정정)"
@@ -231,6 +237,15 @@ def refresh(fetch=get_url, sources=None, searches=None):
         stats["archive_queries_reachable"] = backfill_stats["success"]
         stats["archive_candidates"] = len(backfill_items)
         stats["errors"].extend(backfill_stats["errors"][:10])
+    if sources is None and searches is None and not data.get("korean_2026_monthly_backfill"):
+        monthly_items, monthly_stats = discover(fetch, [], CURRENT_YEAR_MONTHLY)
+        if monthly_stats["success"]:
+            new_items.extend(monthly_items)
+            data["korean_2026_monthly_backfill"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+        stats["monthly_queries_checked"] = monthly_stats["checked"]
+        stats["monthly_queries_reachable"] = monthly_stats["success"]
+        stats["monthly_candidates"] = len(monthly_items)
+        stats["errors"].extend(monthly_stats["errors"][:10])
     if stats["success"] == 0:
         raise ValueError("All Korea feeds failed; preserve previous data")
     old = data.get("feed_items", [])
