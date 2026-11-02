@@ -1,4 +1,4 @@
-name: Refresh corrections feed for Netlify
+name: Refresh Korean and global corrections for Netlify
 
 on:
   workflow_dispatch:
@@ -28,12 +28,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Collect official corrections RSS
-        id: update
+      - name: Collect Guardian corrections RSS
+        id: uk
         continue-on-error: true
         run: python scripts/update_feed.py
+      - name: Discover Korean correction notices
+        id: kr
+        continue-on-error: true
+        run: python scripts/update_korean.py
       - name: Save corrections data to main
-        if: steps.update.outcome == 'success'
+        if: steps.uk.outcome == 'success' || steps.kr.outcome == 'success'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
