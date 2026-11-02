@@ -13,6 +13,7 @@ import json
 import os
 import re
 import tempfile
+import unicodedata
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -70,7 +71,7 @@ CURRENT_YEAR_MONTHLY = [
 TITLE_START = re.compile(
     r"^\s*(?:[\[【(]\s*)?"
     r"(?:바로잡습니다|정정보도|정정\s*및\s*반론보도|정정합니다|정정보도문|기사\s*정정)"
-    r"(?:[\]】)\s:\-｜]|$)",
+    r"(?:[\]】)]|[:\-｜]|$)",
     re.I,
 )
 MIN_DATE = dt.date(2022, 1, 1)
@@ -225,6 +226,36 @@ def discover(fetch=get_url, sources=None, searches=None):
             unique[key] = item
     return list(unique.values()), {"checked": checked, "success": succeeded, "errors": errors[:25]}
 
+
+def normalize_dedupe_text(value):
+    """Treat typographic quote variants as the same headline."""
+    value = unicodedata.normalize("NFKC", html.unescape(str(value or "")).casefold())
+    return re.sub(r"[^\\w]+", "", value)
+
+def dedupe_candidates(entries):
+    """Prefer publisher URLs; de-duplicate syndicated or re-indexed RSS notices."""
+    preferred = sorted(
+        entries,
+        key=lambda x: (
+            1 if x.get("discoverySource") == "국내 언론사 RSS" else 0,
+            x.get("date", ""),
+        ),
+        reverse=True,
+    )
+    seen_urls, seen_titles, items = set(), set(), []
+    for item in preferred:
+        link = item.get("source", "").split("?oc=")[0]
+        title = normalize_dedupe_text(item.get("titleOriginal") or item.get("title"))
+        publisher = normalize_dedupe_text(item.get("publisher"))
+        titlekey = (publisher, title) if len(title) >= 15 else None
+        if link in seen_urls or (titlekey and titlekey in seen_titles):
+            continue
+        seen_urls.add(link)
+        if titlekey:
+            seen_titles.add(titlekey)
+        items.append(item)
+    return items
+
 def refresh(fetch=get_url, sources=None, searches=None):
     data = json.loads(DATA.read_text(encoding="utf-8"))
     original_data_keys = set(data.keys())
@@ -251,26 +282,38 @@ def refresh(fetch=get_url, sources=None, searches=None):
         raise ValueError("All Korea feeds failed; preserve previous data")
     old = data.get("feed_items", [])
     keep_foreign = [x for x in old if x.get("country") != "대한민국"]
-    old_korean = [x for x in old if x.get("country") == "대한민국" and x.get("reviewStatus") == "unreviewed"]
+    old_korean = [x for x in old if x.get("country") == "대한민국" and x.get("reviewStatus") == "unreviewed"
+                  and TITLE_START.search(x.get("titleOriginal") or x.get("title") or "")]
     verified_links = {x.get("source") for x in data.get("verified", [])}
     verified_links.update(x.get("originalUrl") for x in data.get("verified", []))
     unique = {x["id"]: x for x in old_korean if x.get("id")}
+    first_seen = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     for x in new_items:
         if x["source"] not in verified_links:
+            previous = unique.get(x["id"])
+            if previous:
+                if previous.get("firstSeenAt"):
+                    x["firstSeenAt"] = previous["firstSeenAt"]
+            else:
+                x["firstSeenAt"] = first_seen
             unique[x["id"]] = x
-    korean = sorted(unique.values(), key=lambda x: (x["date"], x["id"]), reverse=True)[:MAX_KOREAN]
+    korean = sorted(dedupe_candidates(unique.values()), key=lambda x: (x["date"], x["id"]), reverse=True)[:MAX_KOREAN]
     # If there is no newly discovered notice and no pending backfill marker,
     # do not rewrite data.json or consume a Netlify deployment.
     old_keys = {x["id"] for x in old_korean}
     new_keys = {x["id"] for x in korean}
-    if old_keys == new_keys and not any(
-        rec.get("id") not in old_keys for rec in new_items
-    ) and not (set(data.keys()) - set(original_data_keys)):
+    if old_keys == new_keys and not (set(data.keys()) - set(original_data_keys)):
         return {"verified_korean": len([x for x in data.get("verified",[]) if x.get("country")=="대한민국"]),
                 "korean_candidates": len(korean), "unchanged": True, **stats}
+    added_ids = [x["id"] for x in korean if x["id"] not in old_keys]
     data["feed_items"] = korean + keep_foreign
     data["updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    previous_last_new = (data.get("korean_sync") or {}).get("last_new_at")
+    previous_added_ids = (data.get("korean_sync") or {}).get("last_added_ids", [])
     data["korean_sync"] = {
+        "added_to_archive": len(added_ids) if added_ids else (data.get("korean_sync") or {}).get("added_to_archive", 0),
+        "last_added_ids": added_ids if added_ids else previous_added_ids,
+        "last_new_at": data["updated_at"] if added_ids else previous_last_new,
         "checked_at": data["updated_at"],
         "feeds_checked": stats["checked"],
         "feeds_reachable": stats["success"],
