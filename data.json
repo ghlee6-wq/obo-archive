@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T19:09:36+00:00",
+  "updated_at": "2026-11-02T23:31:53+00:00",
   "sync_status": "ok",
   "source_name": "The Guardian corrections RSS + 국내 언론사 정정보도 수집",
   "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
@@ -1935,37 +1935,6 @@
       ]
     },
     {
-      "id": "kr-feed-8b99af7b8eadae5ae2a0",
-      "title": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
-      "titleOriginal": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
-      "before": "아직 최초 보도를 대조하지 않았습니다.",
-      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
-      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
-      "category": "기타",
-      "country": "대한민국",
-      "publisher": ":: 위즈경제 ::",
-      "type": "정정 공지 후보 · 미검토",
-      "date": "2026-10-29",
-      "originalDate": "확인 전",
-      "icon": "📰",
-      "tone": "#eff4ea",
-      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
-      "sourceLabel": "뉴스 검색 경유",
-      "originalUrl": null,
-      "confirmed": "자동 발견 · 원문 검토 전",
-      "reviewStatus": "unreviewed",
-      "discoverySource": "Google 뉴스 검색 RSS",
-      "events": [
-        {
-          "date": "2026-10-29",
-          "title": "정정 보도로 보이는 제목 발견",
-          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
-          "label": "원문으로 이동"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-790f53953e762c993216",
       "title": "[바로잡습니다] 10월 22일 자 A29면 ‘[부산에 가면] 바다와 도서관, 그리고 작은 질문’ 외",
       "titleOriginal": "[바로잡습니다] 10월 22일 자 A29면 ‘[부산에 가면] 바다와 도서관, 그리고 작은 질문’ 외",
@@ -3640,37 +3609,6 @@
       ]
     },
     {
-      "id": "kr-feed-8bedd91c992b34914b3a",
-      "title": "정정보도 소송에 연수구 예산 쓴 이재호 청장 고발…경찰 수사 착수",
-      "titleOriginal": "정정보도 소송에 연수구 예산 쓴 이재호 청장 고발…경찰 수사 착수",
-      "before": "아직 최초 보도를 대조하지 않았습니다.",
-      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
-      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
-      "category": "기타",
-      "country": "대한민국",
-      "publisher": "경인일보",
-      "type": "정정 공지 후보 · 미검토",
-      "date": "2025-08-28",
-      "originalDate": "확인 전",
-      "icon": "📰",
-      "tone": "#eff4ea",
-      "source": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TdVZTS1FZSzdOS3NXeXEwYVUxYjViMmYzaG96N3FULTJubHZST1FMQ3B1NmcxVHlqMnp4VU4yamRERjZ2cS03S1plZTNaUTYxOXc?oc=5",
-      "sourceLabel": "뉴스 검색 경유",
-      "originalUrl": null,
-      "confirmed": "자동 발견 · 원문 검토 전",
-      "reviewStatus": "unreviewed",
-      "discoverySource": "Google 뉴스 검색 RSS",
-      "events": [
-        {
-          "date": "2025-08-28",
-          "title": "정정 보도로 보이는 제목 발견",
-          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TdVZTS1FZSzdOS3NXeXEwYVUxYjViMmYzaG96N3FULTJubHZST1FMQ3B1NmcxVHlqMnp4VU4yamRERjZ2cS03S1plZTNaUTYxOXc?oc=5",
-          "label": "원문으로 이동"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-5040115daaf87bbe8b8c",
       "title": "[정정보도] '읽걷쓰' 과잉 홍보에 교육 파탄…인천시교육감, “학생·교원 외면” 비판 / 7월 8일 외 3건 관련",
       "titleOriginal": "[정정보도] '읽걷쓰' 과잉 홍보에 교육 파탄…인천시교육감, “학생·교원 외면” 비판 / 7월 8일 외 3건 관련",
@@ -3857,37 +3795,6 @@
       ]
     },
     {
-      "id": "kr-feed-aef72d92e70747bad0d4",
-      "title": "[정정보도 포함] 거위로 오해 받았던 구조 오리… 캠퍼스에 방사한 후 모니터링 중",
-      "titleOriginal": "[정정보도 포함] 거위로 오해 받았던 구조 오리… 캠퍼스에 방사한 후 모니터링 중",
-      "before": "아직 최초 보도를 대조하지 않았습니다.",
-      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
-      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
-      "category": "기타",
-      "country": "대한민국",
-      "publisher": "카이스트신문",
-      "type": "정정 공지 후보 · 미검토",
-      "date": "2024-09-11",
-      "originalDate": "확인 전",
-      "icon": "📰",
-      "tone": "#eff4ea",
-      "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1wbHo4S1cxbl9QZ3dmV1NBU1BSYnA1WGxTclZjUTF2MnhWQkxDb1hvNXhPZmt6NnlDd2c5NklBOTRJMW12TkRUY3VMZmppQUZUZEpUdWktWnJ1QUtVeFRxdXM5Yl9xczVUb01Z?oc=5",
-      "sourceLabel": "뉴스 검색 경유",
-      "originalUrl": null,
-      "confirmed": "자동 발견 · 원문 검토 전",
-      "reviewStatus": "unreviewed",
-      "discoverySource": "Google 뉴스 검색 RSS",
-      "events": [
-        {
-          "date": "2024-09-11",
-          "title": "정정 보도로 보이는 제목 발견",
-          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1wbHo4S1cxbl9QZ3dmV1NBU1BSYnA1WGxTclZjUTF2MnhWQkxDb1hvNXhPZmt6NnlDd2c5NklBOTRJMW12TkRUY3VMZmppQUZUZEpUdWktWnJ1QUtVeFRxdXM5Yl9xczVUb01Z?oc=5",
-          "label": "원문으로 이동"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-f688baac10acd8760ae0",
       "title": "[정정보도] ‘불법 스튜디오가 K-콘텐츠를 망친다’ 연재 기사 관련",
       "titleOriginal": "[정정보도] ‘불법 스튜디오가 K-콘텐츠를 망친다’ 연재 기사 관련",
@@ -3976,37 +3883,6 @@
           "title": "정정 보도로 보이는 제목 발견",
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GMnMxUkFMdXBpemlubnVaNmRBM2Z3ekE5SEIyYmRoWEpod3BlZWp2UFRzZzNUbjhzRDVHeGpKblpWNXJ2YVl0NWstcEktbnZuY1dwSnJZLTFXV090cGlmLXlYNnR0MXc?oc=5",
-          "label": "원문으로 이동"
-        }
-      ]
-    },
-    {
-      "id": "kr-feed-f33131cf7db8fa9f54ad",
-      "title": "[정정보도 포함]민주당 용인갑 이상식 후보 배우자가 보유한 이우환 작품에 MZ 조폭 측 30억원 투자 의혹",
-      "titleOriginal": "[정정보도 포함]민주당 용인갑 이상식 후보 배우자가 보유한 이우환 작품에 MZ 조폭 측 30억원 투자 의혹",
-      "before": "아직 최초 보도를 대조하지 않았습니다.",
-      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
-      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
-      "category": "기타",
-      "country": "대한민국",
-      "publisher": "더퍼블릭",
-      "type": "정정 공지 후보 · 미검토",
-      "date": "2024-04-08",
-      "originalDate": "확인 전",
-      "icon": "📰",
-      "tone": "#eff4ea",
-      "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FVDNqVDZlNFRqSzFFR1lFaXpBOTZSS0M1VFQyX2RSYXBXRkoweDhQWUtNWXQ3c2RwTk1XVE85WTh5QmVqMldqU2NrY0tHTzZBV3pRTDZXTlhNMXJSMERBS1p1MWdxS1NEbWp30gFvQVVfeXFMT2J0WkVqbE1aeC0xUkt1UWZ0b2lsNk80WXlRelF5VUpJa0YzVVU5TExpQ2JhNXRuVVpuV1NRTUpnN0RlOG9WVjV1bkY4Rm5tVk1CLWhHSUg4bU9PYzB5cnJWVjhWOG5wQm5HaGZoNUY4?oc=5",
-      "sourceLabel": "뉴스 검색 경유",
-      "originalUrl": null,
-      "confirmed": "자동 발견 · 원문 검토 전",
-      "reviewStatus": "unreviewed",
-      "discoverySource": "Google 뉴스 검색 RSS",
-      "events": [
-        {
-          "date": "2024-04-08",
-          "title": "정정 보도로 보이는 제목 발견",
-          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FVDNqVDZlNFRqSzFFR1lFaXpBOTZSS0M1VFQyX2RSYXBXRkoweDhQWUtNWXQ3c2RwTk1XVE85WTh5QmVqMldqU2NrY0tHTzZBV3pRTDZXTlhNMXJSMERBS1p1MWdxS1NEbWp30gFvQVVfeXFMT2J0WkVqbE1aeC0xUkt1UWZ0b2lsNk80WXlRelF5VUpJa0YzVVU5TExpQ2JhNXRuVVpuV1NRTUpnN0RlOG9WVjV1bkY4Rm5tVk1CLWhHSUg4bU9PYzB5cnJWVjhWOG5wQm5HaGZoNUY4?oc=5",
           "label": "원문으로 이동"
         }
       ]
@@ -4194,6 +4070,36 @@
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52U19NRkh4RWlQZ2NhSVJTNnpjY1BOTV9JNXhxcU5Hal95ci1pTlN3WFRHZkZ6bGRvODF6d1JGdlliZEJ1dmZjRG0xSWN2eVg0NXU2Mnk0cENMemU4blFoMVpVNDVfY3PSAWtBVV95cUxOSmV2a1pRQmFEdmZfWkRScjFrZlc2ZzlmUGNZYjRCbG1KT3FoY01rTDFUNjRMZFRvVzJBTkk0R1RaOUtrOHBYSTFLYmtNTXYwZ3prY296XzZwN3VnN3FoaUFPRFdDSms3MW00WQ?oc=5",
           "label": "원문으로 이동"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-02-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-02",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-02",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/02/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/02/corrections-and-clarifications",
+          "label": "공식 공지 보기"
         }
       ]
     },
@@ -4751,11 +4657,14 @@
     }
   ],
   "korean_sync": {
-    "checked_at": "2026-11-02T19:09:36+00:00",
+    "added_to_archive": 0,
+    "last_added_ids": [],
+    "last_new_at": null,
+    "checked_at": "2026-11-02T23:31:53+00:00",
     "feeds_checked": 24,
     "feeds_reachable": 24,
-    "discovered_new": 48,
-    "total_korean_unreviewed": 76,
+    "discovered_new": 35,
+    "total_korean_unreviewed": 72,
     "errors": []
   },
   "korean_backfill_completed_at": "2026-11-02T00:18:27+00:00",
