@@ -227,6 +227,7 @@ def discover(fetch=get_url, sources=None, searches=None):
 
 def refresh(fetch=get_url, sources=None, searches=None):
     data = json.loads(DATA.read_text(encoding="utf-8"))
+    original_data_keys = set(data.keys())
     new_items, stats = discover(fetch, sources, searches)
     if sources is None and searches is None and not data.get("korean_backfill_completed_at"):
         backfill_items, backfill_stats = discover(fetch, [], BACKFILL_QUERIES)
@@ -258,6 +259,15 @@ def refresh(fetch=get_url, sources=None, searches=None):
         if x["source"] not in verified_links:
             unique[x["id"]] = x
     korean = sorted(unique.values(), key=lambda x: (x["date"], x["id"]), reverse=True)[:MAX_KOREAN]
+    # If there is no newly discovered notice and no pending backfill marker,
+    # do not rewrite data.json or consume a Netlify deployment.
+    old_keys = {x["id"] for x in old_korean}
+    new_keys = {x["id"] for x in korean}
+    if old_keys == new_keys and not any(
+        rec.get("id") not in old_keys for rec in new_items
+    ) and not (set(data.keys()) - set(original_data_keys)):
+        return {"verified_korean": len([x for x in data.get("verified",[]) if x.get("country")=="대한민국"]),
+                "korean_candidates": len(korean), "unchanged": True, **stats}
     data["feed_items"] = korean + keep_foreign
     data["updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     data["korean_sync"] = {
