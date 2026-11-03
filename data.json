@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T23:33:04+00:00",
+  "updated_at": "2026-11-03T01:19:55+00:00",
   "sync_status": "ok",
   "source_name": "The Guardian corrections RSS + 국내 언론사 정정보도 수집",
   "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
@@ -3610,6 +3610,38 @@
       ]
     },
     {
+      "id": "kr-feed-a5f4e1bbe15c1d3c6f2b",
+      "title": "[정정보도] 〈〈에브리왁굳〉 개인정보 외부전송·카페에드온 논란〉 관련",
+      "titleOriginal": "[정정보도] 〈〈에브리왁굳〉 개인정보 외부전송·카페에드온 논란〉 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "글로벌E",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2025-08-07",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oQkM1VmxRek9KNHZrbHAtd2dLX3h5blpsdkJSdXVUa1lnc21LM2FndkRMNmVnUm9sSzBfWGJMVTBndTgyd1dMQTd1NmEtYUZtV194YkZtNWdaTHFRZTZIRU51VHFxcXJhc0Rj0gFvQVVfeXFMUEd1a1dUbGFZM3h1MGF6X3lJdTJncnJpWW1OTWxEczVMRUhpV0xoSFJBaHFMWWh3Nzg5Z0NTLTA4UzVJOFA1SWFSa0l6eDhjUVJ5eDRCQTViWk9rVVF5RFNXdURSdnM0LWw4ZzVQYWRB?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2025-08-07",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oQkM1VmxRek9KNHZrbHAtd2dLX3h5blpsdkJSdXVUa1lnc21LM2FndkRMNmVnUm9sSzBfWGJMVTBndTgyd1dMQTd1NmEtYUZtV194YkZtNWdaTHFRZTZIRU51VHFxcXJhc0Rj0gFvQVVfeXFMUEd1a1dUbGFZM3h1MGF6X3lJdTJncnJpWW1OTWxEczVMRUhpV0xoSFJBaHFMWWh3Nzg5Z0NTLTA4UzVJOFA1SWFSa0l6eDhjUVJ5eDRCQTViWk9rVVF5RFNXdURSdnM0LWw4ZzVQYWRB?oc=5",
+          "label": "원문으로 이동"
+        }
+      ],
+      "firstSeenAt": "2026-11-03T01:19:55+00:00"
+    },
+    {
       "id": "kr-feed-5040115daaf87bbe8b8c",
       "title": "[정정보도] '읽걷쓰' 과잉 홍보에 교육 파탄…인천시교육감, “학생·교원 외면” 비판 / 7월 8일 외 3건 관련",
       "titleOriginal": "[정정보도] '읽걷쓰' 과잉 홍보에 교육 파탄…인천시교육감, “학생·교원 외면” 비판 / 7월 8일 외 3건 관련",
@@ -4660,15 +4692,17 @@
   "korean_sync": {
     "added_to_archive": 1,
     "last_added_ids": [
-      "kr-feed-7cf86623d77acb147fe8"
+      "kr-feed-a5f4e1bbe15c1d3c6f2b"
     ],
-    "last_new_at": "2026-11-02T23:33:04+00:00",
-    "checked_at": "2026-11-02T23:33:04+00:00",
+    "last_new_at": "2026-11-03T01:19:55+00:00",
+    "checked_at": "2026-11-03T01:19:55+00:00",
     "feeds_checked": 24,
-    "feeds_reachable": 24,
-    "discovered_new": 45,
-    "total_korean_unreviewed": 72,
-    "errors": []
+    "feeds_reachable": 23,
+    "discovered_new": 47,
+    "total_korean_unreviewed": 73,
+    "errors": [
+      "프레시안: URLError: <urlopen error timed out>"
+    ]
   },
   "korean_backfill_completed_at": "2026-11-02T00:18:27+00:00",
   "korean_2026_monthly_backfill": "2026-11-02T00:23:38+00:00"
