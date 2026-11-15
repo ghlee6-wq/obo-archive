@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T07:20:44+00:00",
+  "updated_at": "2026-11-15T18:59:14+00:00",
   "sync_status": "ok",
   "source_name": "The Guardian corrections RSS + 국내 언론사 정정보도 수집",
   "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
@@ -1842,6 +1842,38 @@
   ],
   "feed_items": [
     {
+      "id": "kr-feed-861aa7dcd05dd9bec418",
+      "title": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
+      "titleOriginal": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": ":: 위즈경제 ::",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-11-13",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
+          "label": "원문으로 이동"
+        }
+      ],
+      "firstSeenAt": "2026-11-15T18:59:14+00:00"
+    },
+    {
       "id": "kr-feed-634052863892d36e6318",
       "title": "[정정보도] 관련",
       "titleOriginal": "[정정보도] 관련",
@@ -1964,37 +1996,6 @@
           "title": "정정 보도로 보이는 제목 발견",
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://www.chosun.com/culture-life/culture_general/2026/11/03/LUKFBFFZKFFYPOSA2ES2ONUI4E/",
-          "label": "원문으로 이동"
-        }
-      ]
-    },
-    {
-      "id": "kr-feed-1f73a8a833ee55ba3daf",
-      "title": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
-      "titleOriginal": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
-      "before": "아직 최초 보도를 대조하지 않았습니다.",
-      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
-      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
-      "category": "기타",
-      "country": "대한민국",
-      "publisher": ":: 위즈경제 ::",
-      "type": "정정 공지 후보 · 미검토",
-      "date": "2026-10-30",
-      "originalDate": "확인 전",
-      "icon": "📰",
-      "tone": "#eff4ea",
-      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
-      "sourceLabel": "뉴스 검색 경유",
-      "originalUrl": null,
-      "confirmed": "자동 발견 · 원문 검토 전",
-      "reviewStatus": "unreviewed",
-      "discoverySource": "Google 뉴스 검색 RSS",
-      "events": [
-        {
-          "date": "2026-10-30",
-          "title": "정정 보도로 보이는 제목 발견",
-          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
           "label": "원문으로 이동"
         }
       ]
@@ -5281,13 +5282,13 @@
   "korean_sync": {
     "added_to_archive": 1,
     "last_added_ids": [
-      "kr-feed-4ad6b3e11a363f5e5898"
+      "kr-feed-861aa7dcd05dd9bec418"
     ],
-    "last_new_at": "2026-11-15T07:20:44+00:00",
-    "checked_at": "2026-11-15T07:20:44+00:00",
+    "last_new_at": "2026-11-15T18:59:14+00:00",
+    "checked_at": "2026-11-15T18:59:14+00:00",
     "feeds_checked": 24,
     "feeds_reachable": 24,
-    "discovered_new": 33,
+    "discovered_new": 31,
     "total_korean_unreviewed": 82,
     "errors": []
   },
