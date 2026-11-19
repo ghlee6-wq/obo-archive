@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T01:28:22+00:00",
+  "updated_at": "2026-11-19T07:34:35+00:00",
   "sync_status": "ok",
   "source_name": "The Guardian corrections RSS + 국내 언론사 정정보도 수집",
   "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
@@ -1842,64 +1842,36 @@
   ],
   "feed_items": [
     {
-      "id": "rss-news-2026-nov-18-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-18",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "id": "kr-feed-2eb3147df541fb323532",
+      "title": "[정정보도] 한달새 '세 번째'…쿠팡 인천물류센터서 또 화재",
+      "titleOriginal": "[정정보도] 한달새 '세 번째'…쿠팡 인천물류센터서 또 화재",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
       "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-18",
+      "country": "대한민국",
+      "publisher": "경인방송 뉴스",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-11-19",
       "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/18/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOczItQlp3b0lVMkNuRWI0OVNwS19rd3VUT181cTcyeXVLSWVYc3VpdE01anV6R0dqR1RaaUhWVzE2RUlkUzF5RFp1LTFpUXJTd25JcXl4QjFrUEt2REZJNGdhOE3SAWhBVV95cUxNbnQ1RTlnRHRZcWYtcHUyTXR0bkxwZmU0aFktZVlkNkU2enpYWHZkTHNvR3NvYlFpR282c3lGa1pyTWpYaEdIcG5hSDFpMGU0MDBJTVRqVWdiOTdtQ2Zla3NCQUFvSUYtWA?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
       "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "confirmed": "자동 발견 · 원문 검토 전",
       "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
       "events": [
         {
-          "date": "2026-11-18",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/18/corrections-and-clarifications",
-          "label": "공식 공지 보기"
+          "date": "2026-11-19",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOczItQlp3b0lVMkNuRWI0OVNwS19rd3VUT181cTcyeXVLSWVYc3VpdE01anV6R0dqR1RaaUhWVzE2RUlkUzF5RFp1LTFpUXJTd25JcXl4QjFrUEt2REZJNGdhOE3SAWhBVV95cUxNbnQ1RTlnRHRZcWYtcHUyTXR0bkxwZmU0aFktZVlkNkU2enpYWHZkTHNvR3NvYlFpR282c3lGa1pyTWpYaEdIcG5hSDFpMGU0MDBJTVRqVWdiOTdtQ2Zla3NCQUFvSUYtWA?oc=5",
+          "label": "원문으로 이동"
         }
-      ]
-    },
-    {
-      "id": "rss-news-2026-nov-17-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-17",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-17",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/17/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-17",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/17/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
+      ],
+      "firstSeenAt": "2026-11-19T07:34:35+00:00"
     },
     {
       "id": "kr-feed-d6d0a90ced3c7bda8ab7",
@@ -1934,36 +1906,6 @@
       "firstSeenAt": "2026-11-17T19:16:36+00:00"
     },
     {
-      "id": "rss-news-2026-nov-16-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-16",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-16",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/16/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-16",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/16/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-3f9cb51ec5aea470751a",
       "title": "[바로잡습니다] 4일 자 A16면 ‘앉는 법, 발 위치까지 코칭…’ 기사 중 외",
       "titleOriginal": "[바로잡습니다] 4일 자 A16면 ‘앉는 법, 발 위치까지 코칭…’ 기사 중 외",
@@ -1994,66 +1936,6 @@
         }
       ],
       "firstSeenAt": "2026-11-16T19:11:58+00:00"
-    },
-    {
-      "id": "rss-news-2026-nov-15-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-15",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-15",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/15/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-15",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/15/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-nov-13-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-13",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-13",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/13/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-13",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/13/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
     },
     {
       "id": "kr-feed-861aa7dcd05dd9bec418",
@@ -2088,36 +1970,6 @@
       "firstSeenAt": "2026-11-15T18:59:14+00:00"
     },
     {
-      "id": "rss-news-2026-nov-12-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-12",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-12",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/12/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-12",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/12/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-634052863892d36e6318",
       "title": "[정정보도] 관련",
       "titleOriginal": "[정정보도] 관련",
@@ -2148,36 +2000,6 @@
         }
       ],
       "firstSeenAt": "2026-11-12T07:34:32+00:00"
-    },
-    {
-      "id": "rss-news-2026-nov-11-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-11",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-11",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/11/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-11",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/11/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
     },
     {
       "id": "kr-feed-95be18925a33bf329af4",
@@ -2212,36 +2034,6 @@
       "firstSeenAt": "2026-11-11T19:14:42+00:00"
     },
     {
-      "id": "rss-news-2026-nov-10-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-10",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-10",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/10/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-10",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/10/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-474f2870dc213dcdcce8",
       "title": "[바로잡습니다] 10월 22일 자 A29면 ‘[부산에 가면] 바다와 도서관, 그리고 작은 질문’ 칼럼 중 외",
       "titleOriginal": "[바로잡습니다] 10월 22일 자 A29면 ‘[부산에 가면] 바다와 도서관, 그리고 작은 질문’ 칼럼 중 외",
@@ -2274,216 +2066,6 @@
       "firstSeenAt": "2026-11-18T13:29:03+00:00"
     },
     {
-      "id": "rss-news-2026-nov-09-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-09",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-09",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/09/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-09",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/09/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-nov-08-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-08",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-08",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/08/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-08",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/08/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-nov-06-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-06",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-06",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/06/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-06",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/06/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-nov-05-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-05",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-05",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/05/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-05",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/05/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-nov-04-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-04",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-04",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/04/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-04",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/04/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-nov-03-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-03",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-03",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/03/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-03",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/03/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-nov-02-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-02",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-02",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/02/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-02",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/02/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-f8d5854be9d903c5ae45",
       "title": "[바로잡습니다] 10월 21일 자 A16면 ’137년 英 전통 문예지가 주목한 ‘K문학’… “소프트파워 근원 찾으러 왔다”' 기사에서 외",
       "titleOriginal": "[바로잡습니다] 10월 21일 자 A16면 ’137년 英 전통 문예지가 주목한 ‘K문학’… “소프트파워 근원 찾으러 왔다”' 기사에서 외",
@@ -2511,96 +2093,6 @@
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://www.chosun.com/culture-life/culture_general/2026/11/03/LUKFBFFZKFFYPOSA2ES2ONUI4E/",
           "label": "원문으로 이동"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-nov-01-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-11-01",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-11-01",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/nov/01/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-11-01",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/nov/01/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-oct-30-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-30",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-30",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/30/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-30",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/30/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-oct-29-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-29",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-29",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/29/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-29",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/29/corrections-and-clarifications",
-          "label": "공식 공지 보기"
         }
       ]
     },
@@ -2636,36 +2128,6 @@
       ]
     },
     {
-      "id": "rss-news-2026-oct-28-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-28",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-28",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/28/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-28",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/28/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-a61267ae0b46d91ab386",
       "title": "[정정보도] 세종도시교통공사 성낙문 전 이사, 행감 당일 사퇴 아닌 임기 만료",
       "titleOriginal": "[정정보도] 세종도시교통공사 성낙문 전 이사, 행감 당일 사퇴 아닌 임기 만료",
@@ -2693,36 +2155,6 @@
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5USUJ2cE90Smo4cVQwR0lrY0Q3UUdpT2ZHM3hPOXY0V29qQkFiU0RhUU8xQzBNYnRrd0pqUFM3WlRleVlvRk5Nam5tVE5adw?oc=5",
           "label": "원문으로 이동"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-oct-27-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-27",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-27",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/27/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-27",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/27/corrections-and-clarifications",
-          "label": "공식 공지 보기"
         }
       ]
     },
@@ -2759,36 +2191,6 @@
       "firstSeenAt": "2026-11-04T19:13:41+00:00"
     },
     {
-      "id": "rss-news-2026-oct-25-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-25",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-25",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/25/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-25",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/25/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-d7390b795d3b87eae55a",
       "title": "[정정보도] 수원 ‘아보하 페스티벌’ 정상 진행…어쿠야 탐방기 ‘텅 빈 객석’ 보도 바로잡습니다",
       "titleOriginal": "[정정보도] 수원 ‘아보하 페스티벌’ 정상 진행…어쿠야 탐방기 ‘텅 빈 객석’ 보도 바로잡습니다",
@@ -2820,36 +2222,6 @@
       ]
     },
     {
-      "id": "rss-news-2026-oct-23-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-23",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-23",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/23/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-23",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/23/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-02b22322252fd27854fa",
       "title": "[바로잡습니다] 10월 16일 자 B1면 ‘환율의 습격… 車·조선 등 제조업 ‘어닝 쇼크’ 공포’ 기사의 외",
       "titleOriginal": "[바로잡습니다] 10월 16일 자 B1면 ‘환율의 습격… 車·조선 등 제조업 ‘어닝 쇼크’ 공포’ 기사의 외",
@@ -2877,66 +2249,6 @@
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOem1vQTA0N2ItcDR6X1hnd2hyejRyYUR4eTdFTXNEajhESS05emxPYV9vSlg0dDhVaFBqM1FmTXpoSDhrUWtBOF85b3VES2dwcGJBWkZYc2szWkhMc3V0TlB5WVdUN005WkZhLTlncEFPV1F5bXJvT2RXcDZNR1k1RGNidHNiRnl1aGdVdllGRQ?oc=5",
           "label": "원문으로 이동"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-oct-22-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-22",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-22",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/22/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-22",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/22/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-oct-21-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-21",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-21",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/21/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-21",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/21/corrections-and-clarifications",
-          "label": "공식 공지 보기"
         }
       ]
     },
@@ -3034,96 +2346,6 @@
       ]
     },
     {
-      "id": "rss-news-2026-oct-20-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-20",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-20",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/20/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-20",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/20/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-oct-19-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-19",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-19",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/19/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-19",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/19/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-oct-18-corrections-and-clarifications1",
-      "title": "새로운 정정·해명 공지 · 2026-10-18",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-18",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/18/corrections-and-clarifications1",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-18",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/18/corrections-and-clarifications1",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-6785e52128b0c4df1af3",
       "title": "[바로잡습니다] 10월 9일자 A8면 ‘‘런던 핫플’ 된 토트넘 신구장, 지역 경제까지 살려’ 기사 중 외",
       "titleOriginal": "[바로잡습니다] 10월 9일자 A8면 ‘‘런던 핫플’ 된 토트넘 신구장, 지역 경제까지 살려’ 기사 중 외",
@@ -3155,36 +2377,6 @@
       ]
     },
     {
-      "id": "rss-news-2026-oct-16-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-16",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-16",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/16/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-16",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/16/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-e99c7d008faf874e936a",
       "title": "[정정보도] 인건비 위주·연말 몰아썼다···정당 여성정치발전비 전수분석 관련",
       "titleOriginal": "[정정보도] 인건비 위주·연말 몰아썼다···정당 여성정치발전비 전수분석 관련",
@@ -3212,36 +2404,6 @@
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vM3ZqcmhwMzVRY0phTnpWekJKYXRaSHZSSU5GMFRNNnkydmxUQjMzOXFHS3ZOWlZzcnlxSlZ4QWxPb0YxN09BZUl6R1E5dnRTMjFhWmRJVGRBZWtVR0E?oc=5",
           "label": "원문으로 이동"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-oct-15-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-15",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-15",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/15/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-15",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/15/corrections-and-clarifications",
-          "label": "공식 공지 보기"
         }
       ]
     },
@@ -3278,96 +2440,6 @@
       "firstSeenAt": "2026-11-05T07:33:06+00:00"
     },
     {
-      "id": "rss-news-2026-oct-14-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-14",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-14",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/14/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-14",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/14/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-oct-13-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-13",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-13",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/13/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-13",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/13/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-oct-12-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-12",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-12",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/12/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-12",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/12/corrections-and-clarifications",
-          "label": "공식 공지 보기"
-        }
-      ]
-    },
-    {
       "id": "kr-feed-ef1a638a63ebec9a6242",
       "title": "[바로잡습니다] 9월 28일 자 A5면 '李 \"농지 전수조사 꼭 필요\"… 민주당은 \"농민께 사과\"' 기사 사진 설명에서 외",
       "titleOriginal": "[바로잡습니다] 9월 28일 자 A5면 '李 \"농지 전수조사 꼭 필요\"… 민주당은 \"농민께 사과\"' 기사 사진 설명에서 외",
@@ -3395,36 +2467,6 @@
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa0tPcFlnOFE5WFBXMm91bmx3QUFzOVZPN1hvZ2NsaTktNUNWZi1rWkJtNEFGNUJDX0dTMU03WHNZSlFVVVR5cElkZWo0M1lXbUVlUzlDcFBkaU9wN2ExUkpKNWhldTBjY2hhelBQVHlpTzdXTEVJbTJRNWoyM3V5OU9OVkx5clRfdXc?oc=5",
           "label": "원문으로 이동"
-        }
-      ]
-    },
-    {
-      "id": "rss-news-2026-oct-11-corrections-and-clarifications",
-      "title": "새로운 정정·해명 공지 · 2026-10-11",
-      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
-      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
-      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
-      "category": "기타",
-      "country": "영국",
-      "publisher": "The Guardian",
-      "type": "정정 공지 · 미검토",
-      "date": "2026-10-11",
-      "originalDate": "확인 전",
-      "icon": "🗞️",
-      "tone": "#f0f0e9",
-      "titleOriginal": "Corrections and clarifications",
-      "source": "https://www.theguardian.com/news/2026/oct/11/corrections-and-clarifications",
-      "sourceLabel": "정정 공지 원문",
-      "originalUrl": null,
-      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
-      "reviewStatus": "unreviewed",
-      "events": [
-        {
-          "date": "2026-10-11",
-          "title": "정정·해명 공지 등록",
-          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
-          "url": "https://www.theguardian.com/news/2026/oct/11/corrections-and-clarifications",
-          "label": "공식 공지 보기"
         }
       ]
     },
@@ -5481,6 +4523,996 @@
           "label": "원문으로 이동"
         }
       ]
+    },
+    {
+      "id": "rss-news-2026-nov-18-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-18",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-18",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/18/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/18/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-17-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-17",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-17",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/17/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-17",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/17/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-16-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-16",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-16",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/16/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/16/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-15-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-15",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-15",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/15/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-15",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/15/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-13-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-13",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-13",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/13/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/13/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-12-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-12",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-12",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/12/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/12/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-11-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-11",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-11",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/11/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/11/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-10-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-10",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-10",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/10/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/10/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-09-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-09",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-09",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/09/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-09",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/09/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-08-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-08",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-08",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/08/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-08",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/08/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-06-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-06",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-06",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/06/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-06",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/06/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-05-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-05",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-05",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/05/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-05",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/05/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-04-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-04",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-04",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/04/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-04",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/04/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-03-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-03",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-03",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/03/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-03",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/03/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-02-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-02",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-02",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/02/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-02",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/02/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-nov-01-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-11-01",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-11-01",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/nov/01/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-11-01",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/nov/01/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-30-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-30",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-30",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/30/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-30",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/30/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-29-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-29",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-29",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/29/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-29",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/29/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-28-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-28",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-28",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/28/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-28",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/28/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-27-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-27",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-27",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/27/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-27",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/27/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-25-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-25",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-25",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/25/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-25",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/25/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-23-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-23",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-23",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/23/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-23",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/23/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-22-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-22",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-22",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/22/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-22",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/22/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-21-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-21",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-21",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/21/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-21",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/21/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-20-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-20",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-20",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/20/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-20",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/20/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-19-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-19",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-19",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/19/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-19",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/19/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-18-corrections-and-clarifications1",
+      "title": "새로운 정정·해명 공지 · 2026-10-18",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-18",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/18/corrections-and-clarifications1",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-18",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/18/corrections-and-clarifications1",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-16-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-16",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-16",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/16/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-16",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/16/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-15-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-15",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-15",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/15/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-15",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/15/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-14-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-14",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-14",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/14/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-14",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/14/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-13-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-13",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-13",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/13/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-13",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/13/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-12-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-12",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-12",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/12/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-12",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/12/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
+    },
+    {
+      "id": "rss-news-2026-oct-11-corrections-and-clarifications",
+      "title": "새로운 정정·해명 공지 · 2026-10-11",
+      "before": "자동 수집된 공지입니다. 원보도를 확인하지 않았습니다.",
+      "after": "정정문의 세부 내용을 공식 원문에서 확인하세요.",
+      "summary": "공식 정정·해명 공지를 수집했습니다. 세부 사실관계는 아직 검증되지 않았습니다.",
+      "category": "기타",
+      "country": "영국",
+      "publisher": "The Guardian",
+      "type": "정정 공지 · 미검토",
+      "date": "2026-10-11",
+      "originalDate": "확인 전",
+      "icon": "🗞️",
+      "tone": "#f0f0e9",
+      "titleOriginal": "Corrections and clarifications",
+      "source": "https://www.theguardian.com/news/2026/oct/11/corrections-and-clarifications",
+      "sourceLabel": "정정 공지 원문",
+      "originalUrl": null,
+      "confirmed": "정정란 공지 게재(세부 내용 미검토)",
+      "reviewStatus": "unreviewed",
+      "events": [
+        {
+          "date": "2026-10-11",
+          "title": "정정·해명 공지 등록",
+          "desc": "RSS로 발견한 공지입니다. 최초 기사와의 대조는 진행되지 않았습니다.",
+          "url": "https://www.theguardian.com/news/2026/oct/11/corrections-and-clarifications",
+          "label": "공식 공지 보기"
+        }
+      ]
     }
   ],
   "sources": [
@@ -5496,17 +5528,16 @@
     }
   ],
   "korean_sync": {
-    "added_to_archive": 2,
+    "added_to_archive": 1,
     "last_added_ids": [
-      "kr-feed-474f2870dc213dcdcce8",
-      "kr-feed-971ce393c0af065d1faa"
+      "kr-feed-2eb3147df541fb323532"
     ],
-    "last_new_at": "2026-11-18T13:29:03+00:00",
-    "checked_at": "2026-11-18T13:29:03+00:00",
+    "last_new_at": "2026-11-19T07:34:35+00:00",
+    "checked_at": "2026-11-19T07:34:35+00:00",
     "feeds_checked": 24,
     "feeds_reachable": 24,
-    "discovered_new": 29,
-    "total_korean_unreviewed": 85,
+    "discovered_new": 30,
+    "total_korean_unreviewed": 86,
     "errors": []
   },
   "korean_backfill_completed_at": "2026-11-02T00:18:27+00:00",
