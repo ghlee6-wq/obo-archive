@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-19T07:34:35+00:00",
+  "updated_at": "2026-11-19T13:32:46+00:00",
   "sync_status": "ok",
   "source_name": "The Guardian corrections RSS + 국내 언론사 정정보도 수집",
   "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
@@ -1874,6 +1874,38 @@
       "firstSeenAt": "2026-11-19T07:34:35+00:00"
     },
     {
+      "id": "kr-feed-5653050e0cadd1b3c3ad",
+      "title": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
+      "titleOriginal": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": ":: 위즈경제 ::",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-11-18",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
+          "label": "원문으로 이동"
+        }
+      ],
+      "firstSeenAt": "2026-11-19T13:32:46+00:00"
+    },
+    {
       "id": "kr-feed-d6d0a90ced3c7bda8ab7",
       "title": "[바로잡습니다] 3일 자 B7면 ‘막연한 노후 불안 없애려면 국민연금 예상 수령액부터 확인하라’ 기사에서 외",
       "titleOriginal": "[바로잡습니다] 3일 자 B7면 ‘막연한 노후 불안 없애려면 국민연금 예상 수령액부터 확인하라’ 기사에서 외",
@@ -1936,38 +1968,6 @@
         }
       ],
       "firstSeenAt": "2026-11-16T19:11:58+00:00"
-    },
-    {
-      "id": "kr-feed-861aa7dcd05dd9bec418",
-      "title": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
-      "titleOriginal": "[정정보도] 그래프 오류 확인에 따른 정정 관련",
-      "before": "아직 최초 보도를 대조하지 않았습니다.",
-      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
-      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
-      "category": "기타",
-      "country": "대한민국",
-      "publisher": ":: 위즈경제 ::",
-      "type": "정정 공지 후보 · 미검토",
-      "date": "2026-11-13",
-      "originalDate": "확인 전",
-      "icon": "📰",
-      "tone": "#eff4ea",
-      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
-      "sourceLabel": "뉴스 검색 경유",
-      "originalUrl": null,
-      "confirmed": "자동 발견 · 원문 검토 전",
-      "reviewStatus": "unreviewed",
-      "discoverySource": "Google 뉴스 검색 RSS",
-      "events": [
-        {
-          "date": "2026-11-13",
-          "title": "정정 보도로 보이는 제목 발견",
-          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MaFk2Z0tfUm1HR0NncUV6SEZlbGFBMGdHcVVxbW5CRjBKN3RLQ2RLSGtRcDFfdGNwUVlaekhUaWxHeEhtVk9NQnJ4cFdhMEZRUG5PeQ?oc=5",
-          "label": "원문으로 이동"
-        }
-      ],
-      "firstSeenAt": "2026-11-15T18:59:14+00:00"
     },
     {
       "id": "kr-feed-634052863892d36e6318",
@@ -3560,6 +3560,38 @@
       ]
     },
     {
+      "id": "kr-feed-fd6da6828e565c27b187",
+      "title": "[정정보도] '[급등락주 짚어보기] 전력 인프라 및 신규 상장주 주목…광전자·마키나락스 등 '上'' 관련",
+      "titleOriginal": "[정정보도] '[급등락주 짚어보기] 전력 인프라 및 신규 상장주 주목…광전자·마키나락스 등 '上'' 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "이투데이",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-05-21",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41ZlJ2M2lEbFF3UTN3RC1BLUtqTkpXdV9IQlBsSEJ6enZvY1RldVR6RHRiVnpER0p6X3FQSndwRnk4Y3VOUHV1T0NSbVZIcmpHXy1MeQ?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-05-21",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41ZlJ2M2lEbFF3UTN3RC1BLUtqTkpXdV9IQlBsSEJ6enZvY1RldVR6RHRiVnpER0p6X3FQSndwRnk4Y3VOUHV1T0NSbVZIcmpHXy1MeQ?oc=5",
+          "label": "원문으로 이동"
+        }
+      ],
+      "firstSeenAt": "2026-11-19T13:32:46+00:00"
+    },
+    {
       "id": "kr-feed-6d2be1e846faef7cb387",
       "title": "[바로잡습니다] 4월 22일 자 신안 '정원수협동조합' 보도 일부 정정",
       "titleOriginal": "[바로잡습니다] 4월 22일 자 신안 '정원수협동조합' 보도 일부 정정",
@@ -3651,6 +3683,38 @@
           "label": "원문으로 이동"
         }
       ]
+    },
+    {
+      "id": "kr-feed-b3a1525cf63a46418d5a",
+      "title": "[정정보도] ‘[단독] 증평 ’영뜰회‘ 지방선거판 ’뇌관‘으로 부각’과 ‘[단독] 증평군수, 연초 지역주민에 서적·딸기 상자’ ‘기부행위’의혹’ 관련",
+      "titleOriginal": "[정정보도] ‘[단독] 증평 ’영뜰회‘ 지방선거판 ’뇌관‘으로 부각’과 ‘[단독] 증평군수, 연초 지역주민에 서적·딸기 상자’ ‘기부행위’의혹’ 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "뉴데일리 충청세종",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-04-13",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MTE5MdGlxSUtKSTlxT0g2UVZicTU0REV6cFZiS1BaNEpBWE84WmwzNDlvdXRNUDhzM0VGMGI4MGZxZThQLUlFdndkTXpoeTJ6YlZrUDh0dGlOcDdUSlJqMlJMajNyWnlyU1U3ODZOTHZtcmJjb2JpWDd30gF_QVVfeXFMTXlxZnFKOENLWEpxbDVlYjN3TDdsVjYyS3prY19vNUczdHN4RFc1bllDWXNrU3REd0RFM1YzRzJGS0otMjREZmY3WVJ5NFFId2pENXpSVkpXN2lqSzktNzZmN3MwaXc3RW5sUk5xM0dNdVB4ZkwtNlZIUkZuYUFOOA?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-04-13",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MTE5MdGlxSUtKSTlxT0g2UVZicTU0REV6cFZiS1BaNEpBWE84WmwzNDlvdXRNUDhzM0VGMGI4MGZxZThQLUlFdndkTXpoeTJ6YlZrUDh0dGlOcDdUSlJqMlJMajNyWnlyU1U3ODZOTHZtcmJjb2JpWDd30gF_QVVfeXFMTXlxZnFKOENLWEpxbDVlYjN3TDdsVjYyS3prY19vNUczdHN4RFc1bllDWXNrU3REd0RFM1YzRzJGS0otMjREZmY3WVJ5NFFId2pENXpSVkpXN2lqSzktNzZmN3MwaXc3RW5sUk5xM0dNdVB4ZkwtNlZIUkZuYUFOOA?oc=5",
+          "label": "원문으로 이동"
+        }
+      ],
+      "firstSeenAt": "2026-11-19T13:32:46+00:00"
     },
     {
       "id": "kr-feed-f605af3bd99d6fefcb7c",
@@ -5528,17 +5592,21 @@
     }
   ],
   "korean_sync": {
-    "added_to_archive": 1,
+    "added_to_archive": 3,
     "last_added_ids": [
-      "kr-feed-2eb3147df541fb323532"
+      "kr-feed-5653050e0cadd1b3c3ad",
+      "kr-feed-fd6da6828e565c27b187",
+      "kr-feed-b3a1525cf63a46418d5a"
     ],
-    "last_new_at": "2026-11-19T07:34:35+00:00",
-    "checked_at": "2026-11-19T07:34:35+00:00",
+    "last_new_at": "2026-11-19T13:32:46+00:00",
+    "checked_at": "2026-11-19T13:32:46+00:00",
     "feeds_checked": 24,
-    "feeds_reachable": 24,
-    "discovered_new": 30,
-    "total_korean_unreviewed": 86,
-    "errors": []
+    "feeds_reachable": 23,
+    "discovered_new": 37,
+    "total_korean_unreviewed": 88,
+    "errors": [
+      "프레시안: URLError: <urlopen error timed out>"
+    ]
   },
   "korean_backfill_completed_at": "2026-11-02T00:18:27+00:00",
   "korean_2026_monthly_backfill": "2026-11-02T00:23:38+00:00"
