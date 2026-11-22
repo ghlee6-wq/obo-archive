@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-22T07:27:32+00:00",
+  "updated_at": "2026-11-22T13:11:43+00:00",
   "sync_status": "ok",
   "source_name": "The Guardian corrections RSS + 국내 언론사 정정보도 수집",
   "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
@@ -1841,6 +1841,38 @@
     }
   ],
   "feed_items": [
+    {
+      "id": "kr-feed-459b75c83eacf6d694b3",
+      "title": "[바로잡습니다]여인좌상’이 아니라 ‘좌상’(사진)이기에...",
+      "titleOriginal": "[바로잡습니다]여인좌상’이 아니라 ‘좌상’(사진)이기에...",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "경상일보",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-11-22",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YajR5YVFjNWJNRGtNemVNay1YVEIyM1l0TDNoX1EySEhjSjU3ZFpyNGg2UXNLUGhqdzdsUkdzOFNYSl82R01pS05KWDB4blBONDZlTG1iejhGSHVFM3BFdG0xd1lLVl9RNjdpeA?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-11-22",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YajR5YVFjNWJNRGtNemVNay1YVEIyM1l0TDNoX1EySEhjSjU3ZFpyNGg2UXNLUGhqdzdsUkdzOFNYSl82R01pS05KWDB4blBONDZlTG1iejhGSHVFM3BFdG0xd1lLVl9RNjdpeA?oc=5",
+          "label": "원문으로 이동"
+        }
+      ],
+      "firstSeenAt": "2026-11-22T13:11:43+00:00"
+    },
     {
       "id": "kr-feed-56ace9a38e9974ca7710",
       "title": "[바로잡습니다] 11월 7일 자 A12면 ‘결혼 6년 만에 낳은 아이, 최고의 피로회복제’ 기사에서 외",
@@ -5686,15 +5718,17 @@
   "korean_sync": {
     "added_to_archive": 1,
     "last_added_ids": [
-      "kr-feed-75441af17a31a643f9fd"
+      "kr-feed-459b75c83eacf6d694b3"
     ],
-    "last_new_at": "2026-11-22T07:27:32+00:00",
-    "checked_at": "2026-11-22T07:27:32+00:00",
+    "last_new_at": "2026-11-22T13:11:43+00:00",
+    "checked_at": "2026-11-22T13:11:43+00:00",
     "feeds_checked": 24,
-    "feeds_reachable": 24,
-    "discovered_new": 38,
-    "total_korean_unreviewed": 89,
-    "errors": []
+    "feeds_reachable": 23,
+    "discovered_new": 28,
+    "total_korean_unreviewed": 90,
+    "errors": [
+      "검색 \"정정보도\" \"노컷뉴스\" when:2y: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
   },
   "korean_backfill_completed_at": "2026-11-02T00:18:27+00:00",
   "korean_2026_monthly_backfill": "2026-11-02T00:23:38+00:00"
