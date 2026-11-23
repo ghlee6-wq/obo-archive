@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-23T07:51:11+00:00",
+  "updated_at": "2026-11-23T13:36:25+00:00",
   "sync_status": "ok",
   "source_name": "The Guardian corrections RSS + 국내 언론사 정정보도 수집",
   "feed_url": "https://www.theguardian.com/theguardian/series/corrections-and-clarifications/rss",
@@ -1842,6 +1842,38 @@
   ],
   "feed_items": [
     {
+      "id": "kr-feed-4e9932749603efdabd5c",
+      "title": "[정정보도] '조승아 KT 전 사외이사' 기사 관련",
+      "titleOriginal": "[정정보도] '조승아 KT 전 사외이사' 기사 관련",
+      "before": "아직 최초 보도를 대조하지 않았습니다.",
+      "after": "정정·해명 공지인지 원문에서 직접 확인해야 합니다.",
+      "summary": "국내 기사 제목에서 정정 공지로 보이는 항목을 자동 발견했습니다. 사실오류 여부, 정정 유형, 원보도 연결은 검토 전입니다.",
+      "category": "기타",
+      "country": "대한민국",
+      "publisher": "뉴데일리 경제",
+      "type": "정정 공지 후보 · 미검토",
+      "date": "2026-11-23",
+      "originalDate": "확인 전",
+      "icon": "📰",
+      "tone": "#eff4ea",
+      "source": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TMFVRbFV4TnU2aVBhQ2s2LXlwc3UtY3pra3pzX3k0Y3BQcjZwb2hBRDBRMmlyXzR0RXlUWV9qdE5rbFJjU09DY2RUT1JtakZQRWhWVkk1enF1Qzk1Q19xNElaMlplMDVZSDRRU3Njc1VnWEtOdHA5Tk03a9IBgAFBVV95cUxNUERaQ3MwNEc2OVRMZ2xJaldtRlBKQnp3THVJelMyUXkzUXRZUjVaS29ZMG9CMFMtcnhXWWUyYlB1RVlSTU5xMW81SEtWNDZ6TFo0dVBxSWQ0alZYQ2c3cGhITGs4UEg4R2VQbERmVExVb050R3A0M0tYUUZxSEYtTQ?oc=5",
+      "sourceLabel": "뉴스 검색 경유",
+      "originalUrl": null,
+      "confirmed": "자동 발견 · 원문 검토 전",
+      "reviewStatus": "unreviewed",
+      "discoverySource": "Google 뉴스 검색 RSS",
+      "events": [
+        {
+          "date": "2026-11-23",
+          "title": "정정 보도로 보이는 제목 발견",
+          "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TMFVRbFV4TnU2aVBhQ2s2LXlwc3UtY3pra3pzX3k0Y3BQcjZwb2hBRDBRMmlyXzR0RXlUWV9qdE5rbFJjU09DY2RUT1JtakZQRWhWVkk1enF1Qzk1Q19xNElaMlplMDVZSDRRU3Njc1VnWEtOdHA5Tk03a9IBgAFBVV95cUxNUERaQ3MwNEc2OVRMZ2xJaldtRlBKQnp3THVJelMyUXkzUXRZUjVaS29ZMG9CMFMtcnhXWWUyYlB1RVlSTU5xMW81SEtWNDZ6TFo0dVBxSWQ0alZYQ2c3cGhITGs4UEg4R2VQbERmVExVb050R3A0M0tYUUZxSEYtTQ?oc=5",
+          "label": "원문으로 이동"
+        }
+      ],
+      "firstSeenAt": "2026-11-23T13:36:25+00:00"
+    },
+    {
       "id": "kr-feed-8f9825bf7408b85aaa9c",
       "title": "[바로잡습니다] 11월 11일 자 A14면 ‘폭탄 공격 못지않다… 이란의 ‘냉장고 테러’에 벌벌 떠는 유럽’ 기사 외",
       "titleOriginal": "[바로잡습니다] 11월 11일 자 A14면 ‘폭탄 공격 못지않다… 이란의 ‘냉장고 테러’에 벌벌 떠는 유럽’ 기사 외",
@@ -2080,7 +2112,7 @@
       "originalDate": "확인 전",
       "icon": "📰",
       "tone": "#eff4ea",
-      "source": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxRkttTWpTaUtoNzFENXZ6cVFNM3lSWEVnSzdmSFpMcGZkMmh1MzAzaWRwMkFaMG4yMkJBM09JYWNQUm1LdmZFXzNFV2FmUEx1SWptenFFM3Z3VWkwT2hwRE5yWi1YRUVyUUhkQkJn?oc=5",
+      "source": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPal9SNWIxR1pPcnpZRVBPcTB5cmo4eU5NWGJCNkpmRXJhOC15eU1GTjdCV0FvTmtzS2tfMDY1N1Z2OXhFdlFQSDl5d0ppSEpMaUhLZWNHclBndGx3VkdBMFJsamhsMjNsS1F3U1ljZDk2RTJveEpQZ2VoVDg0SFlaaHN2aTdLOGJxV0N1Vk1wcEpNUQ?oc=5",
       "sourceLabel": "뉴스 검색 경유",
       "originalUrl": null,
       "confirmed": "자동 발견 · 원문 검토 전",
@@ -2091,7 +2123,7 @@
           "date": "2026-11-12",
           "title": "정정 보도로 보이는 제목 발견",
           "desc": "자동 수집된 링크입니다. 정정 사실과 최초 기사를 검증하기 전입니다.",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxRkttTWpTaUtoNzFENXZ6cVFNM3lSWEVnSzdmSFpMcGZkMmh1MzAzaWRwMkFaMG4yMkJBM09JYWNQUm1LdmZFXzNFV2FmUEx1SWptenFFM3Z3VWkwT2hwRE5yWi1YRUVyUUhkQkJn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPal9SNWIxR1pPcnpZRVBPcTB5cmo4eU5NWGJCNkpmRXJhOC15eU1GTjdCV0FvTmtzS2tfMDY1N1Z2OXhFdlFQSDl5d0ppSEpMaUhLZWNHclBndGx3VkdBMFJsamhsMjNsS1F3U1ljZDk2RTJveEpQZ2VoVDg0SFlaaHN2aTdLOGJxV0N1Vk1wcEpNUQ?oc=5",
           "label": "원문으로 이동"
         }
       ],
@@ -5812,15 +5844,18 @@
   "korean_sync": {
     "added_to_archive": 1,
     "last_added_ids": [
-      "kr-feed-b46862c7e7d971429111"
+      "kr-feed-4e9932749603efdabd5c"
     ],
-    "last_new_at": "2026-11-23T07:51:11+00:00",
-    "checked_at": "2026-11-23T07:51:11+00:00",
+    "last_new_at": "2026-11-23T13:36:25+00:00",
+    "checked_at": "2026-11-23T13:36:25+00:00",
     "feeds_checked": 24,
-    "feeds_reachable": 24,
-    "discovered_new": 34,
-    "total_korean_unreviewed": 92,
-    "errors": []
+    "feeds_reachable": 22,
+    "discovered_new": 28,
+    "total_korean_unreviewed": 93,
+    "errors": [
+      "연합뉴스: ParseError: not well-formed (invalid token): line 576, column 80",
+      "검색 \"[바로잡습니다]\" \"조선일보\" when:2y: HTTPError: HTTP Error 429: Too Many Requests"
+    ]
   },
   "korean_backfill_completed_at": "2026-11-02T00:18:27+00:00",
   "korean_2026_monthly_backfill": "2026-11-02T00:23:38+00:00"
